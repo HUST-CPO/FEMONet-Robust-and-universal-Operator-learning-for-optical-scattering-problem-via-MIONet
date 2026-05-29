@@ -24,7 +24,7 @@ MATLAB post-processing  →  pdf_results/
 | [3-Multiple metallic scatterers](3-Multiple%20metallic%20scatterers/README.md)         | 2D multi-scatterer arrays            | 3456          | `idx` on Git; `deepOnet` ~1 GB excluded    |
 | [4-SPP in plasmonic nanostructure](4-SPP%20in%20plasmonic%20nanostructure/README.md)   | 2D surface-plasmon structure (SPP14) | 41            | Full dataset + FEM helpers                 |
 | [5-3D metasurface](5-3D%20metasurface/README.md)                                       | 3D doubly-periodic metasurface       | 261           | `deepOnet` ~851 MB excluded from Git       |
-| [s1-SPP in plasmonic nanostructure](s1-SPP%20in%20plasmonic%20nanostructure/README.md) | 2D SPP benchmark (SPP1)              | 71            | Full dataset + FEM helpers                 |
+| [s1-SPP in plasmonic nanostructure](s1-SPP%20in%20plasmonic%20nanostructure/README.md) | 2D SPP supplyment experiment (SPP1)              | 71            | Full dataset + FEM helpers                 |
 | [Plotting (loss & MSE)](plot%20loss%20and%20mse%20histograms%20and%20guassion%20fits/README.md) | Loss curves, MSE histograms, ablation heatmap | — | MATLAB; reads `loss_log/` + case `mat_data/` |
 
 
