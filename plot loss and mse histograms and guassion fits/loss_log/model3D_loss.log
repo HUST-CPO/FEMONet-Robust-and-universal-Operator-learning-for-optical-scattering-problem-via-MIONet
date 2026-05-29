@@ -1,0 +1,1016 @@
+nohup: ignoring input
+DDP 任务开始执行: Mon  4 May 20:56:42 CST 2026
+W0504 20:56:43.807341 299185 torch/distributed/run.py:793] 
+W0504 20:56:43.807341 299185 torch/distributed/run.py:793] *****************************************
+W0504 20:56:43.807341 299185 torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0504 20:56:43.807341 299185 torch/distributed/run.py:793] *****************************************
+Train samples: 209, Test samples: 52
+Train shapes: ε (209, 2, 128, 128, 128), X (209, 20209, 6), Ez (209, 20209), Lambda (209, 1) (2-branch: no Ebz)
+Building ILU cache (train):   0%|          | 0/209 [00:00<?, ?it/s]Building ILU cache (train):   0%|          | 1/209 [00:06<24:01,  6.93s/it]Building ILU cache (train):   1%|          | 2/209 [00:14<24:34,  7.12s/it]Building ILU cache (train):   1%|▏         | 3/209 [00:21<24:31,  7.14s/it]Building ILU cache (train):   2%|▏         | 4/209 [00:28<24:03,  7.04s/it]Building ILU cache (train):   2%|▏         | 5/209 [00:35<23:47,  7.00s/it]Building ILU cache (train):   3%|▎         | 6/209 [00:42<23:58,  7.09s/it]Building ILU cache (train):   3%|▎         | 7/209 [00:49<23:58,  7.12s/it]Building ILU cache (train):   4%|▍         | 8/209 [00:56<23:59,  7.16s/it]Building ILU cache (train):   4%|▍         | 9/209 [01:03<23:35,  7.08s/it]Building ILU cache (train):   5%|▍         | 10/209 [01:10<23:23,  7.05s/it]Building ILU cache (train):   5%|▌         | 11/209 [01:17<23:26,  7.10s/it]Building ILU cache (train):   6%|▌         | 12/209 [01:25<23:27,  7.14s/it]Building ILU cache (train):   6%|▌         | 13/209 [01:32<23:24,  7.17s/it]Building ILU cache (train):   7%|▋         | 14/209 [01:39<23:22,  7.19s/it]Building ILU cache (train):   7%|▋         | 15/209 [01:46<23:17,  7.20s/it]Building ILU cache (train):   8%|▊         | 16/209 [01:54<23:13,  7.22s/it]Building ILU cache (train):   8%|▊         | 17/209 [02:01<23:06,  7.22s/it]Building ILU cache (train):   9%|▊         | 18/209 [02:08<22:59,  7.22s/it]Building ILU cache (train):   9%|▉         | 19/209 [02:15<22:26,  7.08s/it]Building ILU cache (train):  10%|▉         | 20/209 [02:22<22:10,  7.04s/it]Building ILU cache (train):  10%|█         | 21/209 [02:29<22:14,  7.10s/it]Building ILU cache (train):  11%|█         | 22/209 [02:36<22:09,  7.11s/it]Building ILU cache (train):  11%|█         | 23/209 [02:43<21:55,  7.07s/it]Building ILU cache (train):  11%|█▏        | 24/209 [02:50<21:45,  7.05s/it]Building ILU cache (train):  12%|█▏        | 25/209 [02:57<21:34,  7.04s/it]Building ILU cache (train):  12%|█▏        | 26/209 [03:04<21:24,  7.02s/it]Building ILU cache (train):  13%|█▎        | 27/209 [03:11<21:15,  7.01s/it]Building ILU cache (train):  13%|█▎        | 28/209 [03:18<21:07,  7.00s/it]Building ILU cache (train):  14%|█▍        | 29/209 [03:25<20:59,  7.00s/it]Building ILU cache (train):  14%|█▍        | 30/209 [03:32<20:41,  6.94s/it]Building ILU cache (train):  15%|█▍        | 31/209 [03:39<20:38,  6.96s/it]Building ILU cache (train):  15%|█▌        | 32/209 [03:46<20:45,  7.04s/it]Building ILU cache (train):  16%|█▌        | 33/209 [03:53<20:54,  7.13s/it]Building ILU cache (train):  16%|█▋        | 34/209 [04:01<21:06,  7.23s/it]Building ILU cache (train):  17%|█▋        | 35/209 [04:08<21:11,  7.31s/it]Building ILU cache (train):  17%|█▋        | 36/209 [04:16<21:13,  7.36s/it]Building ILU cache (train):  18%|█▊        | 37/209 [04:23<21:11,  7.39s/it]Building ILU cache (train):  18%|█▊        | 38/209 [04:31<20:57,  7.35s/it]Building ILU cache (train):  19%|█▊        | 39/209 [04:38<20:56,  7.39s/it]Building ILU cache (train):  19%|█▉        | 40/209 [04:46<20:54,  7.42s/it]Building ILU cache (train):  20%|█▉        | 41/209 [04:53<20:49,  7.44s/it]Building ILU cache (train):  20%|██        | 42/209 [05:00<20:33,  7.38s/it]Building ILU cache (train):  21%|██        | 43/209 [05:08<20:27,  7.39s/it]Building ILU cache (train):  21%|██        | 44/209 [05:15<20:13,  7.35s/it]Building ILU cache (train):  22%|██▏       | 45/209 [05:23<20:12,  7.39s/it]Building ILU cache (train):  22%|██▏       | 46/209 [05:30<19:52,  7.31s/it]Building ILU cache (train):  22%|██▏       | 47/209 [05:37<19:52,  7.36s/it]Building ILU cache (train):  23%|██▎       | 48/209 [05:44<19:37,  7.31s/it]Building ILU cache (train):  23%|██▎       | 49/209 [05:52<19:29,  7.31s/it]Building ILU cache (train):  24%|██▍       | 50/209 [05:59<19:07,  7.22s/it]Building ILU cache (train):  24%|██▍       | 51/209 [06:06<18:51,  7.16s/it]Building ILU cache (train):  25%|██▍       | 52/209 [06:12<18:27,  7.06s/it]Building ILU cache (train):  25%|██▌       | 53/209 [06:20<18:26,  7.09s/it]Building ILU cache (train):  26%|██▌       | 54/209 [06:27<18:15,  7.07s/it]Building ILU cache (train):  26%|██▋       | 55/209 [06:34<18:04,  7.04s/it]Building ILU cache (train):  27%|██▋       | 56/209 [06:40<17:46,  6.97s/it]Building ILU cache (train):  27%|██▋       | 57/209 [06:48<17:47,  7.02s/it]Building ILU cache (train):  28%|██▊       | 58/209 [06:54<17:29,  6.95s/it]Building ILU cache (train):  28%|██▊       | 59/209 [07:01<17:16,  6.91s/it]Building ILU cache (train):  29%|██▊       | 60/209 [07:08<17:16,  6.96s/it]Building ILU cache (train):  29%|██▉       | 61/209 [07:15<17:03,  6.91s/it]Building ILU cache (train):  30%|██▉       | 62/209 [07:22<16:54,  6.90s/it]Building ILU cache (train):  30%|███       | 63/209 [07:29<16:39,  6.85s/it]Building ILU cache (train):  31%|███       | 64/209 [07:35<16:29,  6.83s/it]Building ILU cache (train):  31%|███       | 65/209 [07:43<16:37,  6.92s/it]Building ILU cache (train):  32%|███▏      | 66/209 [07:49<16:21,  6.87s/it]Building ILU cache (train):  32%|███▏      | 67/209 [07:56<16:27,  6.95s/it]Building ILU cache (train):  33%|███▎      | 68/209 [08:04<16:24,  6.98s/it]Building ILU cache (train):  33%|███▎      | 69/209 [08:10<16:06,  6.91s/it]Building ILU cache (train):  33%|███▎      | 70/209 [08:17<16:04,  6.94s/it]Building ILU cache (train):  34%|███▍      | 71/209 [08:24<16:07,  7.01s/it]Building ILU cache (train):  34%|███▍      | 72/209 [08:31<15:48,  6.92s/it]Building ILU cache (train):  35%|███▍      | 73/209 [08:38<15:35,  6.88s/it]Building ILU cache (train):  35%|███▌      | 74/209 [08:45<15:19,  6.81s/it]Building ILU cache (train):  36%|███▌      | 75/209 [08:52<15:31,  6.95s/it]Building ILU cache (train):  36%|███▋      | 76/209 [08:59<15:35,  7.03s/it]Building ILU cache (train):  37%|███▋      | 77/209 [09:06<15:20,  6.98s/it]Building ILU cache (train):  37%|███▋      | 78/209 [09:13<15:04,  6.90s/it]Building ILU cache (train):  38%|███▊      | 79/209 [09:19<14:50,  6.85s/it]Building ILU cache (train):  38%|███▊      | 80/209 [09:27<15:05,  7.02s/it]Building ILU cache (train):  39%|███▉      | 81/209 [09:34<15:05,  7.07s/it]Building ILU cache (train):  39%|███▉      | 82/209 [09:41<15:09,  7.16s/it]Building ILU cache (train):  40%|███▉      | 83/209 [09:49<15:13,  7.25s/it]Building ILU cache (train):  40%|████      | 84/209 [09:56<14:49,  7.12s/it]Building ILU cache (train):  41%|████      | 85/209 [10:03<14:54,  7.22s/it]Building ILU cache (train):  41%|████      | 86/209 [10:11<14:55,  7.28s/it]Building ILU cache (train):  42%|████▏     | 87/209 [10:18<14:53,  7.32s/it]Building ILU cache (train):  42%|████▏     | 88/209 [10:25<14:51,  7.37s/it]Building ILU cache (train):  43%|████▎     | 89/209 [10:33<14:38,  7.32s/it]Building ILU cache (train):  43%|████▎     | 90/209 [10:40<14:36,  7.37s/it]Building ILU cache (train):  44%|████▎     | 91/209 [10:48<14:31,  7.39s/it]Building ILU cache (train):  44%|████▍     | 92/209 [10:55<14:17,  7.33s/it]Building ILU cache (train):  44%|████▍     | 93/209 [11:02<14:12,  7.35s/it]Building ILU cache (train):  45%|████▍     | 94/209 [11:09<13:59,  7.30s/it]Building ILU cache (train):  45%|████▌     | 95/209 [11:17<13:57,  7.34s/it]Building ILU cache (train):  46%|████▌     | 96/209 [11:24<13:51,  7.36s/it]Building ILU cache (train):  46%|████▋     | 97/209 [11:32<13:45,  7.37s/it]Building ILU cache (train):  47%|████▋     | 98/209 [11:39<13:39,  7.38s/it]Building ILU cache (train):  47%|████▋     | 99/209 [11:46<13:26,  7.33s/it]Building ILU cache (train):  48%|████▊     | 100/209 [11:53<13:14,  7.29s/it]Building ILU cache (train):  48%|████▊     | 101/209 [12:01<13:05,  7.27s/it]Building ILU cache (train):  49%|████▉     | 102/209 [12:07<12:45,  7.16s/it]Building ILU cache (train):  49%|████▉     | 103/209 [12:15<12:39,  7.17s/it]Building ILU cache (train):  50%|████▉     | 104/209 [12:22<12:33,  7.18s/it]Building ILU cache (train):  50%|█████     | 105/209 [12:29<12:34,  7.25s/it]Building ILU cache (train):  51%|█████     | 106/209 [12:37<12:30,  7.29s/it]Building ILU cache (train):  51%|█████     | 107/209 [12:44<12:20,  7.26s/it]Building ILU cache (train):  52%|█████▏    | 108/209 [12:51<12:12,  7.25s/it]Building ILU cache (train):  52%|█████▏    | 109/209 [12:59<12:11,  7.31s/it]Building ILU cache (train):  53%|█████▎    | 110/209 [13:06<11:53,  7.20s/it]Building ILU cache (train):  53%|█████▎    | 111/209 [13:13<11:53,  7.28s/it]Building ILU cache (train):  54%|█████▎    | 112/209 [13:20<11:48,  7.31s/it]Building ILU cache (train):  54%|█████▍    | 113/209 [13:28<11:45,  7.34s/it]Building ILU cache (train):  55%|█████▍    | 114/209 [13:35<11:39,  7.36s/it]Building ILU cache (train):  55%|█████▌    | 115/209 [13:43<11:33,  7.38s/it]Building ILU cache (train):  56%|█████▌    | 116/209 [13:50<11:27,  7.40s/it]Building ILU cache (train):  56%|█████▌    | 117/209 [13:57<11:20,  7.40s/it]Building ILU cache (train):  56%|█████▋    | 118/209 [14:05<11:14,  7.41s/it]Building ILU cache (train):  57%|█████▋    | 119/209 [14:12<11:06,  7.41s/it]Building ILU cache (train):  57%|█████▋    | 120/209 [14:20<11:00,  7.43s/it]Building ILU cache (train):  58%|█████▊    | 121/209 [14:27<10:52,  7.42s/it]Building ILU cache (train):  58%|█████▊    | 122/209 [14:35<10:46,  7.43s/it]Building ILU cache (train):  59%|█████▉    | 123/209 [14:42<10:37,  7.41s/it]Building ILU cache (train):  59%|█████▉    | 124/209 [14:49<10:25,  7.36s/it]Building ILU cache (train):  60%|█████▉    | 125/209 [14:57<10:18,  7.37s/it]Building ILU cache (train):  60%|██████    | 126/209 [15:04<10:12,  7.37s/it]Building ILU cache (train):  61%|██████    | 127/209 [15:11<10:05,  7.39s/it]Building ILU cache (train):  61%|██████    | 128/209 [15:19<09:58,  7.39s/it]Building ILU cache (train):  62%|██████▏   | 129/209 [15:26<09:52,  7.40s/it]Building ILU cache (train):  62%|██████▏   | 130/209 [15:33<09:40,  7.35s/it]Building ILU cache (train):  63%|██████▎   | 131/209 [15:41<09:30,  7.32s/it]Building ILU cache (train):  63%|██████▎   | 132/209 [15:48<09:26,  7.36s/it]Building ILU cache (train):  64%|██████▎   | 133/209 [15:56<09:20,  7.37s/it]Building ILU cache (train):  64%|██████▍   | 134/209 [16:03<09:13,  7.39s/it]Building ILU cache (train):  65%|██████▍   | 135/209 [16:10<09:01,  7.32s/it]Building ILU cache (train):  65%|██████▌   | 136/209 [16:18<08:56,  7.36s/it]Building ILU cache (train):  66%|██████▌   | 137/209 [16:25<08:47,  7.32s/it]Building ILU cache (train):  66%|██████▌   | 138/209 [16:32<08:42,  7.37s/it]Building ILU cache (train):  67%|██████▋   | 139/209 [16:40<08:36,  7.38s/it]Building ILU cache (train):  67%|██████▋   | 140/209 [16:47<08:30,  7.40s/it]Building ILU cache (train):  67%|██████▋   | 141/209 [16:55<08:24,  7.42s/it]Building ILU cache (train):  68%|██████▊   | 142/209 [17:02<08:12,  7.35s/it]Building ILU cache (train):  68%|██████▊   | 143/209 [17:09<08:01,  7.29s/it]Building ILU cache (train):  69%|██████▉   | 144/209 [17:16<07:56,  7.33s/it]Building ILU cache (train):  69%|██████▉   | 145/209 [17:24<07:51,  7.37s/it]Building ILU cache (train):  70%|██████▉   | 146/209 [17:31<07:45,  7.39s/it]Building ILU cache (train):  70%|███████   | 147/209 [17:39<07:39,  7.42s/it]Building ILU cache (train):  71%|███████   | 148/209 [17:46<07:32,  7.41s/it]Building ILU cache (train):  71%|███████▏  | 149/209 [17:54<07:25,  7.43s/it]Building ILU cache (train):  72%|███████▏  | 150/209 [18:01<07:19,  7.44s/it]Building ILU cache (train):  72%|███████▏  | 151/209 [18:09<07:11,  7.43s/it]Building ILU cache (train):  73%|███████▎  | 152/209 [18:16<07:04,  7.44s/it]Building ILU cache (train):  73%|███████▎  | 153/209 [18:23<06:55,  7.42s/it]Building ILU cache (train):  74%|███████▎  | 154/209 [18:31<06:44,  7.35s/it]Building ILU cache (train):  74%|███████▍  | 155/209 [18:38<06:34,  7.31s/it]Building ILU cache (train):  75%|███████▍  | 156/209 [18:45<06:29,  7.35s/it]Building ILU cache (train):  75%|███████▌  | 157/209 [18:52<06:19,  7.30s/it]Building ILU cache (train):  76%|███████▌  | 158/209 [19:00<06:14,  7.34s/it]Building ILU cache (train):  76%|███████▌  | 159/209 [19:07<06:08,  7.36s/it]Building ILU cache (train):  77%|███████▋  | 160/209 [19:15<06:02,  7.39s/it]Building ILU cache (train):  77%|███████▋  | 161/209 [19:22<05:54,  7.39s/it]Building ILU cache (train):  78%|███████▊  | 162/209 [19:29<05:44,  7.33s/it]Building ILU cache (train):  78%|███████▊  | 163/209 [19:37<05:37,  7.34s/it]Building ILU cache (train):  78%|███████▊  | 164/209 [19:44<05:28,  7.31s/it]Building ILU cache (train):  79%|███████▉  | 165/209 [19:51<05:20,  7.28s/it]Building ILU cache (train):  79%|███████▉  | 166/209 [19:58<05:14,  7.32s/it]Building ILU cache (train):  80%|███████▉  | 167/209 [20:06<05:08,  7.35s/it]Building ILU cache (train):  80%|████████  | 168/209 [20:13<05:02,  7.38s/it]Building ILU cache (train):  81%|████████  | 169/209 [20:21<04:56,  7.40s/it]Building ILU cache (train):  81%|████████▏ | 170/209 [20:28<04:46,  7.34s/it]Building ILU cache (train):  82%|████████▏ | 171/209 [20:35<04:38,  7.33s/it]Building ILU cache (train):  82%|████████▏ | 172/209 [20:43<04:32,  7.36s/it]Building ILU cache (train):  83%|████████▎ | 173/209 [20:50<04:23,  7.31s/it]Building ILU cache (train):  83%|████████▎ | 174/209 [20:57<04:16,  7.34s/it]Building ILU cache (train):  84%|████████▎ | 175/209 [21:05<04:10,  7.36s/it]Building ILU cache (train):  84%|████████▍ | 176/209 [21:12<04:01,  7.31s/it]Building ILU cache (train):  85%|████████▍ | 177/209 [21:19<03:53,  7.28s/it]Building ILU cache (train):  85%|████████▌ | 178/209 [21:27<03:47,  7.33s/it]Building ILU cache (train):  86%|████████▌ | 179/209 [21:34<03:38,  7.29s/it]Building ILU cache (train):  86%|████████▌ | 180/209 [21:41<03:30,  7.26s/it]Building ILU cache (train):  87%|████████▋ | 181/209 [21:48<03:24,  7.30s/it]Building ILU cache (train):  87%|████████▋ | 182/209 [21:56<03:18,  7.35s/it]Building ILU cache (train):  88%|████████▊ | 183/209 [22:03<03:11,  7.35s/it]Building ILU cache (train):  88%|████████▊ | 184/209 [22:10<03:02,  7.31s/it]Building ILU cache (train):  89%|████████▊ | 185/209 [22:18<02:54,  7.28s/it]Building ILU cache (train):  89%|████████▉ | 186/209 [22:25<02:48,  7.32s/it]Building ILU cache (train):  89%|████████▉ | 187/209 [22:32<02:41,  7.34s/it]Building ILU cache (train):  90%|████████▉ | 188/209 [22:40<02:34,  7.37s/it]Building ILU cache (train):  90%|█████████ | 189/209 [22:47<02:27,  7.39s/it]Building ILU cache (train):  91%|█████████ | 190/209 [22:54<02:19,  7.33s/it]Building ILU cache (train):  91%|█████████▏| 191/209 [23:02<02:11,  7.29s/it]Building ILU cache (train):  92%|█████████▏| 192/209 [23:09<02:04,  7.32s/it]Building ILU cache (train):  92%|█████████▏| 193/209 [23:16<01:55,  7.24s/it]Building ILU cache (train):  93%|█████████▎| 194/209 [23:24<01:49,  7.30s/it]Building ILU cache (train):  93%|█████████▎| 195/209 [23:31<01:42,  7.33s/it]Building ILU cache (train):  94%|█████████▍| 196/209 [23:38<01:35,  7.37s/it]Building ILU cache (train):  94%|█████████▍| 197/209 [23:46<01:28,  7.39s/it]Building ILU cache (train):  95%|█████████▍| 198/209 [23:53<01:20,  7.32s/it]Building ILU cache (train):  95%|█████████▌| 199/209 [24:00<01:13,  7.34s/it]Building ILU cache (train):  96%|█████████▌| 200/209 [24:08<01:06,  7.37s/it]Building ILU cache (train):  96%|█████████▌| 201/209 [24:15<00:59,  7.38s/it]Building ILU cache (train):  97%|█████████▋| 202/209 [24:23<00:51,  7.39s/it]Building ILU cache (train):  97%|█████████▋| 203/209 [24:30<00:44,  7.40s/it]Building ILU cache (train):  98%|█████████▊| 204/209 [24:38<00:37,  7.41s/it]Building ILU cache (train):  98%|█████████▊| 205/209 [24:45<00:29,  7.43s/it]Building ILU cache (train):  99%|█████████▊| 206/209 [24:52<00:22,  7.44s/it]Building ILU cache (train):  99%|█████████▉| 207/209 [25:00<00:14,  7.42s/it]Building ILU cache (train): 100%|█████████▉| 208/209 [25:07<00:07,  7.43s/it]Building ILU cache (train): 100%|██████████| 209/209 [25:15<00:00,  7.37s/it]Building ILU cache (train): 100%|██████████| 209/209 [25:15<00:00,  7.25s/it]
+Building ILU cache (test):   0%|          | 0/52 [00:00<?, ?it/s]Building ILU cache (test):   2%|▏         | 1/52 [00:07<06:18,  7.42s/it]Building ILU cache (test):   4%|▍         | 2/52 [00:14<06:05,  7.31s/it]Building ILU cache (test):   6%|▌         | 3/52 [00:21<05:56,  7.28s/it]Building ILU cache (test):   8%|▊         | 4/52 [00:29<05:52,  7.35s/it]Building ILU cache (test):  10%|▉         | 5/52 [00:36<05:47,  7.40s/it]Building ILU cache (test):  12%|█▏        | 6/52 [00:44<05:40,  7.40s/it]Building ILU cache (test):  13%|█▎        | 7/52 [00:51<05:33,  7.42s/it]Building ILU cache (test):  15%|█▌        | 8/52 [00:59<05:26,  7.41s/it]Building ILU cache (test):  17%|█▋        | 9/52 [01:06<05:16,  7.35s/it]Building ILU cache (test):  19%|█▉        | 10/52 [01:13<05:09,  7.36s/it]Building ILU cache (test):  21%|██        | 11/52 [01:21<05:02,  7.38s/it]Building ILU cache (test):  23%|██▎       | 12/52 [01:28<04:53,  7.33s/it]Building ILU cache (test):  25%|██▌       | 13/52 [01:35<04:44,  7.29s/it]Building ILU cache (test):  27%|██▋       | 14/52 [01:42<04:38,  7.32s/it]Building ILU cache (test):  29%|██▉       | 15/52 [01:50<04:31,  7.35s/it]Building ILU cache (test):  31%|███       | 16/52 [01:57<04:25,  7.37s/it]Building ILU cache (test):  33%|███▎      | 17/52 [02:05<04:18,  7.39s/it]Building ILU cache (test):  35%|███▍      | 18/52 [02:12<04:09,  7.33s/it]Building ILU cache (test):  37%|███▋      | 19/52 [02:19<04:00,  7.29s/it]Building ILU cache (test):  38%|███▊      | 20/52 [02:26<03:54,  7.32s/it]Building ILU cache (test):  40%|████      | 21/52 [02:34<03:48,  7.37s/it]Building ILU cache (test):  42%|████▏     | 22/52 [02:41<03:39,  7.32s/it]Building ILU cache (test):  44%|████▍     | 23/52 [02:49<03:33,  7.37s/it]Building ILU cache (test):  46%|████▌     | 24/52 [02:56<03:26,  7.39s/it]Building ILU cache (test):  48%|████▊     | 25/52 [03:04<03:20,  7.41s/it]Building ILU cache (test):  50%|█████     | 26/52 [03:11<03:12,  7.41s/it]Building ILU cache (test):  52%|█████▏    | 27/52 [03:18<03:05,  7.40s/it]Building ILU cache (test):  54%|█████▍    | 28/52 [03:26<02:56,  7.34s/it]Building ILU cache (test):  56%|█████▌    | 29/52 [03:33<02:49,  7.36s/it]Building ILU cache (test):  58%|█████▊    | 30/52 [03:40<02:42,  7.37s/it]Building ILU cache (test):  60%|█████▉    | 31/52 [03:48<02:35,  7.39s/it]Building ILU cache (test):  62%|██████▏   | 32/52 [03:55<02:28,  7.40s/it]Building ILU cache (test):  63%|██████▎   | 33/52 [04:02<02:19,  7.32s/it]Building ILU cache (test):  65%|██████▌   | 34/52 [04:10<02:11,  7.28s/it]Building ILU cache (test):  67%|██████▋   | 35/52 [04:16<02:02,  7.19s/it]Building ILU cache (test):  69%|██████▉   | 36/52 [04:24<01:56,  7.27s/it]Building ILU cache (test):  71%|███████   | 37/52 [04:31<01:47,  7.15s/it]Building ILU cache (test):  73%|███████▎  | 38/52 [04:38<01:41,  7.24s/it]Building ILU cache (test):  75%|███████▌  | 39/52 [04:45<01:32,  7.14s/it]Building ILU cache (test):  77%|███████▋  | 40/52 [04:53<01:26,  7.24s/it]Building ILU cache (test):  79%|███████▉  | 41/52 [05:00<01:20,  7.30s/it]Building ILU cache (test):  81%|████████  | 42/52 [05:07<01:12,  7.27s/it]Building ILU cache (test):  83%|████████▎ | 43/52 [05:15<01:05,  7.31s/it]Building ILU cache (test):  85%|████████▍ | 44/52 [05:22<00:58,  7.28s/it]Building ILU cache (test):  87%|████████▋ | 45/52 [05:29<00:50,  7.26s/it]Building ILU cache (test):  88%|████████▊ | 46/52 [05:37<00:43,  7.30s/it]Building ILU cache (test):  90%|█████████ | 47/52 [05:44<00:36,  7.34s/it]Building ILU cache (test):  92%|█████████▏| 48/52 [05:51<00:29,  7.37s/it]Building ILU cache (test):  94%|█████████▍| 49/52 [05:58<00:21,  7.22s/it]Building ILU cache (test):  96%|█████████▌| 50/52 [06:05<00:14,  7.21s/it]Building ILU cache (test):  98%|█████████▊| 51/52 [06:12<00:07,  7.14s/it]Building ILU cache (test): 100%|██████████| 52/52 [06:20<00:00,  7.20s/it]Building ILU cache (test): 100%|██████████| 52/52 [06:20<00:00,  7.31s/it]
+ILU cache built: 261 samples.
+Training:   0%|          | 0/1000 [00:00<?, ?it/s]Epoch 0, Total Loss: 52.06333261165979, test Loss 42.98217333280123
+Training:   0%|          | 1/1000 [00:42<11:39:43, 42.03s/it]Epoch 1, Total Loss: 46.289338885613205, test Loss 40.75058236488929
+Training:   0%|          | 2/1000 [01:02<8:06:22, 29.24s/it] Epoch 2, Total Loss: 45.865230956167544, test Loss 47.108549448160026
+Training:   0%|          | 3/1000 [01:22<6:57:23, 25.12s/it]Epoch 3, Total Loss: 42.455793380737305, test Loss 34.15356709406926
+Training:   0%|          | 4/1000 [01:42<6:25:13, 23.21s/it]Epoch 4, Total Loss: 40.19372684550735, test Loss 32.85345438810495
+Training:   0%|          | 5/1000 [02:03<6:07:38, 22.17s/it]Epoch 5, Total Loss: 38.29439321553932, test Loss 33.40682471715487
+Training:   1%|          | 6/1000 [02:23<5:56:18, 21.51s/it]Epoch 6, Total Loss: 38.17134207599568, test Loss 32.60734552603502
+Training:   1%|          | 7/1000 [02:43<5:48:50, 21.08s/it]Epoch 7, Total Loss: 39.33507670996324, test Loss 33.111252784729004
+Training:   1%|          | 8/1000 [03:03<5:44:30, 20.84s/it]Epoch 8, Total Loss: 38.76546229956285, test Loss 32.49556807371286
+Training:   1%|          | 9/1000 [03:24<5:41:42, 20.69s/it]Epoch 9, Total Loss: 34.06601186068553, test Loss 33.22296755130474
+Training:   1%|          | 10/1000 [03:44<5:38:52, 20.54s/it]Epoch 10, Total Loss: 35.632957134606706, test Loss 28.004496262623714
+Training:   1%|          | 11/1000 [04:04<5:37:14, 20.46s/it]Epoch 11, Total Loss: 36.17956467394559, test Loss 25.70641779899597
+Training:   1%|          | 12/1000 [04:25<5:36:11, 20.42s/it]Epoch 12, Total Loss: 31.400414268925505, test Loss 25.71181222108694
+Training:   1%|▏         | 13/1000 [04:45<5:34:31, 20.34s/it]Epoch 13, Total Loss: 29.77132732463333, test Loss 24.458402312718906
+Training:   1%|▏         | 14/1000 [05:05<5:33:34, 20.30s/it]Epoch 14, Total Loss: 29.716468990973706, test Loss 22.0001681126081
+Training:   2%|▏         | 15/1000 [05:25<5:33:39, 20.32s/it]Epoch 15, Total Loss: 30.48227238205244, test Loss 22.357178064493034
+Training:   2%|▏         | 16/1000 [05:46<5:33:30, 20.34s/it]Epoch 16, Total Loss: 27.568296801369144, test Loss 28.019687780967125
+Training:   2%|▏         | 17/1000 [06:06<5:33:16, 20.34s/it]Epoch 17, Total Loss: 29.21955116739813, test Loss 24.270496285878696
+Training:   2%|▏         | 18/1000 [06:26<5:33:25, 20.37s/it]Epoch 18, Total Loss: 27.25798566386385, test Loss 25.682443930552555
+Training:   2%|▏         | 19/1000 [06:47<5:32:35, 20.34s/it]Epoch 19, Total Loss: 23.45988126970687, test Loss 19.041049654667194
+Training:   2%|▏         | 20/1000 [07:07<5:32:40, 20.37s/it]Epoch 20, Total Loss: 28.654934307314313, test Loss 18.126616056148823
+Training:   2%|▏         | 21/1000 [07:27<5:32:13, 20.36s/it]Epoch 21, Total Loss: 23.35131638454941, test Loss 19.607822335683384
+Training:   2%|▏         | 22/1000 [07:48<5:31:41, 20.35s/it]Epoch 22, Total Loss: 23.404026161949588, test Loss 15.719980340737562
+Training:   2%|▏         | 23/1000 [08:08<5:31:44, 20.37s/it]Epoch 23, Total Loss: 20.250352193724435, test Loss 15.670014450183281
+Training:   2%|▏         | 24/1000 [08:29<5:31:08, 20.36s/it]Epoch 24, Total Loss: 21.013366888154227, test Loss 18.067093647443333
+Training:   2%|▎         | 25/1000 [08:49<5:30:31, 20.34s/it]Epoch 25, Total Loss: 23.20481484791018, test Loss 14.750332162930416
+Training:   3%|▎         | 26/1000 [09:09<5:30:38, 20.37s/it]Epoch 26, Total Loss: 19.2455921757896, test Loss 14.440179265462435
+Training:   3%|▎         | 27/1000 [09:30<5:30:15, 20.37s/it]Epoch 27, Total Loss: 21.05245905102424, test Loss 19.525737340633686
+Training:   3%|▎         | 28/1000 [09:50<5:29:26, 20.34s/it]Epoch 28, Total Loss: 18.749970121203727, test Loss 17.002438792815575
+Training:   3%|▎         | 29/1000 [10:10<5:29:01, 20.33s/it]Epoch 29, Total Loss: 15.308178195413554, test Loss 11.028900247353773
+Training:   3%|▎         | 30/1000 [10:31<5:29:10, 20.36s/it]Epoch 30, Total Loss: 18.689182821309792, test Loss 11.465765971403856
+Training:   3%|▎         | 31/1000 [10:51<5:28:22, 20.33s/it]Epoch 31, Total Loss: 21.92797633836854, test Loss 19.262051738225498
+Training:   3%|▎         | 32/1000 [11:11<5:27:53, 20.32s/it]Epoch 32, Total Loss: 12.812964961213886, test Loss 12.330849033135634
+Training:   3%|▎         | 33/1000 [11:32<5:27:50, 20.34s/it]Epoch 33, Total Loss: 16.463338546033174, test Loss 12.097773368542011
+Training:   3%|▎         | 34/1000 [11:52<5:27:19, 20.33s/it]Epoch 34, Total Loss: 16.870086647429556, test Loss 11.298989850741167
+Training:   4%|▎         | 35/1000 [12:12<5:26:57, 20.33s/it]Epoch 35, Total Loss: 17.090927969734622, test Loss 11.738774909422947
+Training:   4%|▎         | 36/1000 [12:33<5:26:43, 20.34s/it]Epoch 36, Total Loss: 19.05907373158437, test Loss 15.556956373728239
+Training:   4%|▎         | 37/1000 [12:53<5:26:27, 20.34s/it]Epoch 37, Total Loss: 17.818820431547344, test Loss 13.55159943837386
+Training:   4%|▍         | 38/1000 [13:13<5:25:45, 20.32s/it]Epoch 38, Total Loss: 13.954519582244584, test Loss 10.38272906266726
+Training:   4%|▍         | 39/1000 [13:33<5:25:13, 20.30s/it]Epoch 39, Total Loss: 14.604952157668347, test Loss 12.378776559462914
+Training:   4%|▍         | 40/1000 [13:54<5:25:05, 20.32s/it]Epoch 40, Total Loss: 19.85311055633257, test Loss 9.390277945078337
+Training:   4%|▍         | 41/1000 [14:14<5:24:39, 20.31s/it]Epoch 41, Total Loss: 15.56199124174298, test Loss 9.714824593984163
+Training:   4%|▍         | 42/1000 [14:34<5:24:02, 20.29s/it]Epoch 42, Total Loss: 16.056043345973176, test Loss 8.573098003864288
+Training:   4%|▍         | 43/1000 [14:55<5:24:10, 20.32s/it]Epoch 43, Total Loss: 15.26097101310514, test Loss 10.238219462908232
+Training:   4%|▍         | 44/1000 [15:15<5:23:44, 20.32s/it]Epoch 44, Total Loss: 14.122673448526635, test Loss 7.2114895765598
+Training:   4%|▍         | 45/1000 [15:35<5:23:21, 20.32s/it]Epoch 45, Total Loss: 11.025611776225972, test Loss 8.6013194666459
+Training:   5%|▍         | 46/1000 [15:56<5:23:06, 20.32s/it]Epoch 46, Total Loss: 11.820363112215725, test Loss 6.2716777599774876
+Training:   5%|▍         | 47/1000 [16:16<5:23:12, 20.35s/it]Epoch 47, Total Loss: 14.739306589342513, test Loss 5.940608638983506
+Training:   5%|▍         | 48/1000 [16:36<5:22:32, 20.33s/it]Epoch 48, Total Loss: 15.31173493502275, test Loss 8.547010093927383
+Training:   5%|▍         | 49/1000 [16:57<5:22:26, 20.34s/it]Epoch 49, Total Loss: 12.518488004522503, test Loss 8.052559467462393
+Training:   5%|▌         | 50/1000 [17:17<5:22:33, 20.37s/it]Epoch 50, Total Loss: 12.886374264393213, test Loss 7.441780253098561
+Training:   5%|▌         | 51/1000 [17:38<5:22:03, 20.36s/it]Epoch 51, Total Loss: 11.457888152239457, test Loss 4.703933759377553
+Training:   5%|▌         | 52/1000 [17:58<5:22:09, 20.39s/it]Epoch 52, Total Loss: 8.739353193427032, test Loss 7.755975695756765
+Training:   5%|▌         | 53/1000 [18:18<5:21:30, 20.37s/it]Epoch 53, Total Loss: 8.304516288469422, test Loss 6.38294599377192
+Training:   5%|▌         | 54/1000 [18:39<5:21:21, 20.38s/it]Epoch 54, Total Loss: 12.56028589887439, test Loss 11.963731751992153
+Training:   6%|▌         | 55/1000 [18:59<5:20:27, 20.35s/it]Epoch 55, Total Loss: 9.04907122423064, test Loss 6.312550898927909
+Training:   6%|▌         | 56/1000 [19:19<5:20:12, 20.35s/it]Epoch 56, Total Loss: 10.814613949577764, test Loss 6.738322464319376
+Training:   6%|▌         | 57/1000 [19:40<5:20:02, 20.36s/it]Epoch 57, Total Loss: 11.540261580134338, test Loss 9.415191118533794
+Training:   6%|▌         | 58/1000 [20:00<5:19:08, 20.33s/it]Epoch 58, Total Loss: 10.352579492443013, test Loss 5.854927493975713
+Training:   6%|▌         | 59/1000 [20:20<5:19:01, 20.34s/it]Epoch 59, Total Loss: 9.625052085462606, test Loss 7.219477763542762
+Training:   6%|▌         | 60/1000 [20:41<5:19:14, 20.38s/it]Epoch 60, Total Loss: 10.285770717656836, test Loss 4.70458845450328
+Training:   6%|▌         | 61/1000 [21:01<5:18:33, 20.36s/it]Epoch 61, Total Loss: 8.854782743274042, test Loss 4.9868274216468516
+Training:   6%|▌         | 62/1000 [21:22<5:18:27, 20.37s/it]Epoch 62, Total Loss: 9.329739513262263, test Loss 10.091610463765951
+Training:   6%|▋         | 63/1000 [21:42<5:17:41, 20.34s/it]Epoch 63, Total Loss: 9.014614138963088, test Loss 9.279170650702257
+Training:   6%|▋         | 64/1000 [22:02<5:17:36, 20.36s/it]Epoch 64, Total Loss: 7.595030646279173, test Loss 4.107524095819547
+Training:   6%|▋         | 65/1000 [22:23<5:17:00, 20.34s/it]Epoch 65, Total Loss: 7.7055794146825685, test Loss 3.2627903601297965
+Training:   7%|▋         | 66/1000 [22:43<5:16:41, 20.34s/it]Epoch 66, Total Loss: 6.957755318790112, test Loss 4.3967742427037315
+Training:   7%|▋         | 67/1000 [23:03<5:16:37, 20.36s/it]Epoch 67, Total Loss: 9.404591586229936, test Loss 7.271833603198711
+Training:   7%|▋         | 68/1000 [23:24<5:16:12, 20.36s/it]Epoch 68, Total Loss: 7.305902609847626, test Loss 3.6875989517340293
+Training:   7%|▋         | 69/1000 [23:44<5:15:38, 20.34s/it]Epoch 69, Total Loss: 7.642813185475907, test Loss 3.6443716837809634
+Training:   7%|▋         | 70/1000 [24:04<5:15:37, 20.36s/it]Epoch 70, Total Loss: 5.595241191252223, test Loss 4.859669105364726
+Training:   7%|▋         | 71/1000 [24:25<5:15:19, 20.37s/it]Epoch 71, Total Loss: 7.99834395579572, test Loss 2.9854974918640576
+Training:   7%|▋         | 72/1000 [24:45<5:14:46, 20.35s/it]Epoch 72, Total Loss: 6.0527672492108255, test Loss 4.036606103181839
+Training:   7%|▋         | 73/1000 [25:05<5:14:15, 20.34s/it]Epoch 73, Total Loss: 4.904734484429629, test Loss 3.0242268746862044
+Training:   7%|▋         | 74/1000 [25:26<5:14:11, 20.36s/it]Epoch 74, Total Loss: 5.857480236944163, test Loss 3.832619140927608
+Training:   8%|▊         | 75/1000 [25:46<5:13:22, 20.33s/it]Epoch 75, Total Loss: 5.426515582597481, test Loss 5.803942237909023
+Training:   8%|▊         | 76/1000 [26:06<5:13:18, 20.34s/it]Epoch 76, Total Loss: 7.907305154035676, test Loss 5.069304319528433
+Training:   8%|▊         | 77/1000 [26:27<5:13:36, 20.39s/it]Epoch 77, Total Loss: 6.705326856307264, test Loss 3.6449773655487943
+Training:   8%|▊         | 78/1000 [26:47<5:12:51, 20.36s/it]Epoch 78, Total Loss: 5.561190735619023, test Loss 4.922673138288351
+Training:   8%|▊         | 79/1000 [27:08<5:12:23, 20.35s/it]Epoch 79, Total Loss: 5.622516613523915, test Loss 6.041671097278595
+Training:   8%|▊         | 80/1000 [27:28<5:12:06, 20.35s/it]Epoch 80, Total Loss: 6.5409024099134045, test Loss 4.201330494422179
+Training:   8%|▊         | 81/1000 [27:48<5:12:00, 20.37s/it]Epoch 81, Total Loss: 4.242085408489659, test Loss 2.321164057804988
+Training:   8%|▊         | 82/1000 [28:09<5:11:09, 20.34s/it]Epoch 82, Total Loss: 7.024647833041425, test Loss 7.433807134628296
+Training:   8%|▊         | 83/1000 [28:29<5:11:03, 20.35s/it]Epoch 83, Total Loss: 4.572114438380835, test Loss 3.0955082923173904
+Training:   8%|▊         | 84/1000 [28:49<5:10:57, 20.37s/it]Epoch 84, Total Loss: 4.79969721470239, test Loss 2.9748049149146447
+Training:   8%|▊         | 85/1000 [29:10<5:10:11, 20.34s/it]Epoch 85, Total Loss: 3.7248979649453795, test Loss 2.5540250207369146
+Training:   9%|▊         | 86/1000 [29:30<5:09:47, 20.34s/it]Epoch 86, Total Loss: 3.8637345168950423, test Loss 2.7075027215939302
+Training:   9%|▊         | 87/1000 [29:50<5:10:04, 20.38s/it]Epoch 87, Total Loss: 4.182629655554609, test Loss 3.401844324973913
+Training:   9%|▉         | 88/1000 [30:11<5:09:17, 20.35s/it]Epoch 88, Total Loss: 3.438133013135982, test Loss 4.21016897375767
+Training:   9%|▉         | 89/1000 [30:31<5:08:51, 20.34s/it]Epoch 89, Total Loss: 3.3783597147689677, test Loss 5.320151789830281
+Training:   9%|▉         | 90/1000 [30:51<5:08:45, 20.36s/it]Epoch 90, Total Loss: 3.3185817818596677, test Loss 3.4576780200004578
+Training:   9%|▉         | 91/1000 [31:12<5:08:34, 20.37s/it]Epoch 91, Total Loss: 3.154052050046201, test Loss 2.2057049927803187
+Training:   9%|▉         | 92/1000 [31:32<5:07:49, 20.34s/it]Epoch 92, Total Loss: 2.6078947641939485, test Loss 1.964774190233304
+Training:   9%|▉         | 93/1000 [31:53<5:07:43, 20.36s/it]Epoch 93, Total Loss: 2.952921411338842, test Loss 1.8381431595637248
+Training:   9%|▉         | 94/1000 [32:13<5:07:36, 20.37s/it]Epoch 94, Total Loss: 1.6926350717274647, test Loss 1.6277382568671153
+Training:  10%|▉         | 95/1000 [32:33<5:07:07, 20.36s/it]Epoch 95, Total Loss: 4.047242541920464, test Loss 2.6794335893713512
+Training:  10%|▉         | 96/1000 [32:54<5:06:37, 20.35s/it]Epoch 96, Total Loss: 3.418708655631767, test Loss 0.8714888027081122
+Training:  10%|▉         | 97/1000 [33:14<5:06:31, 20.37s/it]Epoch 97, Total Loss: 1.841992826956623, test Loss 1.1241899894980283
+Training:  10%|▉         | 98/1000 [33:34<5:05:57, 20.35s/it]Epoch 98, Total Loss: 2.104326702513785, test Loss 1.335495837032795
+Training:  10%|▉         | 99/1000 [33:55<5:05:16, 20.33s/it]Epoch 99, Total Loss: 2.321915069840989, test Loss 1.652158644910042
+Training:  10%|█         | 100/1000 [34:15<5:05:22, 20.36s/it]Epoch 100, Total Loss: 2.1073554858284176, test Loss 2.352153326456363
+Training:  10%|█         | 101/1000 [34:35<5:04:57, 20.35s/it]Epoch 101, Total Loss: 3.514211760376984, test Loss 3.2580862308924017
+Training:  10%|█         | 102/1000 [34:56<5:04:15, 20.33s/it]Epoch 102, Total Loss: 2.8192350937510438, test Loss 1.5950992955611303
+Training:  10%|█         | 103/1000 [35:16<5:04:16, 20.35s/it]Epoch 103, Total Loss: 1.828844502568245, test Loss 1.9729647911511934
+Training:  10%|█         | 104/1000 [35:36<5:04:15, 20.37s/it]Epoch 104, Total Loss: 1.1096878754642774, test Loss 0.8437557117297099
+Training:  10%|█         | 105/1000 [35:57<5:03:46, 20.37s/it]Epoch 105, Total Loss: 1.5753335126166075, test Loss 1.6064102833087628
+Training:  11%|█         | 106/1000 [36:17<5:03:04, 20.34s/it]Epoch 106, Total Loss: 2.1447722200515136, test Loss 1.4114620960675752
+Training:  11%|█         | 107/1000 [36:38<5:03:08, 20.37s/it]Epoch 107, Total Loss: 1.586847593199532, test Loss 1.3677785688867936
+Training:  11%|█         | 108/1000 [36:58<5:02:50, 20.37s/it]Epoch 108, Total Loss: 3.872787305768931, test Loss 2.918229476763652
+Training:  11%|█         | 109/1000 [37:18<5:02:09, 20.35s/it]Epoch 109, Total Loss: 2.2367135831769906, test Loss 1.2731766213591282
+Training:  11%|█         | 110/1000 [37:39<5:02:22, 20.38s/it]Epoch 110, Total Loss: 1.4915058489115733, test Loss 1.388311617076397
+Training:  11%|█         | 111/1000 [37:59<5:02:07, 20.39s/it]Epoch 111, Total Loss: 1.9053546046873309, test Loss 0.8071264664714153
+Training:  11%|█         | 112/1000 [38:19<5:01:40, 20.38s/it]Epoch 112, Total Loss: 1.3498328581171215, test Loss 0.9700481083530647
+Training:  11%|█▏        | 113/1000 [38:40<5:00:50, 20.35s/it]Epoch 113, Total Loss: 1.951559062836305, test Loss 0.7101289105529969
+Training:  11%|█▏        | 114/1000 [39:00<5:01:06, 20.39s/it]Epoch 114, Total Loss: 1.7886756090623028, test Loss 1.3162276727648883
+Training:  12%|█▏        | 115/1000 [39:20<5:00:08, 20.35s/it]Epoch 115, Total Loss: 1.0524679703532525, test Loss 0.5635450382072192
+Training:  12%|█▏        | 116/1000 [39:41<4:59:42, 20.34s/it]Epoch 116, Total Loss: 1.3772810517616991, test Loss 1.4962850854947016
+Training:  12%|█▏        | 117/1000 [40:01<4:58:47, 20.30s/it]Epoch 117, Total Loss: 0.9828747352058033, test Loss 0.5803553656889842
+Training:  12%|█▏        | 118/1000 [40:21<4:58:36, 20.31s/it]Epoch 118, Total Loss: 0.9166565056679383, test Loss 0.6481057434127881
+Training:  12%|█▏        | 119/1000 [40:42<4:58:03, 20.30s/it]Epoch 119, Total Loss: 1.0398599443570622, test Loss 0.8864175582734438
+Training:  12%|█▏        | 120/1000 [41:02<4:57:18, 20.27s/it]Epoch 120, Total Loss: 1.0855077069323018, test Loss 1.1675924475376422
+Training:  12%|█▏        | 121/1000 [41:22<4:57:15, 20.29s/it]Epoch 121, Total Loss: 1.1956373829886597, test Loss 0.9278261059751878
+Training:  12%|█▏        | 122/1000 [41:42<4:56:55, 20.29s/it]Epoch 122, Total Loss: 1.2427433696839045, test Loss 0.7757597247568461
+Training:  12%|█▏        | 123/1000 [42:03<4:56:21, 20.28s/it]Epoch 123, Total Loss: 1.896537255847229, test Loss 0.8021013278227586
+Training:  12%|█▏        | 124/1000 [42:23<4:55:57, 20.27s/it]Epoch 124, Total Loss: 1.0194188783753593, test Loss 1.4360821734254177
+Training:  12%|█▎        | 125/1000 [42:43<4:55:59, 20.30s/it]Epoch 125, Total Loss: 1.165249914212047, test Loss 1.2856247608478253
+Training:  13%|█▎        | 126/1000 [43:03<4:55:19, 20.27s/it]Epoch 126, Total Loss: 1.4736535551975358, test Loss 1.9566077541273375
+Training:  13%|█▎        | 127/1000 [43:24<4:54:49, 20.26s/it]Epoch 127, Total Loss: 1.9564269760026123, test Loss 1.756782681036454
+Training:  13%|█▎        | 128/1000 [43:44<4:54:40, 20.28s/it]Epoch 128, Total Loss: 1.931572957280672, test Loss 1.3429837805720477
+Training:  13%|█▎        | 129/1000 [44:04<4:54:12, 20.27s/it]Epoch 129, Total Loss: 1.1699612545517255, test Loss 0.448341327217909
+Training:  13%|█▎        | 130/1000 [44:25<4:53:53, 20.27s/it]Epoch 130, Total Loss: 1.5559977537618492, test Loss 0.7485966946070011
+Training:  13%|█▎        | 131/1000 [44:45<4:53:16, 20.25s/it]Epoch 131, Total Loss: 1.9276399086668807, test Loss 0.7631240777957898
+Training:  13%|█▎        | 132/1000 [45:05<4:53:05, 20.26s/it]Epoch 132, Total Loss: 1.5424600468491607, test Loss 1.1098084925458982
+Training:  13%|█▎        | 133/1000 [45:25<4:52:49, 20.26s/it]Epoch 133, Total Loss: 0.9587434052296404, test Loss 1.11881790510737
+Training:  13%|█▎        | 134/1000 [45:46<4:52:24, 20.26s/it]Epoch 134, Total Loss: 1.2230528251461263, test Loss 0.3964758407897674
+Training:  14%|█▎        | 135/1000 [46:06<4:52:23, 20.28s/it]Epoch 135, Total Loss: 0.6120525315966246, test Loss 0.5854070229599109
+Training:  14%|█▎        | 136/1000 [46:26<4:51:46, 20.26s/it]Epoch 136, Total Loss: 0.9147928740899518, test Loss 0.9451127559519731
+Training:  14%|█▎        | 137/1000 [46:46<4:51:48, 20.29s/it]Epoch 137, Total Loss: 2.3647858458307556, test Loss 1.0288010434462473
+Training:  14%|█▍        | 138/1000 [47:07<4:51:27, 20.29s/it]Epoch 138, Total Loss: 0.9992196548659846, test Loss 0.8476612451844491
+Training:  14%|█▍        | 139/1000 [47:27<4:50:59, 20.28s/it]Epoch 139, Total Loss: 1.116523563158962, test Loss 0.7247674399270461
+Training:  14%|█▍        | 140/1000 [47:47<4:50:18, 20.25s/it]Epoch 140, Total Loss: 0.6545701956130424, test Loss 0.49347831695698774
+Training:  14%|█▍        | 141/1000 [48:07<4:50:02, 20.26s/it]Epoch 141, Total Loss: 0.7711897756693498, test Loss 1.1040995361713262
+Training:  14%|█▍        | 142/1000 [48:28<4:50:03, 20.28s/it]Epoch 142, Total Loss: 0.9711612659805225, test Loss 0.8755239213888462
+Training:  14%|█▍        | 143/1000 [48:48<4:49:33, 20.27s/it]Epoch 143, Total Loss: 0.6741027615542682, test Loss 0.8959862137070069
+Training:  14%|█▍        | 144/1000 [49:08<4:49:04, 20.26s/it]Epoch 144, Total Loss: 1.014268898317274, test Loss 1.2282819621838057
+Training:  14%|█▍        | 145/1000 [49:29<4:48:59, 20.28s/it]Epoch 145, Total Loss: 0.8418064854055081, test Loss 0.6627167749863404
+Training:  15%|█▍        | 146/1000 [49:49<4:48:39, 20.28s/it]Epoch 146, Total Loss: 0.8319053486833032, test Loss 0.38184515444132
+Training:  15%|█▍        | 147/1000 [50:09<4:48:23, 20.29s/it]Epoch 147, Total Loss: 0.9961935474344019, test Loss 0.5189725031646398
+Training:  15%|█▍        | 148/1000 [50:29<4:47:53, 20.27s/it]Epoch 148, Total Loss: 0.7843106973846004, test Loss 0.6609821495814965
+Training:  15%|█▍        | 149/1000 [50:50<4:47:56, 20.30s/it]Epoch 149, Total Loss: 1.0441138054121215, test Loss 1.8451917240252862
+Training:  15%|█▌        | 150/1000 [51:10<4:47:11, 20.27s/it]Epoch 150, Total Loss: 1.752516603132464, test Loss 1.1909009682444425
+Training:  15%|█▌        | 151/1000 [51:30<4:46:52, 20.27s/it]Epoch 151, Total Loss: 1.0153753746230647, test Loss 0.6175590280729991
+Training:  15%|█▌        | 152/1000 [51:51<4:46:42, 20.29s/it]Epoch 152, Total Loss: 0.7337386016294641, test Loss 0.3879417095046777
+Training:  15%|█▌        | 153/1000 [52:11<4:46:30, 20.30s/it]Epoch 153, Total Loss: 1.2517091354952667, test Loss 1.219308497527471
+Training:  15%|█▌        | 154/1000 [52:31<4:45:53, 20.28s/it]Epoch 154, Total Loss: 1.613528884525569, test Loss 1.498612799323522
+Training:  16%|█▌        | 155/1000 [52:51<4:45:37, 20.28s/it]Epoch 155, Total Loss: 0.9217736670431101, test Loss 0.5675007675129634
+Training:  16%|█▌        | 156/1000 [53:12<4:45:27, 20.29s/it]Epoch 156, Total Loss: 0.7609256038547687, test Loss 1.4927842264565139
+Training:  16%|█▌        | 157/1000 [53:32<4:44:44, 20.27s/it]Epoch 157, Total Loss: 1.3489197146780085, test Loss 0.47677876255833185
+Training:  16%|█▌        | 158/1000 [53:52<4:44:27, 20.27s/it]Epoch 158, Total Loss: 1.5632689131318398, test Loss 1.1768129559663625
+Training:  16%|█▌        | 159/1000 [54:13<4:44:16, 20.28s/it]Epoch 159, Total Loss: 0.9151499903989289, test Loss 0.9323572433338716
+Training:  16%|█▌        | 160/1000 [54:33<4:43:54, 20.28s/it]Epoch 160, Total Loss: 1.1772757726457883, test Loss 0.5133845480875328
+Training:  16%|█▌        | 161/1000 [54:53<4:43:16, 20.26s/it]Epoch 161, Total Loss: 0.8874241868561169, test Loss 0.5840674314934474
+Training:  16%|█▌        | 162/1000 [55:13<4:43:14, 20.28s/it]Epoch 162, Total Loss: 0.7344063344710278, test Loss 0.3756563821091102
+Training:  16%|█▋        | 163/1000 [55:34<4:43:08, 20.30s/it]Epoch 163, Total Loss: 0.6093795970082283, test Loss 0.28791562811686444
+Training:  16%|█▋        | 164/1000 [55:54<4:42:39, 20.29s/it]Epoch 164, Total Loss: 1.3022527133799948, test Loss 0.49481438802411926
+Training:  16%|█▋        | 165/1000 [56:14<4:42:09, 20.28s/it]Epoch 165, Total Loss: 1.0087857874778081, test Loss 1.403414203140598
+Training:  17%|█▋        | 166/1000 [56:35<4:42:01, 20.29s/it]Epoch 166, Total Loss: 1.2563160761909664, test Loss 0.6286446861922741
+Training:  17%|█▋        | 167/1000 [56:55<4:41:22, 20.27s/it]Epoch 167, Total Loss: 0.6895779846411831, test Loss 0.7074817482095498
+Training:  17%|█▋        | 168/1000 [57:15<4:40:51, 20.25s/it]Epoch 168, Total Loss: 1.0861338076164138, test Loss 1.0528325321009526
+Training:  17%|█▋        | 169/1000 [57:35<4:40:54, 20.28s/it]Epoch 169, Total Loss: 1.21571174552137, test Loss 1.1143262862012937
+Training:  17%|█▋        | 170/1000 [57:56<4:40:31, 20.28s/it]Epoch 170, Total Loss: 1.2890919536914465, test Loss 0.5665686044555444
+Training:  17%|█▋        | 171/1000 [58:16<4:40:00, 20.27s/it]Epoch 171, Total Loss: 0.8235212232706681, test Loss 1.2678835896345286
+Training:  17%|█▋        | 172/1000 [58:36<4:39:42, 20.27s/it]Epoch 172, Total Loss: 0.9933566671778571, test Loss 0.7821913501964166
+Training:  17%|█▋        | 173/1000 [58:56<4:39:40, 20.29s/it]Epoch 173, Total Loss: 0.7911417381662242, test Loss 0.6242850629182962
+Training:  17%|█▋        | 174/1000 [59:17<4:39:02, 20.27s/it]Epoch 174, Total Loss: 0.8149639823526706, test Loss 0.5660535816389781
+Training:  18%|█▊        | 175/1000 [59:37<4:39:06, 20.30s/it]Epoch 175, Total Loss: 0.33413233038670614, test Loss 0.25649881828576326
+Training:  18%|█▊        | 176/1000 [59:57<4:38:55, 20.31s/it]Epoch 176, Total Loss: 0.5548992225865148, test Loss 0.7054365403377093
+Training:  18%|█▊        | 177/1000 [1:00:18<4:38:16, 20.29s/it]Epoch 177, Total Loss: 1.0557971605152454, test Loss 1.1423917974417026
+Training:  18%|█▊        | 178/1000 [1:00:38<4:37:48, 20.28s/it]Epoch 178, Total Loss: 1.0121174238200457, test Loss 0.7057076457601327
+Training:  18%|█▊        | 179/1000 [1:00:58<4:37:36, 20.29s/it]Epoch 179, Total Loss: 0.862152488304759, test Loss 0.4267151974714719
+Training:  18%|█▊        | 180/1000 [1:01:19<4:37:32, 20.31s/it]Epoch 180, Total Loss: 0.6588126734461425, test Loss 0.3269650789980705
+Training:  18%|█▊        | 181/1000 [1:01:39<4:36:43, 20.27s/it]Epoch 181, Total Loss: 1.466632863822973, test Loss 0.47901783138513565
+Training:  18%|█▊        | 182/1000 [1:01:59<4:36:31, 20.28s/it]Epoch 182, Total Loss: 0.7260630590454588, test Loss 0.3059305492788553
+Training:  18%|█▊        | 183/1000 [1:02:19<4:36:11, 20.28s/it]Epoch 183, Total Loss: 0.45144400028687603, test Loss 0.473254185814697
+Training:  18%|█▊        | 184/1000 [1:02:40<4:35:40, 20.27s/it]Epoch 184, Total Loss: 0.7955392886585785, test Loss 0.6970719384172788
+Training:  18%|█▊        | 185/1000 [1:03:00<4:35:17, 20.27s/it]Epoch 185, Total Loss: 0.6224144385108408, test Loss 0.3568830444262578
+Training:  19%|█▊        | 186/1000 [1:03:20<4:35:18, 20.29s/it]Epoch 186, Total Loss: 0.9090035779858535, test Loss 0.6011072136461735
+Training:  19%|█▊        | 187/1000 [1:03:40<4:34:48, 20.28s/it]Epoch 187, Total Loss: 0.5348385575245012, test Loss 0.34174622795902765
+Training:  19%|█▉        | 188/1000 [1:04:01<4:34:19, 20.27s/it]Epoch 188, Total Loss: 0.7238539961289685, test Loss 0.4914703324723702
+Training:  19%|█▉        | 189/1000 [1:04:21<4:34:08, 20.28s/it]Epoch 189, Total Loss: 0.538168487402628, test Loss 0.4045225207765515
+Training:  19%|█▉        | 190/1000 [1:04:41<4:33:55, 20.29s/it]Epoch 190, Total Loss: 0.6656789755062112, test Loss 0.28447936991086376
+Training:  19%|█▉        | 191/1000 [1:05:02<4:33:23, 20.28s/it]Epoch 191, Total Loss: 0.4563033848227757, test Loss 0.30500599985512405
+Training:  19%|█▉        | 192/1000 [1:05:22<4:32:46, 20.26s/it]Epoch 192, Total Loss: 0.48678337768563684, test Loss 0.6010838428942057
+Training:  19%|█▉        | 193/1000 [1:05:42<4:32:59, 20.30s/it]Epoch 193, Total Loss: 0.8126479385877555, test Loss 0.5409142979635642
+Training:  19%|█▉        | 194/1000 [1:06:02<4:32:35, 20.29s/it]Epoch 194, Total Loss: 0.8499929279370128, test Loss 0.47077746875584126
+Training:  20%|█▉        | 195/1000 [1:06:23<4:31:55, 20.27s/it]Epoch 195, Total Loss: 0.7002207584819704, test Loss 0.8317111134529114
+Training:  20%|█▉        | 196/1000 [1:06:43<4:31:46, 20.28s/it]Epoch 196, Total Loss: 1.1322493913038723, test Loss 0.36806374401427233
+Training:  20%|█▉        | 197/1000 [1:07:03<4:31:31, 20.29s/it]Epoch 197, Total Loss: 0.5849938921208652, test Loss 0.7545242278048625
+Training:  20%|█▉        | 198/1000 [1:07:23<4:30:50, 20.26s/it]Epoch 198, Total Loss: 0.6794013670592938, test Loss 0.39902413149292654
+Training:  20%|█▉        | 199/1000 [1:07:44<4:30:35, 20.27s/it]Epoch 199, Total Loss: 0.32981066932936887, test Loss 0.7834212438991437
+Training:  20%|██        | 200/1000 [1:08:04<4:30:41, 20.30s/it]Epoch 200, Total Loss: 0.7159706534079786, test Loss 0.6308935940838777
+Training:  20%|██        | 201/1000 [1:08:24<4:30:04, 20.28s/it]Epoch 201, Total Loss: 0.6994184660461714, test Loss 0.36010524515922254
+Training:  20%|██        | 202/1000 [1:08:45<4:29:30, 20.26s/it]Epoch 202, Total Loss: 0.9599161741306197, test Loss 0.6088521033525467
+Training:  20%|██        | 203/1000 [1:09:05<4:29:38, 20.30s/it]Epoch 203, Total Loss: 0.48373997654273826, test Loss 0.3831782821709147
+Training:  20%|██        | 204/1000 [1:09:25<4:29:07, 20.29s/it]Epoch 204, Total Loss: 0.6919606724437678, test Loss 0.41811563153392994
+Training:  20%|██        | 205/1000 [1:09:45<4:28:36, 20.27s/it]Epoch 205, Total Loss: 0.6868922190283829, test Loss 0.461633856766499
+Training:  21%|██        | 206/1000 [1:10:06<4:28:25, 20.28s/it]Epoch 206, Total Loss: 0.5446955201409336, test Loss 0.8985479290668781
+Training:  21%|██        | 207/1000 [1:10:26<4:28:15, 20.30s/it]Epoch 207, Total Loss: 0.8257055359910119, test Loss 0.3468198492549933
+Training:  21%|██        | 208/1000 [1:10:46<4:27:28, 20.26s/it]Epoch 208, Total Loss: 0.4737273886940389, test Loss 0.293509283174689
+Training:  21%|██        | 209/1000 [1:11:06<4:27:01, 20.25s/it]Epoch 209, Total Loss: 0.5315044870213518, test Loss 0.568674851495486
+Training:  21%|██        | 210/1000 [1:11:27<4:27:19, 20.30s/it]Epoch 210, Total Loss: 0.557231291285101, test Loss 0.5287856360754142
+Training:  21%|██        | 211/1000 [1:11:47<4:26:44, 20.29s/it]Epoch 211, Total Loss: 0.550394309087182, test Loss 0.21289579190600377
+Training:  21%|██        | 212/1000 [1:12:07<4:26:29, 20.29s/it]Epoch 212, Total Loss: 0.3824378541618023, test Loss 0.27456142767690694
+Training:  21%|██▏       | 213/1000 [1:12:28<4:25:54, 20.27s/it]Epoch 213, Total Loss: 0.655773501983791, test Loss 0.395498676941945
+Training:  21%|██▏       | 214/1000 [1:12:48<4:25:50, 20.29s/it]Epoch 214, Total Loss: 0.5016627329278667, test Loss 0.21583037572697952
+Training:  22%|██▏       | 215/1000 [1:13:08<4:25:16, 20.28s/it]Epoch 215, Total Loss: 0.5388574368267689, test Loss 0.5883287177062951
+Training:  22%|██▏       | 216/1000 [1:13:29<4:24:56, 20.28s/it]Epoch 216, Total Loss: 0.3673993912789057, test Loss 0.09947507298336579
+Training:  22%|██▏       | 217/1000 [1:13:49<4:25:18, 20.33s/it]Epoch 217, Total Loss: 0.6398846362981031, test Loss 0.26274421775283724
+Training:  22%|██▏       | 218/1000 [1:14:09<4:24:28, 20.29s/it]Epoch 218, Total Loss: 0.7634565856237456, test Loss 1.0870490876527934
+Training:  22%|██▏       | 219/1000 [1:14:29<4:23:56, 20.28s/it]Epoch 219, Total Loss: 0.5916054096283778, test Loss 0.24381358205125883
+Training:  22%|██▏       | 220/1000 [1:14:50<4:23:56, 20.30s/it]Epoch 220, Total Loss: 0.36583616542366315, test Loss 0.2534059730286782
+Training:  22%|██▏       | 221/1000 [1:15:10<4:23:27, 20.29s/it]Epoch 221, Total Loss: 0.5344800433179118, test Loss 0.4144330228177401
+Training:  22%|██▏       | 222/1000 [1:15:30<4:22:47, 20.27s/it]Epoch 222, Total Loss: 0.447895256134699, test Loss 0.19495262255748877
+Training:  22%|██▏       | 223/1000 [1:15:51<4:22:38, 20.28s/it]Epoch 223, Total Loss: 0.3569646896618717, test Loss 0.47382839912405383
+Training:  22%|██▏       | 224/1000 [1:16:11<4:22:35, 20.30s/it]Epoch 224, Total Loss: 1.7328036163213119, test Loss 0.8588947984748162
+Training:  22%|██▎       | 225/1000 [1:16:31<4:21:50, 20.27s/it]Epoch 225, Total Loss: 0.36463169908186177, test Loss 0.32785172015428543
+Training:  23%|██▎       | 226/1000 [1:16:51<4:21:28, 20.27s/it]Epoch 226, Total Loss: 0.37570899050190765, test Loss 0.31200525981302446
+Training:  23%|██▎       | 227/1000 [1:17:12<4:21:36, 20.31s/it]Epoch 227, Total Loss: 0.4207741179556217, test Loss 0.4563782514574436
+Training:  23%|██▎       | 228/1000 [1:17:32<4:20:57, 20.28s/it]Epoch 228, Total Loss: 0.45868244746102477, test Loss 0.15717477523363554
+Training:  23%|██▎       | 229/1000 [1:17:52<4:20:24, 20.27s/it]Epoch 229, Total Loss: 0.490426917331961, test Loss 0.4233515447435471
+Training:  23%|██▎       | 230/1000 [1:18:13<4:20:33, 20.30s/it]Epoch 230, Total Loss: 0.536966972334205, test Loss 0.4059088620572136
+Training:  23%|██▎       | 231/1000 [1:18:33<4:20:11, 20.30s/it]Epoch 231, Total Loss: 0.3886017812029371, test Loss 0.5692287056635206
+Training:  23%|██▎       | 232/1000 [1:18:53<4:19:28, 20.27s/it]Epoch 232, Total Loss: 0.40267177488443984, test Loss 0.23993248177262452
+Training:  23%|██▎       | 233/1000 [1:19:13<4:19:17, 20.28s/it]Epoch 233, Total Loss: 0.7386031219700597, test Loss 0.4345472280222636
+Training:  23%|██▎       | 234/1000 [1:19:34<4:19:05, 20.29s/it]Epoch 234, Total Loss: 0.3443961517428452, test Loss 0.29650304208581263
+Training:  24%|██▎       | 235/1000 [1:19:54<4:18:35, 20.28s/it]Epoch 235, Total Loss: 0.5250618873902086, test Loss 0.24010551434296828
+Training:  24%|██▎       | 236/1000 [1:20:14<4:18:01, 20.26s/it]Epoch 236, Total Loss: 0.5687764336196881, test Loss 0.4694698629184411
+Training:  24%|██▎       | 237/1000 [1:20:35<4:18:09, 20.30s/it]Epoch 237, Total Loss: 0.5838482621002872, test Loss 0.34132227380401814
+Training:  24%|██▍       | 238/1000 [1:20:55<4:17:34, 20.28s/it]Epoch 238, Total Loss: 0.41046953152092, test Loss 0.502407067670272
+Training:  24%|██▍       | 239/1000 [1:21:15<4:17:00, 20.26s/it]Epoch 239, Total Loss: 0.5360164180538565, test Loss 0.18568581987458926
+Training:  24%|██▍       | 240/1000 [1:21:35<4:17:02, 20.29s/it]Epoch 240, Total Loss: 0.29225119660204313, test Loss 0.4670666665411912
+Training:  24%|██▍       | 241/1000 [1:21:56<4:16:44, 20.30s/it]Epoch 241, Total Loss: 0.507706214093937, test Loss 0.40351295944016713
+Training:  24%|██▍       | 242/1000 [1:22:16<4:16:01, 20.27s/it]Epoch 242, Total Loss: 0.45074625299224313, test Loss 0.509311777467911
+Training:  24%|██▍       | 243/1000 [1:22:36<4:15:50, 20.28s/it]Epoch 243, Total Loss: 0.37865239627799896, test Loss 0.27325967004379403
+Training:  24%|██▍       | 244/1000 [1:22:57<4:16:01, 20.32s/it]Epoch 244, Total Loss: 0.44011768206672847, test Loss 0.4626008469897967
+Training:  24%|██▍       | 245/1000 [1:23:17<4:15:19, 20.29s/it]Epoch 245, Total Loss: 0.5680278150962209, test Loss 0.17943140176626352
+Training:  25%|██▍       | 246/1000 [1:23:37<4:14:46, 20.27s/it]Epoch 246, Total Loss: 0.37026662527109094, test Loss 0.3685506706914076
+Training:  25%|██▍       | 247/1000 [1:23:57<4:14:45, 20.30s/it]Epoch 247, Total Loss: 0.572334349998888, test Loss 0.6925217492076067
+Training:  25%|██▍       | 248/1000 [1:24:18<4:14:21, 20.29s/it]Epoch 248, Total Loss: 0.5561441507120177, test Loss 0.24366487147143254
+Training:  25%|██▍       | 249/1000 [1:24:38<4:13:42, 20.27s/it]Epoch 249, Total Loss: 0.3760728333496822, test Loss 0.2990402620858871
+Training:  25%|██▌       | 250/1000 [1:24:58<4:13:33, 20.28s/it]Epoch 250, Total Loss: 0.2745998200942885, test Loss 0.3471198706672742
+Training:  25%|██▌       | 251/1000 [1:25:19<4:13:43, 20.32s/it]Epoch 251, Total Loss: 0.7798600539143355, test Loss 0.3500883673819212
+Training:  25%|██▌       | 252/1000 [1:25:39<4:13:13, 20.31s/it]Epoch 252, Total Loss: 0.39620290837197936, test Loss 0.36385222896933556
+Training:  25%|██▌       | 253/1000 [1:25:59<4:12:23, 20.27s/it]Epoch 253, Total Loss: 0.4485625706191333, test Loss 0.3250122360455302
+Training:  25%|██▌       | 254/1000 [1:26:20<4:12:23, 20.30s/it]Epoch 254, Total Loss: 0.44696357614308035, test Loss 0.2949578157411172
+Training:  26%|██▌       | 255/1000 [1:26:40<4:11:55, 20.29s/it]Epoch 255, Total Loss: 0.48521987805670164, test Loss 0.2653499198361085
+Training:  26%|██▌       | 256/1000 [1:27:00<4:11:19, 20.27s/it]Epoch 256, Total Loss: 0.4510182749550298, test Loss 0.36624328935375583
+Training:  26%|██▌       | 257/1000 [1:27:20<4:11:15, 20.29s/it]Epoch 257, Total Loss: 0.6153347150615927, test Loss 0.5435389303244077
+Training:  26%|██▌       | 258/1000 [1:27:41<4:10:55, 20.29s/it]Epoch 258, Total Loss: 1.0077868354208064, test Loss 0.3583584972299062
+Training:  26%|██▌       | 259/1000 [1:28:01<4:10:13, 20.26s/it]Epoch 259, Total Loss: 0.5111198226376524, test Loss 0.3575005277704734
+Training:  26%|██▌       | 260/1000 [1:28:21<4:10:00, 20.27s/it]Epoch 260, Total Loss: 0.4489841265779621, test Loss 0.4781210958384551
+Training:  26%|██▌       | 261/1000 [1:28:42<4:10:13, 20.32s/it]Epoch 261, Total Loss: 0.7298047971331848, test Loss 0.29589200549973893
+Training:  26%|██▌       | 262/1000 [1:29:02<4:09:28, 20.28s/it]Epoch 262, Total Loss: 0.5178916024852473, test Loss 0.5676602279910674
+Training:  26%|██▋       | 263/1000 [1:29:22<4:09:00, 20.27s/it]Epoch 263, Total Loss: 0.6436594864529259, test Loss 0.5891045095542302
+Training:  26%|██▋       | 264/1000 [1:29:42<4:09:04, 20.30s/it]Epoch 264, Total Loss: 0.4148033891084059, test Loss 0.24525828867291027
+Training:  26%|██▋       | 265/1000 [1:30:03<4:08:42, 20.30s/it]Epoch 265, Total Loss: 0.4533536024391651, test Loss 0.23672645370690867
+Training:  27%|██▋       | 266/1000 [1:30:23<4:07:58, 20.27s/it]Epoch 266, Total Loss: 0.513117171191382, test Loss 0.1543229905028756
+Training:  27%|██▋       | 267/1000 [1:30:43<4:07:51, 20.29s/it]Epoch 267, Total Loss: 0.27466043274638785, test Loss 0.31084579745164287
+Training:  27%|██▋       | 268/1000 [1:31:04<4:07:38, 20.30s/it]Epoch 268, Total Loss: 0.36163484691730086, test Loss 0.7110243327915668
+Training:  27%|██▋       | 269/1000 [1:31:24<4:06:52, 20.26s/it]Epoch 269, Total Loss: 0.3933881017256458, test Loss 0.2335762786320769
+Training:  27%|██▋       | 270/1000 [1:31:44<4:06:39, 20.27s/it]Epoch 270, Total Loss: 0.3813348986770747, test Loss 0.30831388742304766
+Training:  27%|██▋       | 271/1000 [1:32:04<4:06:48, 20.31s/it]Epoch 271, Total Loss: 0.37066798066755513, test Loss 0.27910777296011263
+Training:  27%|██▋       | 272/1000 [1:32:25<4:06:02, 20.28s/it]Epoch 272, Total Loss: 0.4092701921626082, test Loss 0.2795872473372863
+Training:  27%|██▋       | 273/1000 [1:32:45<4:05:28, 20.26s/it]Epoch 273, Total Loss: 0.2924103790999584, test Loss 0.4098257330747751
+Training:  27%|██▋       | 274/1000 [1:33:05<4:05:36, 20.30s/it]Epoch 274, Total Loss: 0.30759801996766395, test Loss 0.13333588308439806
+Training:  28%|██▊       | 275/1000 [1:33:26<4:05:10, 20.29s/it]Epoch 275, Total Loss: 0.47491760903371955, test Loss 0.43767585727171254
+Training:  28%|██▊       | 276/1000 [1:33:46<4:04:29, 20.26s/it]Epoch 276, Total Loss: 0.45582280631335276, test Loss 0.23405220144643232
+Training:  28%|██▊       | 277/1000 [1:34:06<4:04:23, 20.28s/it]Epoch 277, Total Loss: 0.6324180739949334, test Loss 0.2951603928724161
+Training:  28%|██▊       | 278/1000 [1:34:26<4:04:23, 20.31s/it]Epoch 278, Total Loss: 0.3227919048084965, test Loss 0.13943876238324895
+Training:  28%|██▊       | 279/1000 [1:34:47<4:03:48, 20.29s/it]Epoch 279, Total Loss: 0.36473380809403816, test Loss 0.34190918705784357
+Training:  28%|██▊       | 280/1000 [1:35:07<4:03:26, 20.29s/it]Epoch 280, Total Loss: 0.7073856977359304, test Loss 0.36589341567685973
+Training:  28%|██▊       | 281/1000 [1:35:27<4:03:23, 20.31s/it]Epoch 281, Total Loss: 0.33481289741565595, test Loss 0.2261746428333796
+Training:  28%|██▊       | 282/1000 [1:35:48<4:02:44, 20.28s/it]Epoch 282, Total Loss: 0.22629485100086005, test Loss 0.2124200239777565
+Training:  28%|██▊       | 283/1000 [1:36:08<4:02:09, 20.26s/it]Epoch 283, Total Loss: 0.5034376134006482, test Loss 0.2075009956382788
+Training:  28%|██▊       | 284/1000 [1:36:28<4:02:05, 20.29s/it]Epoch 284, Total Loss: 0.7193104671841523, test Loss 0.20499388235979354
+Training:  28%|██▊       | 285/1000 [1:36:48<4:02:05, 20.32s/it]Epoch 285, Total Loss: 0.34110191699890596, test Loss 0.1818033057766465
+Training:  29%|██▊       | 286/1000 [1:37:09<4:01:19, 20.28s/it]Epoch 286, Total Loss: 0.29218995184549745, test Loss 0.23043614747719124
+Training:  29%|██▊       | 287/1000 [1:37:29<4:01:04, 20.29s/it]Epoch 287, Total Loss: 0.27670482391456386, test Loss 0.1586640769472489
+Training:  29%|██▉       | 288/1000 [1:37:49<4:01:04, 20.32s/it]Epoch 288, Total Loss: 0.38740748820720977, test Loss 0.3654334277201157
+Training:  29%|██▉       | 289/1000 [1:38:10<4:00:31, 20.30s/it]Epoch 289, Total Loss: 0.39509320132574943, test Loss 0.37616306428725904
+Training:  29%|██▉       | 290/1000 [1:38:30<3:59:51, 20.27s/it]Epoch 290, Total Loss: 0.26669782878093, test Loss 0.3112536728955232
+Training:  29%|██▉       | 291/1000 [1:38:50<3:59:59, 20.31s/it]Epoch 291, Total Loss: 0.29519379884004593, test Loss 0.21661094633432534
+Training:  29%|██▉       | 292/1000 [1:39:11<3:59:38, 20.31s/it]Epoch 292, Total Loss: 0.24830836827321998, test Loss 0.230826846180627
+Training:  29%|██▉       | 293/1000 [1:39:31<3:58:57, 20.28s/it]Epoch 293, Total Loss: 0.31822935983819783, test Loss 0.095615288708359
+Training:  29%|██▉       | 294/1000 [1:39:51<3:59:05, 20.32s/it]Epoch 294, Total Loss: 0.3881138622549907, test Loss 1.086355111346795
+Training:  30%|██▉       | 295/1000 [1:40:11<3:58:51, 20.33s/it]Epoch 295, Total Loss: 0.4257481961317782, test Loss 0.42213970766617703
+Training:  30%|██▉       | 296/1000 [1:40:32<3:58:03, 20.29s/it]Epoch 296, Total Loss: 0.35876625389704164, test Loss 0.26080392652119583
+Training:  30%|██▉       | 297/1000 [1:40:52<3:57:31, 20.27s/it]Epoch 297, Total Loss: 0.43062647983853547, test Loss 0.7751099432890232
+Training:  30%|██▉       | 298/1000 [1:41:12<3:57:33, 20.30s/it]Epoch 298, Total Loss: 0.4836277083476197, test Loss 0.28910012643497723
+Training:  30%|██▉       | 299/1000 [1:41:33<3:56:58, 20.28s/it]Epoch 299, Total Loss: 0.39225699141059284, test Loss 0.2720792836581285
+Training:  30%|███       | 300/1000 [1:41:53<3:56:22, 20.26s/it]Epoch 300, Total Loss: 0.5146687290156787, test Loss 0.40876303871090597
+Training:  30%|███       | 301/1000 [1:42:13<3:56:17, 20.28s/it]Epoch 301, Total Loss: 0.30332546688194545, test Loss 0.16848531587479207
+Training:  30%|███       | 302/1000 [1:42:33<3:56:12, 20.30s/it]Epoch 302, Total Loss: 0.38007958050606383, test Loss 0.2409064107789443
+Training:  30%|███       | 303/1000 [1:42:54<3:55:32, 20.28s/it]Epoch 303, Total Loss: 0.44644092234238136, test Loss 0.3113083829386876
+Training:  30%|███       | 304/1000 [1:43:14<3:55:12, 20.28s/it]Epoch 304, Total Loss: 0.36610602503115275, test Loss 0.14728966828149098
+Training:  30%|███       | 305/1000 [1:43:34<3:55:10, 20.30s/it]Epoch 305, Total Loss: 0.31745205974241475, test Loss 0.3108218503542818
+Training:  31%|███       | 306/1000 [1:43:55<3:54:50, 20.30s/it]Epoch 306, Total Loss: 0.3053320017906855, test Loss 0.4085480719088362
+Training:  31%|███       | 307/1000 [1:44:15<3:54:10, 20.28s/it]Epoch 307, Total Loss: 0.533442340439783, test Loss 0.32849544967309785
+Training:  31%|███       | 308/1000 [1:44:35<3:54:08, 20.30s/it]Epoch 308, Total Loss: 0.3784383359312449, test Loss 0.2684856031376582
+Training:  31%|███       | 309/1000 [1:44:55<3:53:46, 20.30s/it]Epoch 309, Total Loss: 0.2928984582353875, test Loss 0.21942189937600723
+Training:  31%|███       | 310/1000 [1:45:16<3:53:06, 20.27s/it]Epoch 310, Total Loss: 0.5733475110862615, test Loss 0.11561979432232104
+Training:  31%|███       | 311/1000 [1:45:36<3:52:48, 20.27s/it]Epoch 311, Total Loss: 0.2821437488749342, test Loss 0.1604062203461161
+Training:  31%|███       | 312/1000 [1:45:56<3:52:47, 20.30s/it]Epoch 312, Total Loss: 0.29356717226921386, test Loss 0.3719450687416471
+Training:  31%|███▏      | 313/1000 [1:46:17<3:52:24, 20.30s/it]Epoch 313, Total Loss: 0.532260997537172, test Loss 0.5391904581338167
+Training:  31%|███▏      | 314/1000 [1:46:37<3:51:51, 20.28s/it]Epoch 314, Total Loss: 0.4401822957157526, test Loss 0.1268949184495096
+Training:  32%|███▏      | 315/1000 [1:46:57<3:51:38, 20.29s/it]Epoch 315, Total Loss: 0.5206933191292128, test Loss 0.20983939632200277
+Training:  32%|███▏      | 316/1000 [1:47:17<3:51:18, 20.29s/it]Epoch 316, Total Loss: 0.25975103679833544, test Loss 0.19620229862630367
+Training:  32%|███▏      | 317/1000 [1:47:38<3:50:41, 20.27s/it]Epoch 317, Total Loss: 0.25492256331556246, test Loss 0.25149405289154786
+Training:  32%|███▏      | 318/1000 [1:47:58<3:50:27, 20.27s/it]Epoch 318, Total Loss: 0.3132312629582747, test Loss 0.16938233117644602
+Training:  32%|███▏      | 319/1000 [1:48:18<3:50:24, 20.30s/it]Epoch 319, Total Loss: 0.40424019224801155, test Loss 0.26865295578653997
+Training:  32%|███▏      | 320/1000 [1:48:39<3:49:48, 20.28s/it]Epoch 320, Total Loss: 0.3339388594031334, test Loss 0.17560387080392012
+Training:  32%|███▏      | 321/1000 [1:48:59<3:49:16, 20.26s/it]Epoch 321, Total Loss: 0.21505725840633771, test Loss 0.12066941224755003
+Training:  32%|███▏      | 322/1000 [1:49:19<3:49:19, 20.29s/it]Epoch 322, Total Loss: 0.3475062462659377, test Loss 0.4710920567695911
+Training:  32%|███▏      | 323/1000 [1:49:39<3:48:42, 20.27s/it]Epoch 323, Total Loss: 0.44686912913929744, test Loss 0.13673733776578537
+Training:  32%|███▏      | 324/1000 [1:50:00<3:48:06, 20.25s/it]Epoch 324, Total Loss: 0.6243959098773183, test Loss 0.6006087892903731
+Training:  32%|███▎      | 325/1000 [1:50:20<3:47:59, 20.27s/it]Epoch 325, Total Loss: 0.31812614705062137, test Loss 0.4382401500255443
+Training:  33%|███▎      | 326/1000 [1:50:40<3:47:56, 20.29s/it]Epoch 326, Total Loss: 0.30623987352229515, test Loss 0.15835802661828124
+Training:  33%|███▎      | 327/1000 [1:51:00<3:47:10, 20.25s/it]Epoch 327, Total Loss: 0.3028087057876137, test Loss 0.21085682647446027
+Training:  33%|███▎      | 328/1000 [1:51:21<3:46:53, 20.26s/it]Epoch 328, Total Loss: 0.2733634720855164, test Loss 0.13599570507470232
+Training:  33%|███▎      | 329/1000 [1:51:41<3:47:02, 20.30s/it]Epoch 329, Total Loss: 0.43187531614500396, test Loss 0.18388128423920044
+Training:  33%|███▎      | 330/1000 [1:52:01<3:46:26, 20.28s/it]Epoch 330, Total Loss: 0.30598742314526495, test Loss 0.4219603863043281
+Training:  33%|███▎      | 331/1000 [1:52:21<3:45:47, 20.25s/it]Epoch 331, Total Loss: 0.6266856552013811, test Loss 0.36162284740175193
+Training:  33%|███▎      | 332/1000 [1:52:42<3:45:50, 20.29s/it]Epoch 332, Total Loss: 0.4826370355374408, test Loss 0.18091449779100144
+Training:  33%|███▎      | 333/1000 [1:53:02<3:45:21, 20.27s/it]Epoch 333, Total Loss: 0.2634143064606865, test Loss 0.09958058622522423
+Training:  33%|███▎      | 334/1000 [1:53:22<3:44:42, 20.24s/it]Epoch 334, Total Loss: 0.26249534204461666, test Loss 0.14946702910730472
+Training:  34%|███▎      | 335/1000 [1:53:42<3:44:27, 20.25s/it]Epoch 335, Total Loss: 0.2715208586656822, test Loss 0.15512647981253955
+Training:  34%|███▎      | 336/1000 [1:54:03<3:44:30, 20.29s/it]Epoch 336, Total Loss: 0.22461795975577156, test Loss 0.2626219786560306
+Training:  34%|███▎      | 337/1000 [1:54:23<3:43:48, 20.25s/it]Epoch 337, Total Loss: 0.2622207744785075, test Loss 0.2113652849713197
+Training:  34%|███▍      | 338/1000 [1:54:43<3:43:29, 20.26s/it]Epoch 338, Total Loss: 0.3776043916718577, test Loss 0.2907315300634274
+Training:  34%|███▍      | 339/1000 [1:55:04<3:43:27, 20.28s/it]Epoch 339, Total Loss: 0.37435321780448816, test Loss 0.10460221559668963
+Training:  34%|███▍      | 340/1000 [1:55:24<3:43:04, 20.28s/it]Epoch 340, Total Loss: 0.2030522055959083, test Loss 0.10565489487579235
+Training:  34%|███▍      | 341/1000 [1:55:44<3:42:26, 20.25s/it]Epoch 341, Total Loss: 0.20387007608869165, test Loss 0.2566810669377446
+Training:  34%|███▍      | 342/1000 [1:56:04<3:42:13, 20.26s/it]Epoch 342, Total Loss: 0.20519577142483783, test Loss 0.2331490177088059
+Training:  34%|███▍      | 343/1000 [1:56:25<3:41:59, 20.27s/it]Epoch 343, Total Loss: 0.3308580583137161, test Loss 0.3023755196481943
+Training:  34%|███▍      | 344/1000 [1:56:45<3:41:23, 20.25s/it]Epoch 344, Total Loss: 0.2722528918452983, test Loss 0.17448422900186136
+Training:  34%|███▍      | 345/1000 [1:57:05<3:41:02, 20.25s/it]Epoch 345, Total Loss: 0.4875537545051215, test Loss 0.16477453937897316
+Training:  35%|███▍      | 346/1000 [1:57:25<3:41:08, 20.29s/it]Epoch 346, Total Loss: 0.2408964960431715, test Loss 0.20550532137545255
+Training:  35%|███▍      | 347/1000 [1:57:46<3:40:33, 20.27s/it]Epoch 347, Total Loss: 0.3570088498505219, test Loss 0.3972421380906151
+Training:  35%|███▍      | 348/1000 [1:58:06<3:40:02, 20.25s/it]Epoch 348, Total Loss: 0.3750778631359901, test Loss 0.27547527992954624
+Training:  35%|███▍      | 349/1000 [1:58:26<3:39:52, 20.26s/it]Epoch 349, Total Loss: 0.3612589273812636, test Loss 0.13689629991467184
+Training:  35%|███▌      | 350/1000 [1:58:47<3:39:42, 20.28s/it]Epoch 350, Total Loss: 0.3014471135892958, test Loss 0.11535173267699204
+Training:  35%|███▌      | 351/1000 [1:59:07<3:39:03, 20.25s/it]Epoch 351, Total Loss: 0.17487708131237975, test Loss 0.09146695134516519
+Training:  35%|███▌      | 352/1000 [1:59:27<3:38:54, 20.27s/it]Epoch 352, Total Loss: 0.18878006594220423, test Loss 0.09352462409207454
+Training:  35%|███▌      | 353/1000 [1:59:47<3:38:58, 20.31s/it]Epoch 353, Total Loss: 0.2103778868562208, test Loss 0.10545513005210803
+Training:  35%|███▌      | 354/1000 [2:00:08<3:38:24, 20.29s/it]Epoch 354, Total Loss: 0.40160556647153395, test Loss 0.2143773976713419
+Training:  36%|███▌      | 355/1000 [2:00:28<3:37:36, 20.24s/it]Epoch 355, Total Loss: 0.32301984650065313, test Loss 0.4020711644194447
+Training:  36%|███▌      | 356/1000 [2:00:48<3:37:31, 20.27s/it]Epoch 356, Total Loss: 0.2527266570349347, test Loss 0.16457031240973335
+Training:  36%|███▌      | 357/1000 [2:01:08<3:37:16, 20.27s/it]Epoch 357, Total Loss: 0.29392368750611564, test Loss 0.26627311826898503
+Training:  36%|███▌      | 358/1000 [2:01:29<3:36:22, 20.22s/it]Epoch 358, Total Loss: 0.2933638806120967, test Loss 0.1867528033371155
+Training:  36%|███▌      | 359/1000 [2:01:49<3:36:10, 20.23s/it]Epoch 359, Total Loss: 0.2163561547069617, test Loss 0.2388087475242523
+Training:  36%|███▌      | 360/1000 [2:02:09<3:35:48, 20.23s/it]Epoch 360, Total Loss: 0.20435592779924847, test Loss 0.18422405339347628
+Training:  36%|███▌      | 361/1000 [2:02:29<3:35:20, 20.22s/it]Epoch 361, Total Loss: 0.15042923338148953, test Loss 0.3592111381630485
+Training:  36%|███▌      | 362/1000 [2:02:49<3:35:02, 20.22s/it]Epoch 362, Total Loss: 0.2787801498933783, test Loss 0.4992093495093286
+Training:  36%|███▋      | 363/1000 [2:03:10<3:35:03, 20.26s/it]Epoch 363, Total Loss: 0.36887083677047827, test Loss 0.23590857764849296
+Training:  36%|███▋      | 364/1000 [2:03:30<3:34:40, 20.25s/it]Epoch 364, Total Loss: 0.22305996462983904, test Loss 0.4337032513263134
+Training:  36%|███▋      | 365/1000 [2:03:50<3:34:00, 20.22s/it]Epoch 365, Total Loss: 0.22045372570601274, test Loss 0.13109234519875967
+Training:  37%|███▋      | 366/1000 [2:04:10<3:33:54, 20.24s/it]Epoch 366, Total Loss: 0.6584271120153508, test Loss 0.4554525838735012
+Training:  37%|███▋      | 367/1000 [2:04:31<3:33:38, 20.25s/it]Epoch 367, Total Loss: 0.2887245112292047, test Loss 0.16549453518998164
+Training:  37%|███▋      | 368/1000 [2:04:51<3:33:06, 20.23s/it]Epoch 368, Total Loss: 0.10577034482837848, test Loss 0.17519614315376833
+Training:  37%|███▋      | 369/1000 [2:05:11<3:32:36, 20.22s/it]Epoch 369, Total Loss: 0.4424798275994242, test Loss 0.24466283676715997
+Training:  37%|███▋      | 370/1000 [2:05:31<3:32:41, 20.26s/it]Epoch 370, Total Loss: 0.38772656635012265, test Loss 0.39795424402333224
+Training:  37%|███▋      | 371/1000 [2:05:52<3:32:15, 20.25s/it]Epoch 371, Total Loss: 0.31876390518726044, test Loss 0.09188923907752794
+Training:  37%|███▋      | 372/1000 [2:06:12<3:31:42, 20.23s/it]Epoch 372, Total Loss: 0.18653337822629595, test Loss 0.22045602617212212
+Training:  37%|███▋      | 373/1000 [2:06:32<3:31:52, 20.27s/it]Epoch 373, Total Loss: 0.1919032790399385, test Loss 0.3865773010139282
+Training:  37%|███▋      | 374/1000 [2:06:52<3:31:17, 20.25s/it]Epoch 374, Total Loss: 0.2378722400808672, test Loss 0.0897337428580683
+Training:  38%|███▊      | 375/1000 [2:07:13<3:30:57, 20.25s/it]Epoch 375, Total Loss: 0.20592657420432792, test Loss 0.14901147066400602
+Training:  38%|███▊      | 376/1000 [2:07:33<3:30:22, 20.23s/it]Epoch 376, Total Loss: 0.4294573068267332, test Loss 0.40539803678313124
+Training:  38%|███▊      | 377/1000 [2:07:53<3:30:22, 20.26s/it]Epoch 377, Total Loss: 0.3408338484477322, test Loss 0.15416402283769387
+Training:  38%|███▊      | 378/1000 [2:08:13<3:29:36, 20.22s/it]Epoch 378, Total Loss: 0.20085431420999877, test Loss 0.08099563498623095
+Training:  38%|███▊      | 379/1000 [2:08:34<3:29:20, 20.23s/it]Epoch 379, Total Loss: 0.23963597884296245, test Loss 0.16826617499240315
+Training:  38%|███▊      | 380/1000 [2:08:54<3:29:15, 20.25s/it]Epoch 380, Total Loss: 0.19208450638249797, test Loss 0.16386788786174014
+Training:  38%|███▊      | 381/1000 [2:09:14<3:28:52, 20.25s/it]Epoch 381, Total Loss: 0.19615291118762404, test Loss 0.10593035521630484
+Training:  38%|███▊      | 382/1000 [2:09:34<3:28:25, 20.24s/it]Epoch 382, Total Loss: 0.3230311354657389, test Loss 0.1320779946847604
+Training:  38%|███▊      | 383/1000 [2:09:55<3:28:12, 20.25s/it]Epoch 383, Total Loss: 0.14706489225884653, test Loss 0.0737383972423581
+Training:  38%|███▊      | 384/1000 [2:10:15<3:28:05, 20.27s/it]Epoch 384, Total Loss: 0.21725771848534076, test Loss 0.23312618540456662
+Training:  38%|███▊      | 385/1000 [2:10:35<3:27:13, 20.22s/it]Epoch 385, Total Loss: 0.1578842255655887, test Loss 0.10579047527594063
+Training:  39%|███▊      | 386/1000 [2:10:55<3:26:59, 20.23s/it]Epoch 386, Total Loss: 0.15608179822282972, test Loss 0.16957001474041206
+Training:  39%|███▊      | 387/1000 [2:11:16<3:27:00, 20.26s/it]Epoch 387, Total Loss: 0.22082908599163, test Loss 0.18502800718236428
+Training:  39%|███▉      | 388/1000 [2:11:36<3:26:31, 20.25s/it]Epoch 388, Total Loss: 0.2487699817866087, test Loss 0.2252470417521321
+Training:  39%|███▉      | 389/1000 [2:11:56<3:26:09, 20.25s/it]Epoch 389, Total Loss: 0.23565969226073544, test Loss 0.1434334568822613
+Training:  39%|███▉      | 390/1000 [2:12:16<3:26:03, 20.27s/it]Epoch 390, Total Loss: 0.24974022594825276, test Loss 0.12010076817554924
+Training:  39%|███▉      | 391/1000 [2:12:37<3:25:44, 20.27s/it]Epoch 391, Total Loss: 0.1474943348681027, test Loss 0.14092969410837844
+Training:  39%|███▉      | 392/1000 [2:12:57<3:24:55, 20.22s/it]Epoch 392, Total Loss: 0.18654518511216595, test Loss 0.1345842400780664
+Training:  39%|███▉      | 393/1000 [2:13:17<3:24:46, 20.24s/it]Epoch 393, Total Loss: 0.15367388582946556, test Loss 0.09524639746030936
+Training:  39%|███▉      | 394/1000 [2:13:37<3:24:47, 20.28s/it]Epoch 394, Total Loss: 0.16358790523811895, test Loss 0.16349064752172965
+Training:  40%|███▉      | 395/1000 [2:13:58<3:24:03, 20.24s/it]Epoch 395, Total Loss: 0.13966175720517365, test Loss 0.09783456259622024
+Training:  40%|███▉      | 396/1000 [2:14:18<3:23:39, 20.23s/it]Epoch 396, Total Loss: 0.19570657241878645, test Loss 0.20725963848571366
+Training:  40%|███▉      | 397/1000 [2:14:38<3:23:40, 20.27s/it]Epoch 397, Total Loss: 0.34409758223677583, test Loss 0.1546817049384117
+Training:  40%|███▉      | 398/1000 [2:14:58<3:23:14, 20.26s/it]Epoch 398, Total Loss: 0.18117075747335856, test Loss 0.17316875459912878
+Training:  40%|███▉      | 399/1000 [2:15:19<3:22:37, 20.23s/it]Epoch 399, Total Loss: 0.24061118741080445, test Loss 0.16780140813296804
+Training:  40%|████      | 400/1000 [2:15:39<3:22:40, 20.27s/it]Epoch 400, Total Loss: 0.1639876684771394, test Loss 0.07647983120897642
+Training:  40%|████      | 401/1000 [2:15:59<3:22:09, 20.25s/it]Epoch 401, Total Loss: 0.20836230964874322, test Loss 0.23156350378233653
+Training:  40%|████      | 402/1000 [2:16:19<3:21:32, 20.22s/it]Epoch 402, Total Loss: 0.2194376416363806, test Loss 0.10954897793439719
+Training:  40%|████      | 403/1000 [2:16:39<3:21:13, 20.22s/it]Epoch 403, Total Loss: 0.14489658043350814, test Loss 0.09354052692651749
+Training:  40%|████      | 404/1000 [2:17:00<3:21:11, 20.25s/it]Epoch 404, Total Loss: 0.13532515421931474, test Loss 0.5160793077487212
+Training:  40%|████      | 405/1000 [2:17:20<3:20:38, 20.23s/it]Epoch 405, Total Loss: 0.20240193647596072, test Loss 0.2954858517847382
+Training:  41%|████      | 406/1000 [2:17:40<3:20:08, 20.22s/it]Epoch 406, Total Loss: 0.19061614734665402, test Loss 0.15386232182096976
+Training:  41%|████      | 407/1000 [2:18:00<3:20:08, 20.25s/it]Epoch 407, Total Loss: 0.18195574980158852, test Loss 0.1858676025787225
+Training:  41%|████      | 408/1000 [2:18:21<3:19:56, 20.26s/it]Epoch 408, Total Loss: 0.23829258978366852, test Loss 0.10154908351027049
+Training:  41%|████      | 409/1000 [2:18:41<3:19:14, 20.23s/it]Epoch 409, Total Loss: 0.1208603141196775, test Loss 0.19562813732773066
+Training:  41%|████      | 410/1000 [2:19:01<3:19:24, 20.28s/it]Epoch 410, Total Loss: 0.280307984717612, test Loss 0.1608361845406202
+Training:  41%|████      | 411/1000 [2:19:22<3:18:53, 20.26s/it]Epoch 411, Total Loss: 0.15890752244740725, test Loss 0.21088521949087197
+Training:  41%|████      | 412/1000 [2:19:42<3:18:17, 20.23s/it]Epoch 412, Total Loss: 0.2554214481826661, test Loss 0.16512968949973583
+Training:  41%|████▏     | 413/1000 [2:20:02<3:17:46, 20.22s/it]Epoch 413, Total Loss: 0.16611537820536573, test Loss 0.13556988121798405
+Training:  41%|████▏     | 414/1000 [2:20:22<3:17:46, 20.25s/it]Epoch 414, Total Loss: 0.14260665923005567, test Loss 0.08892806780596192
+Training:  42%|████▏     | 415/1000 [2:20:42<3:17:19, 20.24s/it]Epoch 415, Total Loss: 0.15190652051483686, test Loss 0.22308258167826212
+Training:  42%|████▏     | 416/1000 [2:21:03<3:16:47, 20.22s/it]Epoch 416, Total Loss: 0.12390494887840073, test Loss 0.06790655869274186
+Training:  42%|████▏     | 417/1000 [2:21:23<3:16:49, 20.26s/it]Epoch 417, Total Loss: 0.15212050758583365, test Loss 0.1109575246496556
+Training:  42%|████▏     | 418/1000 [2:21:43<3:16:21, 20.24s/it]Epoch 418, Total Loss: 0.14365087301944787, test Loss 0.2078337361319707
+Training:  42%|████▏     | 419/1000 [2:22:03<3:15:43, 20.21s/it]Epoch 419, Total Loss: 0.18140908270933717, test Loss 0.15892774228436443
+Training:  42%|████▏     | 420/1000 [2:22:24<3:15:33, 20.23s/it]Epoch 420, Total Loss: 0.17743393910591895, test Loss 0.12144323452734031
+Training:  42%|████▏     | 421/1000 [2:22:44<3:15:31, 20.26s/it]Epoch 421, Total Loss: 0.1445245184882913, test Loss 0.22721470376619926
+Training:  42%|████▏     | 422/1000 [2:23:04<3:14:47, 20.22s/it]Epoch 422, Total Loss: 0.23328754952493705, test Loss 0.3155616763083694
+Training:  42%|████▏     | 423/1000 [2:23:24<3:14:26, 20.22s/it]Epoch 423, Total Loss: 0.299508393865149, test Loss 0.14657062793580386
+Training:  42%|████▏     | 424/1000 [2:23:45<3:14:23, 20.25s/it]Epoch 424, Total Loss: 0.1571560652469689, test Loss 0.06403798756834406
+Training:  42%|████▎     | 425/1000 [2:24:05<3:14:05, 20.25s/it]Epoch 425, Total Loss: 0.07980058064578839, test Loss 0.1057168640053043
+Training:  43%|████▎     | 426/1000 [2:24:25<3:13:22, 20.21s/it]Epoch 426, Total Loss: 0.1313682709873285, test Loss 0.11157333768474367
+Training:  43%|████▎     | 427/1000 [2:24:45<3:13:18, 20.24s/it]Epoch 427, Total Loss: 0.18167253597727362, test Loss 0.14838570112792346
+Training:  43%|████▎     | 428/1000 [2:25:06<3:13:23, 20.29s/it]Epoch 428, Total Loss: 0.1554527176227772, test Loss 0.07969380352789393
+Training:  43%|████▎     | 429/1000 [2:25:26<3:12:30, 20.23s/it]Epoch 429, Total Loss: 0.14309700720785362, test Loss 0.1363410736219241
+Training:  43%|████▎     | 430/1000 [2:25:46<3:12:09, 20.23s/it]Epoch 430, Total Loss: 0.2087827891392528, test Loss 0.23419702106800216
+Training:  43%|████▎     | 431/1000 [2:26:06<3:12:04, 20.25s/it]Epoch 431, Total Loss: 0.18855956049179132, test Loss 0.1764034183982473
+Training:  43%|████▎     | 432/1000 [2:26:26<3:11:32, 20.23s/it]Epoch 432, Total Loss: 0.1615469422859122, test Loss 0.1761551877627006
+Training:  43%|████▎     | 433/1000 [2:26:47<3:11:05, 20.22s/it]Epoch 433, Total Loss: 0.1486516933589471, test Loss 0.0645713373982849
+Training:  43%|████▎     | 434/1000 [2:27:07<3:10:56, 20.24s/it]Epoch 434, Total Loss: 0.15729678286907245, test Loss 0.11226364651408333
+Training:  44%|████▎     | 435/1000 [2:27:27<3:10:42, 20.25s/it]Epoch 435, Total Loss: 0.14991430646546608, test Loss 0.15458357362793043
+Training:  44%|████▎     | 436/1000 [2:27:47<3:10:01, 20.22s/it]Epoch 436, Total Loss: 0.2452874405766433, test Loss 0.1943308484668915
+Training:  44%|████▎     | 437/1000 [2:28:08<3:09:50, 20.23s/it]Epoch 437, Total Loss: 0.1605504178705643, test Loss 0.10847879498480605
+Training:  44%|████▍     | 438/1000 [2:28:28<3:09:42, 20.25s/it]Epoch 438, Total Loss: 0.14083924576780707, test Loss 0.20204180421737525
+Training:  44%|████▍     | 439/1000 [2:28:48<3:09:09, 20.23s/it]Epoch 439, Total Loss: 0.2148737355644973, test Loss 0.0924954883969174
+Training:  44%|████▍     | 440/1000 [2:29:08<3:08:44, 20.22s/it]Epoch 440, Total Loss: 0.13628221835659923, test Loss 0.24559100781782314
+Training:  44%|████▍     | 441/1000 [2:29:29<3:08:43, 20.26s/it]Epoch 441, Total Loss: 0.19082350399837178, test Loss 0.11582773397318445
+Training:  44%|████▍     | 442/1000 [2:29:49<3:08:12, 20.24s/it]Epoch 442, Total Loss: 0.22202796053211643, test Loss 0.0709632713920795
+Training:  44%|████▍     | 443/1000 [2:30:09<3:07:42, 20.22s/it]Epoch 443, Total Loss: 0.12896164975849525, test Loss 0.11997975982152499
+Training:  44%|████▍     | 444/1000 [2:30:29<3:07:35, 20.24s/it]Epoch 444, Total Loss: 0.16332829845542052, test Loss 0.05938451525826867
+Training:  44%|████▍     | 445/1000 [2:30:50<3:07:30, 20.27s/it]Epoch 445, Total Loss: 0.092820503274506, test Loss 0.1113845004986685
+Training:  45%|████▍     | 446/1000 [2:31:10<3:06:39, 20.22s/it]Epoch 446, Total Loss: 0.22506504080627324, test Loss 0.128058382954735
+Training:  45%|████▍     | 447/1000 [2:31:30<3:06:29, 20.23s/it]Epoch 447, Total Loss: 0.18480887580311522, test Loss 0.15320752976605526
+Training:  45%|████▍     | 448/1000 [2:31:50<3:06:17, 20.25s/it]Epoch 448, Total Loss: 0.21032196754273377, test Loss 0.30646086906870973
+Training:  45%|████▍     | 449/1000 [2:32:10<3:05:46, 20.23s/it]Epoch 449, Total Loss: 0.1910868376352877, test Loss 0.0828979813780349
+Training:  45%|████▌     | 450/1000 [2:32:31<3:05:18, 20.22s/it]Epoch 450, Total Loss: 0.14598905896100234, test Loss 0.11008349669953951
+Training:  45%|████▌     | 451/1000 [2:32:51<3:05:11, 20.24s/it]Epoch 451, Total Loss: 0.15698118254823504, test Loss 0.0656789973951303
+Training:  45%|████▌     | 452/1000 [2:33:11<3:04:55, 20.25s/it]Epoch 452, Total Loss: 0.1546945224849964, test Loss 0.08643767320049497
+Training:  45%|████▌     | 453/1000 [2:33:31<3:04:18, 20.22s/it]Epoch 453, Total Loss: 0.131219812677646, test Loss 0.09745499129908589
+Training:  45%|████▌     | 454/1000 [2:33:52<3:04:02, 20.23s/it]Epoch 454, Total Loss: 0.10931089258629759, test Loss 0.1339286220474885
+Training:  46%|████▌     | 455/1000 [2:34:12<3:03:55, 20.25s/it]Epoch 455, Total Loss: 0.14615144348650608, test Loss 0.07272098328058536
+Training:  46%|████▌     | 456/1000 [2:34:32<3:03:17, 20.22s/it]Epoch 456, Total Loss: 0.12172329188588094, test Loss 0.1180042469014342
+Training:  46%|████▌     | 457/1000 [2:34:52<3:02:54, 20.21s/it]Epoch 457, Total Loss: 0.12430740717165875, test Loss 0.0810718453811625
+Training:  46%|████▌     | 458/1000 [2:35:13<3:02:55, 20.25s/it]Epoch 458, Total Loss: 0.10670181899770813, test Loss 0.05283997057435604
+Training:  46%|████▌     | 459/1000 [2:35:33<3:02:33, 20.25s/it]Epoch 459, Total Loss: 0.10910495470787557, test Loss 0.1354694673612427
+Training:  46%|████▌     | 460/1000 [2:35:53<3:01:50, 20.20s/it]Epoch 460, Total Loss: 0.15028302373259134, test Loss 0.13521907629015353
+Training:  46%|████▌     | 461/1000 [2:36:13<3:01:45, 20.23s/it]Epoch 461, Total Loss: 0.099829439917263, test Loss 0.09147897011672075
+Training:  46%|████▌     | 462/1000 [2:36:33<3:01:29, 20.24s/it]Epoch 462, Total Loss: 0.2271194453966224, test Loss 0.11690323814176597
+Training:  46%|████▋     | 463/1000 [2:36:54<3:00:52, 20.21s/it]Epoch 463, Total Loss: 0.17716255980842519, test Loss 0.10310871945694089
+Training:  46%|████▋     | 464/1000 [2:37:14<3:00:34, 20.21s/it]Epoch 464, Total Loss: 0.25464750487216803, test Loss 0.20494583901017904
+Training:  46%|████▋     | 465/1000 [2:37:34<3:00:34, 20.25s/it]Epoch 465, Total Loss: 0.1758389593681918, test Loss 0.10439985628741291
+Training:  47%|████▋     | 466/1000 [2:37:54<3:00:09, 20.24s/it]Epoch 466, Total Loss: 0.16911179602216436, test Loss 0.07055043042279206
+Training:  47%|████▋     | 467/1000 [2:38:15<2:59:50, 20.24s/it]Epoch 467, Total Loss: 0.1476198709657732, test Loss 0.12021793195834526
+Training:  47%|████▋     | 468/1000 [2:38:35<2:59:34, 20.25s/it]Epoch 468, Total Loss: 0.10869509702161798, test Loss 0.06391898005341108
+Training:  47%|████▋     | 469/1000 [2:38:55<2:59:18, 20.26s/it]Epoch 469, Total Loss: 0.15499205115901413, test Loss 0.11939367064489768
+Training:  47%|████▋     | 470/1000 [2:39:15<2:58:42, 20.23s/it]Epoch 470, Total Loss: 0.19574297381178388, test Loss 0.0809340736327263
+Training:  47%|████▋     | 471/1000 [2:39:36<2:58:20, 20.23s/it]Epoch 471, Total Loss: 0.11761952530733256, test Loss 0.08694814338993567
+Training:  47%|████▋     | 472/1000 [2:39:56<2:58:12, 20.25s/it]Epoch 472, Total Loss: 0.11288176229188465, test Loss 0.08904010791761371
+Training:  47%|████▋     | 473/1000 [2:40:16<2:57:39, 20.23s/it]Epoch 473, Total Loss: 0.14984377456020634, test Loss 0.32313395861106425
+Training:  47%|████▋     | 474/1000 [2:40:36<2:57:16, 20.22s/it]Epoch 474, Total Loss: 0.16982869983141152, test Loss 0.08903320151596116
+Training:  48%|████▊     | 475/1000 [2:40:57<2:57:13, 20.25s/it]Epoch 475, Total Loss: 0.09632313622267179, test Loss 0.07232393695113178
+Training:  48%|████▊     | 476/1000 [2:41:17<2:56:48, 20.25s/it]Epoch 476, Total Loss: 0.12748594889593012, test Loss 0.039399938917575546
+Training:  48%|████▊     | 477/1000 [2:41:37<2:56:19, 20.23s/it]Epoch 477, Total Loss: 0.08846945598510639, test Loss 0.05195011269265356
+Training:  48%|████▊     | 478/1000 [2:41:57<2:56:00, 20.23s/it]Epoch 478, Total Loss: 0.10529788859399422, test Loss 0.0823810867105539
+Training:  48%|████▊     | 479/1000 [2:42:18<2:55:45, 20.24s/it]Epoch 479, Total Loss: 0.11776205549403182, test Loss 0.0931124585465743
+Training:  48%|████▊     | 480/1000 [2:42:38<2:55:11, 20.21s/it]Epoch 480, Total Loss: 0.19241551729797754, test Loss 0.31395930209412026
+Training:  48%|████▊     | 481/1000 [2:42:58<2:54:53, 20.22s/it]Epoch 481, Total Loss: 0.224127817231248, test Loss 0.11008346678975683
+Training:  48%|████▊     | 482/1000 [2:43:18<2:54:50, 20.25s/it]Epoch 482, Total Loss: 0.09563075090354343, test Loss 0.11725671055655067
+Training:  48%|████▊     | 483/1000 [2:43:38<2:54:26, 20.24s/it]Epoch 483, Total Loss: 0.15082825323180207, test Loss 0.20552549604326487
+Training:  48%|████▊     | 484/1000 [2:43:59<2:53:54, 20.22s/it]Epoch 484, Total Loss: 0.14977093594465055, test Loss 0.05322328802699653
+Training:  48%|████▊     | 485/1000 [2:44:19<2:53:48, 20.25s/it]Epoch 485, Total Loss: 0.09884128863659669, test Loss 0.08617760040439092
+Training:  49%|████▊     | 486/1000 [2:44:39<2:53:28, 20.25s/it]Epoch 486, Total Loss: 0.08589880361731322, test Loss 0.07771979650267614
+Training:  49%|████▊     | 487/1000 [2:44:59<2:52:51, 20.22s/it]Epoch 487, Total Loss: 0.1277156220221857, test Loss 0.15036374208732292
+Training:  49%|████▉     | 488/1000 [2:45:20<2:52:32, 20.22s/it]Epoch 488, Total Loss: 0.1498779236989201, test Loss 0.09614353062799917
+Training:  49%|████▉     | 489/1000 [2:45:40<2:52:26, 20.25s/it]Epoch 489, Total Loss: 0.1179921663770417, test Loss 0.10076429222065669
+Training:  49%|████▉     | 490/1000 [2:46:00<2:51:53, 20.22s/it]Epoch 490, Total Loss: 0.14164508733336093, test Loss 0.1550668177481454
+Training:  49%|████▉     | 491/1000 [2:46:20<2:51:30, 20.22s/it]Epoch 491, Total Loss: 0.14921669206880736, test Loss 0.23591971368743822
+Training:  49%|████▉     | 492/1000 [2:46:41<2:51:32, 20.26s/it]Epoch 492, Total Loss: 0.19472388919653758, test Loss 0.06542637922729437
+Training:  49%|████▉     | 493/1000 [2:47:01<2:51:08, 20.25s/it]Epoch 493, Total Loss: 0.053790806142507856, test Loss 0.05301918479828881
+Training:  49%|████▉     | 494/1000 [2:47:21<2:50:34, 20.23s/it]Epoch 494, Total Loss: 0.09315394385243361, test Loss 0.053631707918472014
+Training:  50%|████▉     | 495/1000 [2:47:41<2:50:26, 20.25s/it]Epoch 495, Total Loss: 0.07883157726939556, test Loss 0.116384151749886
+Training:  50%|████▉     | 496/1000 [2:48:02<2:50:01, 20.24s/it]Epoch 496, Total Loss: 0.08644613071854385, test Loss 0.05888026916923431
+Training:  50%|████▉     | 497/1000 [2:48:22<2:49:28, 20.22s/it]Epoch 497, Total Loss: 0.0816717898684009, test Loss 0.05251304196337095
+Training:  50%|████▉     | 498/1000 [2:48:42<2:49:05, 20.21s/it]Epoch 498, Total Loss: 0.09919232597469159, test Loss 0.05430191848427057
+Training:  50%|████▉     | 499/1000 [2:49:02<2:49:08, 20.26s/it]Epoch 499, Total Loss: 0.22539433785977792, test Loss 0.2172051383397327
+Training:  50%|█████     | 500/1000 [2:49:22<2:48:40, 20.24s/it]Epoch 500, Total Loss: 0.1824082091872422, test Loss 0.09283409711833183
+Training:  50%|█████     | 501/1000 [2:49:43<2:48:04, 20.21s/it]Epoch 501, Total Loss: 0.15711777193366355, test Loss 0.0684932219939163
+Training:  50%|█████     | 502/1000 [2:50:03<2:47:56, 20.23s/it]Epoch 502, Total Loss: 0.10234516651703501, test Loss 0.0822221007413016
+Training:  50%|█████     | 503/1000 [2:50:23<2:47:39, 20.24s/it]Epoch 503, Total Loss: 0.13754889493773007, test Loss 0.06651994557334827
+Training:  50%|█████     | 504/1000 [2:50:43<2:47:06, 20.21s/it]Epoch 504, Total Loss: 0.06771146047438653, test Loss 0.09496412877566539
+Training:  50%|█████     | 505/1000 [2:51:04<2:46:48, 20.22s/it]Epoch 505, Total Loss: 0.1235801788609264, test Loss 0.101360998617915
+Training:  51%|█████     | 506/1000 [2:51:24<2:46:46, 20.26s/it]Epoch 506, Total Loss: 0.0751347954578276, test Loss 0.06516943434969737
+Training:  51%|█████     | 507/1000 [2:51:44<2:46:16, 20.24s/it]Epoch 507, Total Loss: 0.08085695031222026, test Loss 0.1805043859550586
+Training:  51%|█████     | 508/1000 [2:52:04<2:45:47, 20.22s/it]Epoch 508, Total Loss: 0.16614495404064655, test Loss 0.21609309231504226
+Training:  51%|█████     | 509/1000 [2:52:25<2:45:45, 20.25s/it]Epoch 509, Total Loss: 0.12563388263982422, test Loss 0.11169617522794467
+Training:  51%|█████     | 510/1000 [2:52:45<2:45:25, 20.26s/it]Epoch 510, Total Loss: 0.05876119654485077, test Loss 0.10322409280790733
+Training:  51%|█████     | 511/1000 [2:53:05<2:44:44, 20.21s/it]Epoch 511, Total Loss: 0.13246679177753767, test Loss 0.1375287273325599
+Training:  51%|█████     | 512/1000 [2:53:25<2:44:34, 20.23s/it]Epoch 512, Total Loss: 0.09712142152887471, test Loss 0.07977161431111969
+Training:  51%|█████▏    | 513/1000 [2:53:45<2:44:15, 20.24s/it]Epoch 513, Total Loss: 0.12635387459172392, test Loss 0.05104788358753117
+Training:  51%|█████▏    | 514/1000 [2:54:06<2:43:43, 20.21s/it]Epoch 514, Total Loss: 0.11373739376804738, test Loss 0.14083890724354065
+Training:  52%|█████▏    | 515/1000 [2:54:26<2:43:22, 20.21s/it]Epoch 515, Total Loss: 0.12214535130363591, test Loss 0.054661314182270035
+Training:  52%|█████▏    | 516/1000 [2:54:46<2:43:23, 20.26s/it]Epoch 516, Total Loss: 0.09042074626206227, test Loss 0.03908144245640589
+Training:  52%|█████▏    | 517/1000 [2:55:06<2:43:09, 20.27s/it]Epoch 517, Total Loss: 0.0973327848357412, test Loss 0.037217603924755864
+Training:  52%|█████▏    | 518/1000 [2:55:27<2:42:32, 20.23s/it]Epoch 518, Total Loss: 0.0822594411284575, test Loss 0.06869778954065762
+Training:  52%|█████▏    | 519/1000 [2:55:47<2:42:10, 20.23s/it]Epoch 519, Total Loss: 0.06514961022075336, test Loss 0.033879503106268555
+Training:  52%|█████▏    | 520/1000 [2:56:07<2:42:02, 20.26s/it]Epoch 520, Total Loss: 0.0805830606171545, test Loss 0.053987535110746436
+Training:  52%|█████▏    | 521/1000 [2:56:27<2:41:25, 20.22s/it]Epoch 521, Total Loss: 0.09722345734436838, test Loss 0.1557404944100059
+Training:  52%|█████▏    | 522/1000 [2:56:48<2:41:03, 20.22s/it]Epoch 522, Total Loss: 0.19379192711961157, test Loss 0.097783393978786
+Training:  52%|█████▏    | 523/1000 [2:57:08<2:41:04, 20.26s/it]Epoch 523, Total Loss: 0.12824230326585612, test Loss 0.08238207042002334
+Training:  52%|█████▏    | 524/1000 [2:57:28<2:40:32, 20.24s/it]Epoch 524, Total Loss: 0.07242221329009758, test Loss 0.049378842795984104
+Training:  52%|█████▎    | 525/1000 [2:57:48<2:40:11, 20.23s/it]Epoch 525, Total Loss: 0.1577009256788582, test Loss 0.09863149249353088
+Training:  53%|█████▎    | 526/1000 [2:58:09<2:40:00, 20.25s/it]Epoch 526, Total Loss: 0.14218144292749887, test Loss 0.10434412542515649
+Training:  53%|█████▎    | 527/1000 [2:58:29<2:39:40, 20.26s/it]Epoch 527, Total Loss: 0.19686054290746743, test Loss 0.1817295251127619
+Training:  53%|█████▎    | 528/1000 [2:58:49<2:39:08, 20.23s/it]Epoch 528, Total Loss: 0.15964605926342731, test Loss 0.07162949514503662
+Training:  53%|█████▎    | 529/1000 [2:59:09<2:38:52, 20.24s/it]Epoch 529, Total Loss: 0.07649777511591618, test Loss 0.04857373556408744
+Training:  53%|█████▎    | 530/1000 [2:59:30<2:38:51, 20.28s/it]Epoch 530, Total Loss: 0.0714862336457338, test Loss 0.05210949451877521
+Training:  53%|█████▎    | 531/1000 [2:59:50<2:38:21, 20.26s/it]Epoch 531, Total Loss: 0.10745927967342003, test Loss 0.03365778051710759
+Training:  53%|█████▎    | 532/1000 [3:00:10<2:38:06, 20.27s/it]Epoch 532, Total Loss: 0.0641308818715361, test Loss 0.07239163412640874
+Training:  53%|█████▎    | 533/1000 [3:00:30<2:37:51, 20.28s/it]Epoch 533, Total Loss: 0.06430268034620105, test Loss 0.05366007453547074
+Training:  53%|█████▎    | 534/1000 [3:00:51<2:37:17, 20.25s/it]Epoch 534, Total Loss: 0.07872265521964093, test Loss 0.040701225865632296
+Training:  54%|█████▎    | 535/1000 [3:01:11<2:36:49, 20.24s/it]Epoch 535, Total Loss: 0.07812548999867912, test Loss 0.05707567208446562
+Training:  54%|█████▎    | 536/1000 [3:01:31<2:36:36, 20.25s/it]Epoch 536, Total Loss: 0.05980336771539922, test Loss 0.04224156651001137
+Training:  54%|█████▎    | 537/1000 [3:01:51<2:36:16, 20.25s/it]Epoch 537, Total Loss: 0.0624741617027881, test Loss 0.03368153646946526
+Training:  54%|█████▍    | 538/1000 [3:02:12<2:35:42, 20.22s/it]Epoch 538, Total Loss: 0.07680192245346196, test Loss 0.07741850079037249
+Training:  54%|█████▍    | 539/1000 [3:02:32<2:35:33, 20.25s/it]Epoch 539, Total Loss: 0.08322686373414297, test Loss 0.06413411744870245
+Training:  54%|█████▍    | 540/1000 [3:02:52<2:35:13, 20.25s/it]Epoch 540, Total Loss: 0.09605463149623489, test Loss 0.05701871927326115
+Training:  54%|█████▍    | 541/1000 [3:03:12<2:34:50, 20.24s/it]Epoch 541, Total Loss: 0.08635452947632041, test Loss 0.09127157238813546
+Training:  54%|█████▍    | 542/1000 [3:03:32<2:34:19, 20.22s/it]Epoch 542, Total Loss: 0.05178128568596154, test Loss 0.0340991614278979
+Training:  54%|█████▍    | 543/1000 [3:03:53<2:34:15, 20.25s/it]Epoch 543, Total Loss: 0.08610759571827245, test Loss 0.04402498931337435
+Training:  54%|█████▍    | 544/1000 [3:04:13<2:33:54, 20.25s/it]Epoch 544, Total Loss: 0.09077260486851886, test Loss 0.07092174866165106
+Training:  55%|█████▍    | 545/1000 [3:04:33<2:33:10, 20.20s/it]Epoch 545, Total Loss: 0.1585029184396537, test Loss 0.04434870110036662
+Training:  55%|█████▍    | 546/1000 [3:04:53<2:33:03, 20.23s/it]Epoch 546, Total Loss: 0.056995577618198574, test Loss 0.05960707051249651
+Training:  55%|█████▍    | 547/1000 [3:05:14<2:32:54, 20.25s/it]Epoch 547, Total Loss: 0.10291724960442702, test Loss 0.052879675201928385
+Training:  55%|█████▍    | 548/1000 [3:05:34<2:32:29, 20.24s/it]Epoch 548, Total Loss: 0.07609145699139193, test Loss 0.04682465370457906
+Training:  55%|█████▍    | 549/1000 [3:05:54<2:31:56, 20.21s/it]Epoch 549, Total Loss: 0.06769567055030251, test Loss 0.053455262122532494
+Training:  55%|█████▌    | 550/1000 [3:06:14<2:31:48, 20.24s/it]Epoch 550, Total Loss: 0.07017002954095039, test Loss 0.04882556920011456
+Training:  55%|█████▌    | 551/1000 [3:06:35<2:31:37, 20.26s/it]Epoch 551, Total Loss: 0.07412032880556751, test Loss 0.08473040385601613
+Training:  55%|█████▌    | 552/1000 [3:06:55<2:30:54, 20.21s/it]Epoch 552, Total Loss: 0.07712719810001974, test Loss 0.062258456009798326
+Training:  55%|█████▌    | 553/1000 [3:07:15<2:30:48, 20.24s/it]Epoch 553, Total Loss: 0.07411716544543798, test Loss 0.04241231182375206
+Training:  55%|█████▌    | 554/1000 [3:07:35<2:30:37, 20.26s/it]Epoch 554, Total Loss: 0.07790125407419114, test Loss 0.08836428444975844
+Training:  56%|█████▌    | 555/1000 [3:07:56<2:30:02, 20.23s/it]Epoch 555, Total Loss: 0.09697056169850084, test Loss 0.06996914128271434
+Training:  56%|█████▌    | 556/1000 [3:08:16<2:29:37, 20.22s/it]Epoch 556, Total Loss: 0.10509915939830947, test Loss 0.10864059634220141
+Training:  56%|█████▌    | 557/1000 [3:08:36<2:29:33, 20.26s/it]Epoch 557, Total Loss: 0.06240163667935808, test Loss 0.03864609609501293
+Training:  56%|█████▌    | 558/1000 [3:08:56<2:29:12, 20.25s/it]Epoch 558, Total Loss: 0.06173867020615429, test Loss 0.05902415839955211
+Training:  56%|█████▌    | 559/1000 [3:09:17<2:28:39, 20.22s/it]Epoch 559, Total Loss: 0.05562303411194457, test Loss 0.06663717696658121
+Training:  56%|█████▌    | 560/1000 [3:09:37<2:28:22, 20.23s/it]Epoch 560, Total Loss: 0.09019918076448002, test Loss 0.05080418919141476
+Training:  56%|█████▌    | 561/1000 [3:09:57<2:28:05, 20.24s/it]Epoch 561, Total Loss: 0.05475605789677433, test Loss 0.03927742654027847
+Training:  56%|█████▌    | 562/1000 [3:10:17<2:27:39, 20.23s/it]Epoch 562, Total Loss: 0.07584056583285895, test Loss 0.06813466327730566
+Training:  56%|█████▋    | 563/1000 [3:10:37<2:27:10, 20.21s/it]Epoch 563, Total Loss: 0.09226646970184345, test Loss 0.08449184421736461
+Training:  56%|█████▋    | 564/1000 [3:10:58<2:27:13, 20.26s/it]Epoch 564, Total Loss: 0.06317996529791996, test Loss 0.03677991234983962
+Training:  56%|█████▋    | 565/1000 [3:11:18<2:26:44, 20.24s/it]Epoch 565, Total Loss: 0.09251849544849598, test Loss 0.09276229666116145
+Training:  57%|█████▋    | 566/1000 [3:11:38<2:26:13, 20.21s/it]Epoch 566, Total Loss: 0.07132455175039622, test Loss 0.06101326440246059
+Training:  57%|█████▋    | 567/1000 [3:11:58<2:26:03, 20.24s/it]Epoch 567, Total Loss: 0.09975250540652646, test Loss 0.06185923978829613
+Training:  57%|█████▋    | 568/1000 [3:12:19<2:25:46, 20.25s/it]Epoch 568, Total Loss: 0.07070361938819571, test Loss 0.08962005480694082
+Training:  57%|█████▋    | 569/1000 [3:12:39<2:25:15, 20.22s/it]Epoch 569, Total Loss: 0.08518401700300428, test Loss 0.056146132114988104
+Training:  57%|█████▋    | 570/1000 [3:12:59<2:25:06, 20.25s/it]Epoch 570, Total Loss: 0.08439569259589573, test Loss 0.054874068905169576
+Training:  57%|█████▋    | 571/1000 [3:13:19<2:24:52, 20.26s/it]Epoch 571, Total Loss: 0.09560794506292299, test Loss 0.06890672035157107
+Training:  57%|█████▋    | 572/1000 [3:13:40<2:24:31, 20.26s/it]Epoch 572, Total Loss: 0.06793156679157379, test Loss 0.049992240499705076
+Training:  57%|█████▋    | 573/1000 [3:14:00<2:23:59, 20.23s/it]Epoch 573, Total Loss: 0.05271329139447156, test Loss 0.06982310821946996
+Training:  57%|█████▋    | 574/1000 [3:14:20<2:23:48, 20.25s/it]Epoch 574, Total Loss: 0.06062322451715481, test Loss 0.047979946857175
+Training:  57%|█████▊    | 575/1000 [3:14:40<2:23:28, 20.25s/it]Epoch 575, Total Loss: 0.06751112888549578, test Loss 0.05751636858957891
+Training:  58%|█████▊    | 576/1000 [3:15:01<2:22:56, 20.23s/it]Epoch 576, Total Loss: 0.09143774369555824, test Loss 0.06842817176276675
+Training:  58%|█████▊    | 577/1000 [3:15:21<2:22:55, 20.27s/it]Epoch 577, Total Loss: 0.08240755646542278, test Loss 0.04501357309233684
+Training:  58%|█████▊    | 578/1000 [3:15:41<2:22:23, 20.25s/it]Epoch 578, Total Loss: 0.057254135169369995, test Loss 0.04358767535394201
+Training:  58%|█████▊    | 579/1000 [3:16:01<2:21:54, 20.23s/it]Epoch 579, Total Loss: 0.061809726648102956, test Loss 0.04634010603275293
+Training:  58%|█████▊    | 580/1000 [3:16:22<2:21:41, 20.24s/it]Epoch 580, Total Loss: 0.05192636107182447, test Loss 0.07564669716745041
+Training:  58%|█████▊    | 581/1000 [3:16:42<2:21:31, 20.27s/it]Epoch 581, Total Loss: 0.07202523451228186, test Loss 0.028499634058859486
+Training:  58%|█████▊    | 582/1000 [3:17:02<2:21:03, 20.25s/it]Epoch 582, Total Loss: 0.04768424321247159, test Loss 0.10200967621774627
+Training:  58%|█████▊    | 583/1000 [3:17:22<2:20:25, 20.21s/it]Epoch 583, Total Loss: 0.07002764069563094, test Loss 0.030469326794935532
+Training:  58%|█████▊    | 584/1000 [3:17:43<2:20:26, 20.26s/it]Epoch 584, Total Loss: 0.03752973423567864, test Loss 0.05221007429421521
+Training:  58%|█████▊    | 585/1000 [3:18:03<2:20:07, 20.26s/it]Epoch 585, Total Loss: 0.07040981902688179, test Loss 0.0597398393214322
+Training:  59%|█████▊    | 586/1000 [3:18:23<2:19:35, 20.23s/it]Epoch 586, Total Loss: 0.06594515511906653, test Loss 0.024006633714844402
+Training:  59%|█████▊    | 587/1000 [3:18:43<2:19:22, 20.25s/it]Epoch 587, Total Loss: 0.03229584895460954, test Loss 0.13931119662279692
+Training:  59%|█████▉    | 588/1000 [3:19:04<2:19:08, 20.26s/it]Epoch 588, Total Loss: 0.07244156566360649, test Loss 0.032713876374495715
+Training:  59%|█████▉    | 589/1000 [3:19:24<2:18:45, 20.26s/it]Epoch 589, Total Loss: 0.04351502556775538, test Loss 0.060979043044006594
+Training:  59%|█████▉    | 590/1000 [3:19:44<2:18:19, 20.24s/it]Epoch 590, Total Loss: 0.06300344815442585, test Loss 0.025975700414094787
+Training:  59%|█████▉    | 591/1000 [3:20:04<2:18:15, 20.28s/it]Epoch 591, Total Loss: 0.048462598277080174, test Loss 0.04507596450499617
+Training:  59%|█████▉    | 592/1000 [3:20:25<2:17:41, 20.25s/it]Epoch 592, Total Loss: 0.07362412748296025, test Loss 0.047554136970295355
+Training:  59%|█████▉    | 593/1000 [3:20:45<2:17:11, 20.22s/it]Epoch 593, Total Loss: 0.06646740841591414, test Loss 0.03829247830435634
+Training:  59%|█████▉    | 594/1000 [3:21:05<2:17:02, 20.25s/it]Epoch 594, Total Loss: 0.0762505539218491, test Loss 0.04562659652975316
+Training:  60%|█████▉    | 595/1000 [3:21:25<2:16:40, 20.25s/it]Epoch 595, Total Loss: 0.09187793740475515, test Loss 0.07340596379855505
+Training:  60%|█████▉    | 596/1000 [3:21:46<2:16:11, 20.23s/it]Epoch 596, Total Loss: 0.06966664543691671, test Loss 0.1082156181980211
+Training:  60%|█████▉    | 597/1000 [3:22:06<2:15:56, 20.24s/it]Epoch 597, Total Loss: 0.0844124106619999, test Loss 0.03564932389865415
+Training:  60%|█████▉    | 598/1000 [3:22:26<2:15:46, 20.27s/it]Epoch 598, Total Loss: 0.07158711864525136, test Loss 0.043438909718623527
+Training:  60%|█████▉    | 599/1000 [3:22:46<2:15:11, 20.23s/it]Epoch 599, Total Loss: 0.08801612793907242, test Loss 0.11482179988748752
+Training:  60%|██████    | 600/1000 [3:23:07<2:14:53, 20.23s/it]Epoch 600, Total Loss: 0.08044437155619545, test Loss 0.04074136767751323
+Training:  60%|██████    | 601/1000 [3:23:27<2:14:38, 20.25s/it]Epoch 601, Total Loss: 0.057265082532364245, test Loss 0.03836024788996348
+Training:  60%|██████    | 602/1000 [3:23:47<2:14:20, 20.25s/it]Epoch 602, Total Loss: 0.04088731026628389, test Loss 0.03272104677027808
+Training:  60%|██████    | 603/1000 [3:24:07<2:13:44, 20.21s/it]Epoch 603, Total Loss: 0.029897956599323254, test Loss 0.0288817911193921
+Training:  60%|██████    | 604/1000 [3:24:27<2:13:27, 20.22s/it]Epoch 604, Total Loss: 0.04310976473157698, test Loss 0.04641107348008798
+Training:  60%|██████    | 605/1000 [3:24:48<2:13:18, 20.25s/it]Epoch 605, Total Loss: 0.06062566322046069, test Loss 0.06816330057783769
+Training:  61%|██████    | 606/1000 [3:25:08<2:12:50, 20.23s/it]Epoch 606, Total Loss: 0.05938955391142166, test Loss 0.03183557890140666
+Training:  61%|██████    | 607/1000 [3:25:28<2:12:28, 20.22s/it]Epoch 607, Total Loss: 0.04040087280654401, test Loss 0.029755541087629702
+Training:  61%|██████    | 608/1000 [3:25:48<2:12:18, 20.25s/it]Epoch 608, Total Loss: 0.04284058857428016, test Loss 0.024510900534761067
+Training:  61%|██████    | 609/1000 [3:26:09<2:12:00, 20.26s/it]Epoch 609, Total Loss: 0.061554278176769894, test Loss 0.031942981492298156
+Training:  61%|██████    | 610/1000 [3:26:29<2:11:30, 20.23s/it]Epoch 610, Total Loss: 0.06522060083752533, test Loss 0.03978397799297594
+Training:  61%|██████    | 611/1000 [3:26:49<2:11:30, 20.28s/it]Epoch 611, Total Loss: 0.04382466785785443, test Loss 0.04666404198640241
+Training:  61%|██████    | 612/1000 [3:27:10<2:10:58, 20.25s/it]Epoch 612, Total Loss: 0.08780761071006363, test Loss 0.04660861709943184
+Training:  61%|██████▏   | 613/1000 [3:27:30<2:10:28, 20.23s/it]Epoch 613, Total Loss: 0.06967391240638944, test Loss 0.022238654639715187
+Training:  61%|██████▏   | 614/1000 [3:27:50<2:10:14, 20.25s/it]Epoch 614, Total Loss: 0.05869414137219483, test Loss 0.05795406116745793
+Training:  62%|██████▏   | 615/1000 [3:28:10<2:09:58, 20.26s/it]Epoch 615, Total Loss: 0.04889875826127124, test Loss 0.021464276020056926
+Training:  62%|██████▏   | 616/1000 [3:28:30<2:09:34, 20.25s/it]Epoch 616, Total Loss: 0.053373016004081605, test Loss 0.035090189695788115
+Training:  62%|██████▏   | 617/1000 [3:28:51<2:09:01, 20.21s/it]Epoch 617, Total Loss: 0.05256294084818296, test Loss 0.038253290596633
+Training:  62%|██████▏   | 618/1000 [3:29:11<2:08:50, 20.24s/it]Epoch 618, Total Loss: 0.04120391677573042, test Loss 0.0387015079971976
+Training:  62%|██████▏   | 619/1000 [3:29:31<2:08:24, 20.22s/it]Epoch 619, Total Loss: 0.04425168938864515, test Loss 0.02327194205001713
+Training:  62%|██████▏   | 620/1000 [3:29:51<2:08:00, 20.21s/it]Epoch 620, Total Loss: 0.04483897464771597, test Loss 0.038230984220997646
+Training:  62%|██████▏   | 621/1000 [3:30:12<2:07:59, 20.26s/it]Epoch 621, Total Loss: 0.05518176544563107, test Loss 0.08073231663841468
+Training:  62%|██████▏   | 622/1000 [3:30:32<2:07:39, 20.26s/it]Epoch 622, Total Loss: 0.0874057624770223, test Loss 0.03418472298206045
+Training:  62%|██████▏   | 623/1000 [3:30:52<2:07:11, 20.24s/it]Epoch 623, Total Loss: 0.04482776951923404, test Loss 0.050038303302314416
+Training:  62%|██████▏   | 624/1000 [3:31:12<2:06:48, 20.24s/it]Epoch 624, Total Loss: 0.04200935383977474, test Loss 0.04356199796669758
+Training:  62%|██████▎   | 625/1000 [3:31:33<2:06:42, 20.27s/it]Epoch 625, Total Loss: 0.03720306502303706, test Loss 0.018519288457285326
+Training:  63%|██████▎   | 626/1000 [3:31:53<2:06:21, 20.27s/it]Epoch 626, Total Loss: 0.03800981262487904, test Loss 0.044587403965684086
+Training:  63%|██████▎   | 627/1000 [3:32:13<2:05:46, 20.23s/it]Epoch 627, Total Loss: 0.049001572126487515, test Loss 0.030190618708729744
+Training:  63%|██████▎   | 628/1000 [3:32:33<2:05:32, 20.25s/it]Epoch 628, Total Loss: 0.04673935773448562, test Loss 0.020238486288760144
+Training:  63%|██████▎   | 629/1000 [3:32:54<2:05:12, 20.25s/it]Epoch 629, Total Loss: 0.026778905283448833, test Loss 0.028140103744450383
+Training:  63%|██████▎   | 630/1000 [3:33:14<2:04:48, 20.24s/it]Epoch 630, Total Loss: 0.04549678871056662, test Loss 0.023675388898342274
+Training:  63%|██████▎   | 631/1000 [3:33:34<2:04:25, 20.23s/it]Epoch 631, Total Loss: 0.03576766712731629, test Loss 0.04362816119996401
+Training:  63%|██████▎   | 632/1000 [3:33:54<2:04:14, 20.26s/it]Epoch 632, Total Loss: 0.05853372029432992, test Loss 0.03489509044000162
+Training:  63%|██████▎   | 633/1000 [3:34:15<2:03:49, 20.25s/it]Epoch 633, Total Loss: 0.05185953542625286, test Loss 0.021228175547618706
+Training:  63%|██████▎   | 634/1000 [3:34:35<2:03:30, 20.25s/it]Epoch 634, Total Loss: 0.03081603667189209, test Loss 0.03897227798230373
+Training:  64%|██████▎   | 635/1000 [3:34:55<2:03:12, 20.25s/it]Epoch 635, Total Loss: 0.035377938836320955, test Loss 0.04833293150071628
+Training:  64%|██████▎   | 636/1000 [3:35:15<2:02:46, 20.24s/it]Epoch 636, Total Loss: 0.05085548145678949, test Loss 0.038766273870491065
+Training:  64%|██████▎   | 637/1000 [3:35:36<2:02:22, 20.23s/it]Epoch 637, Total Loss: 0.02736519153651623, test Loss 0.0167510923392211
+Training:  64%|██████▍   | 638/1000 [3:35:56<2:02:12, 20.26s/it]Epoch 638, Total Loss: 0.03370131663802379, test Loss 0.06073155459195662
+Training:  64%|██████▍   | 639/1000 [3:36:16<2:01:45, 20.24s/it]Epoch 639, Total Loss: 0.037472221754350755, test Loss 0.03287663754935448
+Training:  64%|██████▍   | 640/1000 [3:36:36<2:01:22, 20.23s/it]Epoch 640, Total Loss: 0.032116288393911605, test Loss 0.01849161566217215
+Training:  64%|██████▍   | 641/1000 [3:36:57<2:01:09, 20.25s/it]Epoch 641, Total Loss: 0.05168334792701984, test Loss 0.032104089112880714
+Training:  64%|██████▍   | 642/1000 [3:37:17<2:00:50, 20.25s/it]Epoch 642, Total Loss: 0.0290750802564874, test Loss 0.019884090798978623
+Training:  64%|██████▍   | 643/1000 [3:37:37<2:00:22, 20.23s/it]Epoch 643, Total Loss: 0.044466047231459395, test Loss 0.04651737766555296
+Training:  64%|██████▍   | 644/1000 [3:37:57<1:59:54, 20.21s/it]Epoch 644, Total Loss: 0.053098951606958544, test Loss 0.03409151615610776
+Training:  64%|██████▍   | 645/1000 [3:38:17<1:59:41, 20.23s/it]Epoch 645, Total Loss: 0.04104426871317456, test Loss 0.030908973439811513
+Training:  65%|██████▍   | 646/1000 [3:38:38<1:59:23, 20.24s/it]Epoch 646, Total Loss: 0.03733710541372311, test Loss 0.010349167152666129
+Training:  65%|██████▍   | 647/1000 [3:38:58<1:59:15, 20.27s/it]Epoch 647, Total Loss: 0.03923091805487309, test Loss 0.028747897438454226
+Training:  65%|██████▍   | 648/1000 [3:39:18<1:58:40, 20.23s/it]Epoch 648, Total Loss: 0.03545515052974224, test Loss 0.014717466054627528
+Training:  65%|██████▍   | 649/1000 [3:39:39<1:58:33, 20.27s/it]Epoch 649, Total Loss: 0.034328962469754636, test Loss 0.034609390154051095
+Training:  65%|██████▌   | 650/1000 [3:39:59<1:58:04, 20.24s/it]Epoch 650, Total Loss: 0.03013638026994776, test Loss 0.026368242751162212
+Training:  65%|██████▌   | 651/1000 [3:40:19<1:57:45, 20.25s/it]Epoch 651, Total Loss: 0.023857610115675994, test Loss 0.024552341183432594
+Training:  65%|██████▌   | 652/1000 [3:40:39<1:57:28, 20.25s/it]Epoch 652, Total Loss: 0.06464697000623312, test Loss 0.026901266304776073
+Training:  65%|██████▌   | 653/1000 [3:40:59<1:57:01, 20.23s/it]Epoch 653, Total Loss: 0.02589994250744019, test Loss 0.015723116704835914
+Training:  65%|██████▌   | 654/1000 [3:41:20<1:56:37, 20.22s/it]Epoch 654, Total Loss: 0.024782518513570977, test Loss 0.020853148200190984
+Training:  66%|██████▌   | 655/1000 [3:41:40<1:56:33, 20.27s/it]Epoch 655, Total Loss: 0.027995321688786993, test Loss 0.026664449878108617
+Training:  66%|██████▌   | 656/1000 [3:42:00<1:56:11, 20.27s/it]Epoch 656, Total Loss: 0.02963315599097185, test Loss 0.016052356795766033
+Training:  66%|██████▌   | 657/1000 [3:42:20<1:55:42, 20.24s/it]Epoch 657, Total Loss: 0.034057625789054725, test Loss 0.02294154857428601
+Training:  66%|██████▌   | 658/1000 [3:42:41<1:55:22, 20.24s/it]Epoch 658, Total Loss: 0.0301716807825526, test Loss 0.02885575286256006
+Training:  66%|██████▌   | 659/1000 [3:43:01<1:55:02, 20.24s/it]Epoch 659, Total Loss: 0.042844651732593775, test Loss 0.03082278433542412
+Training:  66%|██████▌   | 660/1000 [3:43:21<1:54:36, 20.22s/it]Epoch 660, Total Loss: 0.036682150924121436, test Loss 0.01890402994244001
+Training:  66%|██████▌   | 661/1000 [3:43:41<1:54:11, 20.21s/it]Epoch 661, Total Loss: 0.04333346886208878, test Loss 0.018018404603935778
+Training:  66%|██████▌   | 662/1000 [3:44:02<1:54:06, 20.25s/it]Epoch 662, Total Loss: 0.06868646648835461, test Loss 0.014933609233524364
+Training:  66%|██████▋   | 663/1000 [3:44:22<1:53:36, 20.23s/it]Epoch 663, Total Loss: 0.024746089431299072, test Loss 0.024475724373657543
+Training:  66%|██████▋   | 664/1000 [3:44:42<1:53:11, 20.21s/it]Epoch 664, Total Loss: 0.03031620068721614, test Loss 0.0217817572142499
+Training:  66%|██████▋   | 665/1000 [3:45:02<1:52:57, 20.23s/it]Epoch 665, Total Loss: 0.026015985216769687, test Loss 0.041961405569544204
+Training:  67%|██████▋   | 666/1000 [3:45:23<1:52:39, 20.24s/it]Epoch 666, Total Loss: 0.0430814160104349, test Loss 0.025093980679789987
+Training:  67%|██████▋   | 667/1000 [3:45:43<1:52:13, 20.22s/it]Epoch 667, Total Loss: 0.0390699017915945, test Loss 0.02869509966470874
+Training:  67%|██████▋   | 668/1000 [3:46:03<1:51:51, 20.22s/it]Epoch 668, Total Loss: 0.03585017870514179, test Loss 0.01699889383207147
+Training:  67%|██████▋   | 669/1000 [3:46:23<1:51:47, 20.26s/it]Epoch 669, Total Loss: 0.03106924041420362, test Loss 0.020832227784782074
+Training:  67%|██████▋   | 670/1000 [3:46:44<1:51:26, 20.26s/it]Epoch 670, Total Loss: 0.030964644766359958, test Loss 0.015333438135432797
+Training:  67%|██████▋   | 671/1000 [3:47:04<1:50:52, 20.22s/it]Epoch 671, Total Loss: 0.014578951083404838, test Loss 0.014774712630941603
+Training:  67%|██████▋   | 672/1000 [3:47:24<1:50:36, 20.23s/it]Epoch 672, Total Loss: 0.035631433458787935, test Loss 0.022850984698519684
+Training:  67%|██████▋   | 673/1000 [3:47:44<1:50:20, 20.25s/it]Epoch 673, Total Loss: 0.04094642427978369, test Loss 0.01890604620656142
+Training:  67%|██████▋   | 674/1000 [3:48:04<1:49:54, 20.23s/it]Epoch 674, Total Loss: 0.01755825677043143, test Loss 0.018982668615465697
+Training:  68%|██████▊   | 675/1000 [3:48:25<1:49:37, 20.24s/it]Epoch 675, Total Loss: 0.027316063805043977, test Loss 0.01721244404773013
+Training:  68%|██████▊   | 676/1000 [3:48:45<1:49:19, 20.25s/it]Epoch 676, Total Loss: 0.026333530670699646, test Loss 0.03078722799769961
+Training:  68%|██████▊   | 677/1000 [3:49:05<1:48:54, 20.23s/it]Epoch 677, Total Loss: 0.031749575144066566, test Loss 0.027960055507719517
+Training:  68%|██████▊   | 678/1000 [3:49:25<1:48:35, 20.23s/it]Epoch 678, Total Loss: 0.034452124823868835, test Loss 0.01227425297167009
+Training:  68%|██████▊   | 679/1000 [3:49:46<1:48:21, 20.25s/it]Epoch 679, Total Loss: 0.023609332955565374, test Loss 0.01125094684987114
+Training:  68%|██████▊   | 680/1000 [3:50:06<1:47:56, 20.24s/it]Epoch 680, Total Loss: 0.014281473548661144, test Loss 0.01272239706864079
+Training:  68%|██████▊   | 681/1000 [3:50:26<1:47:34, 20.23s/it]Epoch 681, Total Loss: 0.01642359568263, test Loss 0.013678574240587365
+Training:  68%|██████▊   | 682/1000 [3:50:46<1:47:09, 20.22s/it]Epoch 682, Total Loss: 0.027975365664493643, test Loss 0.01419306022580713
+Training:  68%|██████▊   | 683/1000 [3:51:07<1:46:56, 20.24s/it]Epoch 683, Total Loss: 0.01994476137454358, test Loss 0.01395434546821679
+Training:  68%|██████▊   | 684/1000 [3:51:27<1:46:30, 20.22s/it]Epoch 684, Total Loss: 0.02147488961136847, test Loss 0.016611184924840927
+Training:  68%|██████▊   | 685/1000 [3:51:47<1:46:11, 20.23s/it]Epoch 685, Total Loss: 0.02630555244461405, test Loss 0.013575614613588326
+Training:  69%|██████▊   | 686/1000 [3:52:07<1:45:58, 20.25s/it]Epoch 686, Total Loss: 0.017311325731669675, test Loss 0.014893353724171622
+Training:  69%|██████▊   | 687/1000 [3:52:27<1:45:33, 20.23s/it]Epoch 687, Total Loss: 0.018432579600726657, test Loss 0.013918588533460233
+Training:  69%|██████▉   | 688/1000 [3:52:48<1:45:05, 20.21s/it]Epoch 688, Total Loss: 0.03363019717804525, test Loss 0.039437920231228836
+Training:  69%|██████▉   | 689/1000 [3:53:08<1:44:51, 20.23s/it]Epoch 689, Total Loss: 0.04557703872088273, test Loss 0.02833529105051779
+Training:  69%|██████▉   | 690/1000 [3:53:28<1:44:34, 20.24s/it]Epoch 690, Total Loss: 0.029090419350156806, test Loss 0.01779991087432091
+Training:  69%|██████▉   | 691/1000 [3:53:48<1:44:06, 20.22s/it]Epoch 691, Total Loss: 0.03755062469720559, test Loss 0.026295661380013022
+Training:  69%|██████▉   | 692/1000 [3:54:09<1:43:47, 20.22s/it]Epoch 692, Total Loss: 0.028228455890883814, test Loss 0.02192663323456565
+Training:  69%|██████▉   | 693/1000 [3:54:29<1:43:39, 20.26s/it]Epoch 693, Total Loss: 0.025244699584601342, test Loss 0.02557928502882043
+Training:  69%|██████▉   | 694/1000 [3:54:49<1:43:13, 20.24s/it]Epoch 694, Total Loss: 0.01731434688279581, test Loss 0.010917334669592002
+Training:  70%|██████▉   | 695/1000 [3:55:09<1:42:49, 20.23s/it]Epoch 695, Total Loss: 0.0164327553192259, test Loss 0.02705334342765407
+Training:  70%|██████▉   | 696/1000 [3:55:30<1:42:35, 20.25s/it]Epoch 696, Total Loss: 0.021890501048029313, test Loss 0.0254702273165234
+Training:  70%|██████▉   | 697/1000 [3:55:50<1:42:10, 20.23s/it]Epoch 697, Total Loss: 0.023003566329244454, test Loss 0.01804549331203676
+Training:  70%|██████▉   | 698/1000 [3:56:10<1:41:45, 20.22s/it]Epoch 698, Total Loss: 0.019930733987218084, test Loss 0.016792943477272414
+Training:  70%|██████▉   | 699/1000 [3:56:30<1:41:26, 20.22s/it]Epoch 699, Total Loss: 0.026646609106188955, test Loss 0.01228651493931046
+Training:  70%|███████   | 700/1000 [3:56:50<1:41:13, 20.24s/it]Epoch 700, Total Loss: 0.022267439327958338, test Loss 0.02221077770138016
+Training:  70%|███████   | 701/1000 [3:57:11<1:40:46, 20.22s/it]Epoch 701, Total Loss: 0.028836290185111312, test Loss 0.015495485881379304
+Training:  70%|███████   | 702/1000 [3:57:31<1:40:25, 20.22s/it]Epoch 702, Total Loss: 0.022970310148765456, test Loss 0.025565088090773385
+Training:  70%|███████   | 703/1000 [3:57:51<1:40:16, 20.26s/it]Epoch 703, Total Loss: 0.015689636040303222, test Loss 0.01013944302058707
+Training:  70%|███████   | 704/1000 [3:58:11<1:39:52, 20.25s/it]Epoch 704, Total Loss: 0.027500568142266205, test Loss 0.04626186985450868
+Training:  70%|███████   | 705/1000 [3:58:32<1:39:22, 20.21s/it]Epoch 705, Total Loss: 0.023625966069235834, test Loss 0.01063564576011581
+Training:  71%|███████   | 706/1000 [3:58:52<1:39:11, 20.24s/it]Epoch 706, Total Loss: 0.024339927259375744, test Loss 0.017105176131455943
+Training:  71%|███████   | 707/1000 [3:59:12<1:38:55, 20.26s/it]Epoch 707, Total Loss: 0.022273642573294776, test Loss 0.011936319190471504
+Training:  71%|███████   | 708/1000 [3:59:32<1:38:26, 20.23s/it]Epoch 708, Total Loss: 0.015089906334771582, test Loss 0.014441522599484485
+Training:  71%|███████   | 709/1000 [3:59:53<1:38:06, 20.23s/it]Epoch 709, Total Loss: 0.021687239871957815, test Loss 0.016094746542736314
+Training:  71%|███████   | 710/1000 [4:00:13<1:37:55, 20.26s/it]Epoch 710, Total Loss: 0.022279562995294638, test Loss 0.024103034730964843
+Training:  71%|███████   | 711/1000 [4:00:33<1:37:28, 20.24s/it]Epoch 711, Total Loss: 0.013339520627544876, test Loss 0.008094081464850415
+Training:  71%|███████   | 712/1000 [4:00:53<1:37:11, 20.25s/it]Epoch 712, Total Loss: 0.019063273273443558, test Loss 0.014416948265324418
+Training:  71%|███████▏  | 713/1000 [4:01:14<1:36:58, 20.27s/it]Epoch 713, Total Loss: 0.027563313268265634, test Loss 0.014592575576478759
+Training:  71%|███████▏  | 714/1000 [4:01:34<1:36:34, 20.26s/it]Epoch 714, Total Loss: 0.017450836719945073, test Loss 0.019917270983569324
+Training:  72%|███████▏  | 715/1000 [4:01:54<1:36:06, 20.23s/it]Epoch 715, Total Loss: 0.02534137760236297, test Loss 0.01315968140708999
+Training:  72%|███████▏  | 716/1000 [4:02:14<1:35:49, 20.24s/it]Epoch 716, Total Loss: 0.021176080579676154, test Loss 0.017305092265954815
+Training:  72%|███████▏  | 717/1000 [4:02:35<1:35:33, 20.26s/it]Epoch 717, Total Loss: 0.02012306132863434, test Loss 0.015055697053097762
+Training:  72%|███████▏  | 718/1000 [4:02:55<1:35:06, 20.24s/it]Epoch 718, Total Loss: 0.02423917608476191, test Loss 0.010536426176818518
+Training:  72%|███████▏  | 719/1000 [4:03:15<1:34:45, 20.23s/it]Epoch 719, Total Loss: 0.019051731963870378, test Loss 0.012861401657573879
+Training:  72%|███████▏  | 720/1000 [4:03:35<1:34:30, 20.25s/it]Epoch 720, Total Loss: 0.01778169590891954, test Loss 0.015017324243672192
+Training:  72%|███████▏  | 721/1000 [4:03:56<1:34:05, 20.23s/it]Epoch 721, Total Loss: 0.025207702909543547, test Loss 0.02843855345585885
+Training:  72%|███████▏  | 722/1000 [4:04:16<1:33:45, 20.24s/it]Epoch 722, Total Loss: 0.02854440248360471, test Loss 0.019498286813569184
+Training:  72%|███████▏  | 723/1000 [4:04:36<1:33:31, 20.26s/it]Epoch 723, Total Loss: 0.023594525506509083, test Loss 0.02068765155183008
+Training:  72%|███████▏  | 724/1000 [4:04:57<1:33:23, 20.30s/it]Epoch 724, Total Loss: 0.023346473498023906, test Loss 0.02352644264912949
+Training:  72%|███████▎  | 725/1000 [4:05:17<1:32:48, 20.25s/it]Epoch 725, Total Loss: 0.018718061852268875, test Loss 0.007938510816669665
+Training:  73%|███████▎  | 726/1000 [4:05:37<1:32:30, 20.26s/it]Epoch 726, Total Loss: 0.009551969466660664, test Loss 0.011548095759980451
+Training:  73%|███████▎  | 727/1000 [4:05:57<1:32:14, 20.27s/it]Epoch 727, Total Loss: 0.019577228079795977, test Loss 0.019732291689321686
+Training:  73%|███████▎  | 728/1000 [4:06:17<1:31:48, 20.25s/it]Epoch 728, Total Loss: 0.019425433219129325, test Loss 0.010386970910566071
+Training:  73%|███████▎  | 729/1000 [4:06:38<1:31:21, 20.23s/it]Epoch 729, Total Loss: 0.014566157909356198, test Loss 0.010427645640447736
+Training:  73%|███████▎  | 730/1000 [4:06:58<1:31:07, 20.25s/it]Epoch 730, Total Loss: 0.018224028294976307, test Loss 0.011363399662793828
+Training:  73%|███████▎  | 731/1000 [4:07:18<1:30:45, 20.25s/it]Epoch 731, Total Loss: 0.020295133941613558, test Loss 0.01872667602639502
+Training:  73%|███████▎  | 732/1000 [4:07:38<1:30:25, 20.24s/it]Epoch 732, Total Loss: 0.019105813828437537, test Loss 0.011646803490853367
+Training:  73%|███████▎  | 733/1000 [4:07:59<1:30:08, 20.26s/it]Epoch 733, Total Loss: 0.015242911003231299, test Loss 0.006111168454831036
+Training:  73%|███████▎  | 734/1000 [4:08:19<1:29:57, 20.29s/it]Epoch 734, Total Loss: 0.010904876482321546, test Loss 0.013459509131140433
+Training:  74%|███████▎  | 735/1000 [4:08:39<1:29:25, 20.25s/it]Epoch 735, Total Loss: 0.023117574511693335, test Loss 0.01291035199448323
+Training:  74%|███████▎  | 736/1000 [4:08:59<1:28:58, 20.22s/it]Epoch 736, Total Loss: 0.020910499331910373, test Loss 0.014065294188465206
+Training:  74%|███████▎  | 737/1000 [4:09:20<1:28:46, 20.25s/it]Epoch 737, Total Loss: 0.028106187200085876, test Loss 0.015375044075951267
+Training:  74%|███████▍  | 738/1000 [4:09:40<1:28:24, 20.24s/it]Epoch 738, Total Loss: 0.02287376203512738, test Loss 0.014766884493068434
+Training:  74%|███████▍  | 739/1000 [4:10:00<1:28:03, 20.25s/it]Epoch 739, Total Loss: 0.01794654640746918, test Loss 0.011538099757252404
+Training:  74%|███████▍  | 740/1000 [4:10:20<1:27:45, 20.25s/it]Epoch 740, Total Loss: 0.01823585649912755, test Loss 0.01290949714782003
+Training:  74%|███████▍  | 741/1000 [4:10:41<1:27:23, 20.24s/it]Epoch 741, Total Loss: 0.020886064638858132, test Loss 0.011407925411521528
+Training:  74%|███████▍  | 742/1000 [4:11:01<1:27:01, 20.24s/it]Epoch 742, Total Loss: 0.017567581264302135, test Loss 0.028119375105374135
+Training:  74%|███████▍  | 743/1000 [4:11:21<1:26:40, 20.24s/it]Epoch 743, Total Loss: 0.016406151413355233, test Loss 0.009634856636134477
+Training:  74%|███████▍  | 744/1000 [4:11:41<1:26:25, 20.26s/it]Epoch 744, Total Loss: 0.014479546664932848, test Loss 0.009647740073537884
+Training:  74%|███████▍  | 745/1000 [4:12:02<1:26:00, 20.24s/it]Epoch 745, Total Loss: 0.008296498789381728, test Loss 0.0075920100879067415
+Training:  75%|███████▍  | 746/1000 [4:12:22<1:25:38, 20.23s/it]Epoch 746, Total Loss: 0.011424632286125759, test Loss 0.006819361010387253
+Training:  75%|███████▍  | 747/1000 [4:12:42<1:25:25, 20.26s/it]Epoch 747, Total Loss: 0.010039176458036, test Loss 0.009146768022149514
+Training:  75%|███████▍  | 748/1000 [4:13:02<1:25:05, 20.26s/it]Epoch 748, Total Loss: 0.013545901433318713, test Loss 0.008565874541930567
+Training:  75%|███████▍  | 749/1000 [4:13:23<1:24:40, 20.24s/it]Epoch 749, Total Loss: 0.014035789502503455, test Loss 0.008823565104438994
+Training:  75%|███████▌  | 750/1000 [4:13:43<1:24:21, 20.25s/it]Epoch 750, Total Loss: 0.014638535181974183, test Loss 0.006175079871004878
+Training:  75%|███████▌  | 751/1000 [4:14:03<1:24:02, 20.25s/it]Epoch 751, Total Loss: 0.009801770854776478, test Loss 0.007357346364117872
+Training:  75%|███████▌  | 752/1000 [4:14:23<1:23:35, 20.22s/it]Epoch 752, Total Loss: 0.014109851781472142, test Loss 0.009934689218285851
+Training:  75%|███████▌  | 753/1000 [4:14:44<1:23:19, 20.24s/it]Epoch 753, Total Loss: 0.011299560628479944, test Loss 0.009019923421034876
+Training:  75%|███████▌  | 754/1000 [4:15:04<1:23:04, 20.26s/it]Epoch 754, Total Loss: 0.011701499843390062, test Loss 0.009302349152186742
+Training:  76%|███████▌  | 755/1000 [4:15:24<1:22:40, 20.25s/it]Epoch 755, Total Loss: 0.028606783519586863, test Loss 0.019685758492694452
+Training:  76%|███████▌  | 756/1000 [4:15:44<1:22:16, 20.23s/it]Epoch 756, Total Loss: 0.015242537755940883, test Loss 0.007660711963231174
+Training:  76%|███████▌  | 757/1000 [4:16:05<1:22:11, 20.29s/it]Epoch 757, Total Loss: 0.018338576815846674, test Loss 0.011206216120626777
+Training:  76%|███████▌  | 758/1000 [4:16:25<1:21:42, 20.26s/it]Epoch 758, Total Loss: 0.012653583803495287, test Loss 0.009854337182612373
+Training:  76%|███████▌  | 759/1000 [4:16:45<1:21:16, 20.23s/it]Epoch 759, Total Loss: 0.021429067218395055, test Loss 0.01549368261699923
+Training:  76%|███████▌  | 760/1000 [4:17:05<1:20:55, 20.23s/it]Epoch 760, Total Loss: 0.01908507516150767, test Loss 0.009849186888179528
+Training:  76%|███████▌  | 761/1000 [4:17:26<1:20:40, 20.25s/it]Epoch 761, Total Loss: 0.010059089590971059, test Loss 0.007239157000395398
+Training:  76%|███████▌  | 762/1000 [4:17:46<1:20:12, 20.22s/it]Epoch 762, Total Loss: 0.02044871178640158, test Loss 0.0056924025523655405
+Training:  76%|███████▋  | 763/1000 [4:18:06<1:19:59, 20.25s/it]Epoch 763, Total Loss: 0.008300570786473746, test Loss 0.008194198890123516
+Training:  76%|███████▋  | 764/1000 [4:18:26<1:19:35, 20.24s/it]Epoch 764, Total Loss: 0.012185377925458664, test Loss 0.012683977798308032
+Training:  76%|███████▋  | 765/1000 [4:18:46<1:19:14, 20.23s/it]Epoch 765, Total Loss: 0.0157732710040192, test Loss 0.007425859646620945
+Training:  77%|███████▋  | 766/1000 [4:19:07<1:18:50, 20.22s/it]Epoch 766, Total Loss: 0.007155881834409709, test Loss 0.005141406832710625
+Training:  77%|███████▋  | 767/1000 [4:19:27<1:18:40, 20.26s/it]Epoch 767, Total Loss: 0.011707392248834641, test Loss 0.008135647318200566
+Training:  77%|███████▋  | 768/1000 [4:19:47<1:18:15, 20.24s/it]Epoch 768, Total Loss: 0.010622893967490011, test Loss 0.005112695028611387
+Training:  77%|███████▋  | 769/1000 [4:20:07<1:17:50, 20.22s/it]Epoch 769, Total Loss: 0.007831627120843754, test Loss 0.009695871003294507
+Training:  77%|███████▋  | 770/1000 [4:20:28<1:17:29, 20.21s/it]Epoch 770, Total Loss: 0.012150472203568328, test Loss 0.005229350707780283
+Training:  77%|███████▋  | 771/1000 [4:20:48<1:17:15, 20.24s/it]Epoch 771, Total Loss: 0.011021426353902328, test Loss 0.008726602876917101
+Training:  77%|███████▋  | 772/1000 [4:21:08<1:16:51, 20.22s/it]Epoch 772, Total Loss: 0.011890621638399953, test Loss 0.012854252006106365
+Training:  77%|███████▋  | 773/1000 [4:21:28<1:16:26, 20.21s/it]Epoch 773, Total Loss: 0.015214065329242006, test Loss 0.012085620792976651
+Training:  77%|███████▋  | 774/1000 [4:21:49<1:16:14, 20.24s/it]Epoch 774, Total Loss: 0.008797747034684947, test Loss 0.007520812827771386
+Training:  78%|███████▊  | 775/1000 [4:22:09<1:15:56, 20.25s/it]Epoch 775, Total Loss: 0.011309795883343608, test Loss 0.005610841203283949
+Training:  78%|███████▊  | 776/1000 [4:22:29<1:15:32, 20.24s/it]Epoch 776, Total Loss: 0.006498525624233737, test Loss 0.007869215023954613
+Training:  78%|███████▊  | 777/1000 [4:22:49<1:15:14, 20.24s/it]Epoch 777, Total Loss: 0.0074066583106716, test Loss 0.0045981963585990555
+Training:  78%|███████▊  | 778/1000 [4:23:10<1:15:04, 20.29s/it]Epoch 778, Total Loss: 0.010042399345932282, test Loss 0.007539858250171305
+Training:  78%|███████▊  | 779/1000 [4:23:30<1:14:36, 20.26s/it]Epoch 779, Total Loss: 0.006253509470349494, test Loss 0.005019013405007382
+Training:  78%|███████▊  | 780/1000 [4:23:50<1:14:09, 20.22s/it]Epoch 780, Total Loss: 0.005043525382753392, test Loss 0.003704345992166334
+Training:  78%|███████▊  | 781/1000 [4:24:10<1:13:59, 20.27s/it]Epoch 781, Total Loss: 0.007953096903807853, test Loss 0.007530285983543413
+Training:  78%|███████▊  | 782/1000 [4:24:31<1:13:32, 20.24s/it]Epoch 782, Total Loss: 0.014166823119355612, test Loss 0.00676112644186315
+Training:  78%|███████▊  | 783/1000 [4:24:51<1:13:13, 20.25s/it]Epoch 783, Total Loss: 0.008389815699115817, test Loss 0.006183453725847917
+Training:  78%|███████▊  | 784/1000 [4:25:11<1:12:52, 20.24s/it]Epoch 784, Total Loss: 0.011521926982205291, test Loss 0.007118415416558632
+Training:  78%|███████▊  | 785/1000 [4:25:31<1:12:33, 20.25s/it]Epoch 785, Total Loss: 0.007583507895689317, test Loss 0.00538782380709353
+Training:  79%|███████▊  | 786/1000 [4:25:51<1:12:06, 20.22s/it]Epoch 786, Total Loss: 0.007031459237211647, test Loss 0.005098420154983894
+Training:  79%|███████▊  | 787/1000 [4:26:12<1:11:47, 20.22s/it]Epoch 787, Total Loss: 0.008894340137353624, test Loss 0.007983612089167135
+Training:  79%|███████▉  | 788/1000 [4:26:32<1:11:33, 20.25s/it]Epoch 788, Total Loss: 0.011070803963175078, test Loss 0.0074841907346406234
+Training:  79%|███████▉  | 789/1000 [4:26:52<1:11:08, 20.23s/it]Epoch 789, Total Loss: 0.010309570383298088, test Loss 0.0062894731213768516
+Training:  79%|███████▉  | 790/1000 [4:27:12<1:10:47, 20.23s/it]Epoch 790, Total Loss: 0.01394113197698662, test Loss 0.005229573109178231
+Training:  79%|███████▉  | 791/1000 [4:27:33<1:10:34, 20.26s/it]Epoch 791, Total Loss: 0.009717589619850635, test Loss 0.009270738071511285
+Training:  79%|███████▉  | 792/1000 [4:27:53<1:10:12, 20.25s/it]Epoch 792, Total Loss: 0.006966181641954156, test Loss 0.004242744668422697
+Training:  79%|███████▉  | 793/1000 [4:28:13<1:09:46, 20.23s/it]Epoch 793, Total Loss: 0.005485419511250308, test Loss 0.0037107872418486155
+Training:  79%|███████▉  | 794/1000 [4:28:33<1:09:29, 20.24s/it]Epoch 794, Total Loss: 0.004826974476257093, test Loss 0.004751389078312338
+Training:  80%|███████▉  | 795/1000 [4:28:54<1:09:19, 20.29s/it]Epoch 795, Total Loss: 0.007234613306794035, test Loss 0.003843033334795529
+Training:  80%|███████▉  | 796/1000 [4:29:14<1:08:49, 20.24s/it]Epoch 796, Total Loss: 0.009076934366021305, test Loss 0.00568647015069683
+Training:  80%|███████▉  | 797/1000 [4:29:34<1:08:33, 20.26s/it]Epoch 797, Total Loss: 0.007388067420765336, test Loss 0.005622976943134115
+Training:  80%|███████▉  | 798/1000 [4:29:55<1:08:16, 20.28s/it]Epoch 798, Total Loss: 0.006834576189746412, test Loss 0.00409717575306646
+Training:  80%|███████▉  | 799/1000 [4:30:15<1:07:51, 20.26s/it]Epoch 799, Total Loss: 0.006146922239699875, test Loss 0.0034775670602147537
+Training:  80%|████████  | 800/1000 [4:30:35<1:07:31, 20.26s/it]Epoch 800, Total Loss: 0.007968913225615222, test Loss 0.008573612697476234
+Training:  80%|████████  | 801/1000 [4:30:55<1:07:10, 20.25s/it]Epoch 801, Total Loss: 0.011945876988081508, test Loss 0.00682175926452216
+Training:  80%|████████  | 802/1000 [4:31:16<1:06:47, 20.24s/it]Epoch 802, Total Loss: 0.00919114910110058, test Loss 0.004344731497649963
+Training:  80%|████████  | 803/1000 [4:31:36<1:06:24, 20.22s/it]Epoch 803, Total Loss: 0.0052838770525512405, test Loss 0.004094168749781182
+Training:  80%|████████  | 804/1000 [4:31:56<1:06:05, 20.23s/it]Epoch 804, Total Loss: 0.005157865609156566, test Loss 0.004167628226031621
+Training:  80%|████████  | 805/1000 [4:32:16<1:05:49, 20.25s/it]Epoch 805, Total Loss: 0.004683881685058674, test Loss 0.0028792021464771377
+Training:  81%|████████  | 806/1000 [4:32:37<1:05:28, 20.25s/it]Epoch 806, Total Loss: 0.006861037470373975, test Loss 0.006276543435748094
+Training:  81%|████████  | 807/1000 [4:32:57<1:05:05, 20.24s/it]Epoch 807, Total Loss: 0.005149582750163972, test Loss 0.006626493268413469
+Training:  81%|████████  | 808/1000 [4:33:17<1:04:43, 20.22s/it]Epoch 808, Total Loss: 0.004691503594963337, test Loss 0.005631288035566775
+Training:  81%|████████  | 809/1000 [4:33:37<1:04:24, 20.23s/it]Epoch 809, Total Loss: 0.007907805452562587, test Loss 0.004416267448015368
+Training:  81%|████████  | 810/1000 [4:33:57<1:04:02, 20.22s/it]Epoch 810, Total Loss: 0.006238330411505095, test Loss 0.006969185107244322
+Training:  81%|████████  | 811/1000 [4:34:18<1:03:49, 20.26s/it]Epoch 811, Total Loss: 0.007345472882009762, test Loss 0.0049873787547067665
+Training:  81%|████████  | 812/1000 [4:34:38<1:03:24, 20.24s/it]Epoch 812, Total Loss: 0.006759764464080053, test Loss 0.014826011355930509
+Training:  81%|████████▏ | 813/1000 [4:34:58<1:03:00, 20.22s/it]Epoch 813, Total Loss: 0.01605821534209305, test Loss 0.004648568572100395
+Training:  81%|████████▏ | 814/1000 [4:35:18<1:02:42, 20.23s/it]Epoch 814, Total Loss: 0.007461234219899436, test Loss 0.004926606410523304
+Training:  82%|████████▏ | 815/1000 [4:35:39<1:02:26, 20.25s/it]Epoch 815, Total Loss: 0.007682224749894989, test Loss 0.0038838911120994734
+Training:  82%|████████▏ | 816/1000 [4:35:59<1:02:03, 20.23s/it]Epoch 816, Total Loss: 0.0059279376390513104, test Loss 0.0035712922869536737
+Training:  82%|████████▏ | 817/1000 [4:36:19<1:01:39, 20.22s/it]Epoch 817, Total Loss: 0.004936553413742485, test Loss 0.0029492561174825262
+Training:  82%|████████▏ | 818/1000 [4:36:39<1:01:27, 20.26s/it]Epoch 818, Total Loss: 0.006047001056909069, test Loss 0.003696660821263392
+Training:  82%|████████▏ | 819/1000 [4:37:00<1:01:09, 20.27s/it]Epoch 819, Total Loss: 0.005352045176550746, test Loss 0.0036121330015773242
+Training:  82%|████████▏ | 820/1000 [4:37:20<1:00:38, 20.21s/it]Epoch 820, Total Loss: 0.005374009923060548, test Loss 0.004332095678994217
+Training:  82%|████████▏ | 821/1000 [4:37:40<1:00:25, 20.26s/it]Epoch 821, Total Loss: 0.0037363664662237017, test Loss 0.00314066364752272
+Training:  82%|████████▏ | 822/1000 [4:38:00<1:00:09, 20.28s/it]Epoch 822, Total Loss: 0.004670204638112512, test Loss 0.002525439761274566
+Training:  82%|████████▏ | 823/1000 [4:38:21<59:44, 20.25s/it]  Epoch 823, Total Loss: 0.005391016065468133, test Loss 0.005384973013021339
+Training:  82%|████████▏ | 824/1000 [4:38:41<59:18, 20.22s/it]Epoch 824, Total Loss: 0.005770584393758327, test Loss 0.0033091628529991093
+Training:  82%|████████▎ | 825/1000 [4:39:01<59:05, 20.26s/it]Epoch 825, Total Loss: 0.005063470559554912, test Loss 0.005177132086828351
+Training:  83%|████████▎ | 826/1000 [4:39:21<58:42, 20.24s/it]Epoch 826, Total Loss: 0.00535319470811442, test Loss 0.0026323061790138194
+Training:  83%|████████▎ | 827/1000 [4:39:42<58:19, 20.23s/it]Epoch 827, Total Loss: 0.007028037314259289, test Loss 0.004201276093506469
+Training:  83%|████████▎ | 828/1000 [4:40:02<58:03, 20.25s/it]Epoch 828, Total Loss: 0.004678007427225205, test Loss 0.002565722041114126
+Training:  83%|████████▎ | 829/1000 [4:40:22<57:41, 20.24s/it]Epoch 829, Total Loss: 0.004616924526415906, test Loss 0.0027685896325587798
+Training:  83%|████████▎ | 830/1000 [4:40:42<57:17, 20.22s/it]Epoch 830, Total Loss: 0.007242253161132125, test Loss 0.00676771397187482
+Training:  83%|████████▎ | 831/1000 [4:41:02<57:00, 20.24s/it]Epoch 831, Total Loss: 0.0057815034656328555, test Loss 0.005212897096778481
+Training:  83%|████████▎ | 832/1000 [4:41:23<56:43, 20.26s/it]Epoch 832, Total Loss: 0.007829086128007269, test Loss 0.002566362666234804
+Training:  83%|████████▎ | 833/1000 [4:41:43<56:20, 20.24s/it]Epoch 833, Total Loss: 0.004432278585330285, test Loss 0.0028548298880475787
+Training:  83%|████████▎ | 834/1000 [4:42:03<55:57, 20.22s/it]Epoch 834, Total Loss: 0.004383158918913841, test Loss 0.0023922484665840436
+Training:  84%|████████▎ | 835/1000 [4:42:24<55:43, 20.27s/it]Epoch 835, Total Loss: 0.005943069792405333, test Loss 0.0027374236177330692
+Training:  84%|████████▎ | 836/1000 [4:42:44<55:20, 20.24s/it]Epoch 836, Total Loss: 0.005967100092675537, test Loss 0.0035494351748359175
+Training:  84%|████████▎ | 837/1000 [4:43:04<54:56, 20.22s/it]Epoch 837, Total Loss: 0.004558548714552637, test Loss 0.0035928033254234693
+Training:  84%|████████▍ | 838/1000 [4:43:24<54:38, 20.24s/it]Epoch 838, Total Loss: 0.006064037214701046, test Loss 0.003419172453085104
+Training:  84%|████████▍ | 839/1000 [4:43:45<54:23, 20.27s/it]Epoch 839, Total Loss: 0.0032357635884765396, test Loss 0.0025233213292757193
+Training:  84%|████████▍ | 840/1000 [4:44:05<53:58, 20.24s/it]Epoch 840, Total Loss: 0.004500719143697148, test Loss 0.003604821457814139
+Training:  84%|████████▍ | 841/1000 [4:44:25<53:37, 20.24s/it]Epoch 841, Total Loss: 0.00394000000329161, test Loss 0.0026702512863826435
+Training:  84%|████████▍ | 842/1000 [4:44:45<53:20, 20.26s/it]Epoch 842, Total Loss: 0.0028234209869724683, test Loss 0.0026575160143413367
+Training:  84%|████████▍ | 843/1000 [4:45:05<52:59, 20.25s/it]Epoch 843, Total Loss: 0.0036530755916039264, test Loss 0.002408634283570931
+Training:  84%|████████▍ | 844/1000 [4:45:26<52:34, 20.22s/it]Epoch 844, Total Loss: 0.004081176773464869, test Loss 0.004468832927299305
+Training:  84%|████████▍ | 845/1000 [4:45:46<52:17, 20.24s/it]Epoch 845, Total Loss: 0.006987002610123523, test Loss 0.0024299800436263187
+Training:  85%|████████▍ | 846/1000 [4:46:06<51:57, 20.25s/it]Epoch 846, Total Loss: 0.003601187964756358, test Loss 0.002094863626273134
+Training:  85%|████████▍ | 847/1000 [4:46:26<51:37, 20.24s/it]Epoch 847, Total Loss: 0.0026231744444164674, test Loss 0.0023410523908051592
+Training:  85%|████████▍ | 848/1000 [4:46:47<51:14, 20.23s/it]Epoch 848, Total Loss: 0.0044540300342596996, test Loss 0.0021537249799271543
+Training:  85%|████████▍ | 849/1000 [4:47:07<50:59, 20.26s/it]Epoch 849, Total Loss: 0.004910684370804789, test Loss 0.0025371074633977306
+Training:  85%|████████▌ | 850/1000 [4:47:27<50:37, 20.25s/it]Epoch 850, Total Loss: 0.004000390655216146, test Loss 0.002520987002264099
+Training:  85%|████████▌ | 851/1000 [4:47:47<50:15, 20.24s/it]Epoch 851, Total Loss: 0.00436095497021803, test Loss 0.002211081298950236
+Training:  85%|████████▌ | 852/1000 [4:48:08<49:59, 20.27s/it]Epoch 852, Total Loss: 0.002739170819898751, test Loss 0.0020893820317444177
+Training:  85%|████████▌ | 853/1000 [4:48:28<49:39, 20.27s/it]Epoch 853, Total Loss: 0.003250228277328512, test Loss 0.0026122372331043994
+Training:  85%|████████▌ | 854/1000 [4:48:48<49:12, 20.23s/it]Epoch 854, Total Loss: 0.0029529809044621324, test Loss 0.0024479135832874677
+Training:  86%|████████▌ | 855/1000 [4:49:08<48:54, 20.24s/it]Epoch 855, Total Loss: 0.004279493909979344, test Loss 0.0025065617732112654
+Training:  86%|████████▌ | 856/1000 [4:49:29<48:41, 20.29s/it]Epoch 856, Total Loss: 0.0035442562487178466, test Loss 0.002295485531459025
+Training:  86%|████████▌ | 857/1000 [4:49:49<48:13, 20.24s/it]Epoch 857, Total Loss: 0.0034555425287558224, test Loss 0.002401984229576416
+Training:  86%|████████▌ | 858/1000 [4:50:09<47:55, 20.25s/it]Epoch 858, Total Loss: 0.003127678685145066, test Loss 0.0024824488573358394
+Training:  86%|████████▌ | 859/1000 [4:50:30<47:39, 20.28s/it]Epoch 859, Total Loss: 0.00432696449954748, test Loss 0.0021065919001837475
+Training:  86%|████████▌ | 860/1000 [4:50:50<47:16, 20.26s/it]Epoch 860, Total Loss: 0.003596109332613436, test Loss 0.0020782116245335112
+Training:  86%|████████▌ | 861/1000 [4:51:10<46:54, 20.25s/it]Epoch 861, Total Loss: 0.002570393001594809, test Loss 0.002317140615979532
+Training:  86%|████████▌ | 862/1000 [4:51:30<46:34, 20.25s/it]Epoch 862, Total Loss: 0.0029122681337197857, test Loss 0.002303212692473048
+Training:  86%|████████▋ | 863/1000 [4:51:50<46:14, 20.25s/it]Epoch 863, Total Loss: 0.0032496865331371016, test Loss 0.0018449171788793488
+Training:  86%|████████▋ | 864/1000 [4:52:11<45:52, 20.24s/it]Epoch 864, Total Loss: 0.002314696017870205, test Loss 0.002278226299005417
+Training:  86%|████████▋ | 865/1000 [4:52:31<45:33, 20.25s/it]Epoch 865, Total Loss: 0.0027961126860354167, test Loss 0.0027486407170027424
+Training:  87%|████████▋ | 866/1000 [4:52:51<45:18, 20.29s/it]Epoch 866, Total Loss: 0.0035137070753646768, test Loss 0.001985105853796435
+Training:  87%|████████▋ | 867/1000 [4:53:12<44:56, 20.27s/it]Epoch 867, Total Loss: 0.0039558677762781954, test Loss 0.0021243731025606394
+Training:  87%|████████▋ | 868/1000 [4:53:32<44:29, 20.22s/it]Epoch 868, Total Loss: 0.0033426387032344587, test Loss 0.002527603038918012
+Training:  87%|████████▋ | 869/1000 [4:53:52<44:15, 20.27s/it]Epoch 869, Total Loss: 0.005404376506120107, test Loss 0.001951995039305005
+Training:  87%|████████▋ | 870/1000 [4:54:12<43:53, 20.26s/it]Epoch 870, Total Loss: 0.003519289000596816, test Loss 0.002016892516201971
+Training:  87%|████████▋ | 871/1000 [4:54:32<43:31, 20.24s/it]Epoch 871, Total Loss: 0.004231870041518771, test Loss 0.002553121430257586
+Training:  87%|████████▋ | 872/1000 [4:54:53<43:10, 20.24s/it]Epoch 872, Total Loss: 0.004687248712146374, test Loss 0.002270443203227702
+Training:  87%|████████▋ | 873/1000 [4:55:13<42:52, 20.26s/it]Epoch 873, Total Loss: 0.003750097537017867, test Loss 0.002086336381930428
+Training:  87%|████████▋ | 874/1000 [4:55:33<42:27, 20.22s/it]Epoch 874, Total Loss: 0.003505018876891864, test Loss 0.0019782394284937675
+Training:  88%|████████▊ | 875/1000 [4:55:53<42:07, 20.22s/it]Epoch 875, Total Loss: 0.0024271141227009655, test Loss 0.0020847365650787163
+Training:  88%|████████▊ | 876/1000 [4:56:14<41:51, 20.25s/it]Epoch 876, Total Loss: 0.0033820936767129614, test Loss 0.002683329048942631
+Training:  88%|████████▊ | 877/1000 [4:56:34<41:29, 20.24s/it]Epoch 877, Total Loss: 0.005141705675445989, test Loss 0.00215559477174583
+Training:  88%|████████▊ | 878/1000 [4:56:54<41:06, 20.22s/it]Epoch 878, Total Loss: 0.0037354830622822396, test Loss 0.001899808701777007
+Training:  88%|████████▊ | 879/1000 [4:57:14<40:49, 20.24s/it]Epoch 879, Total Loss: 0.003061890590030981, test Loss 0.0025326519400830595
+Training:  88%|████████▊ | 880/1000 [4:57:35<40:30, 20.25s/it]Epoch 880, Total Loss: 0.0030071850375158115, test Loss 0.0019517886231859359
+Training:  88%|████████▊ | 881/1000 [4:57:55<40:07, 20.23s/it]Epoch 881, Total Loss: 0.002775335842018666, test Loss 0.0021188151518939636
+Training:  88%|████████▊ | 882/1000 [4:58:15<39:47, 20.24s/it]Epoch 882, Total Loss: 0.0027377704259465042, test Loss 0.00199579324320299
+Training:  88%|████████▊ | 883/1000 [4:58:35<39:30, 20.26s/it]Epoch 883, Total Loss: 0.002257217376883897, test Loss 0.0019083073118683668
+Training:  88%|████████▊ | 884/1000 [4:58:56<39:08, 20.24s/it]Epoch 884, Total Loss: 0.003190801537130028, test Loss 0.001917403799150354
+Training:  88%|████████▊ | 885/1000 [4:59:16<38:47, 20.24s/it]Epoch 885, Total Loss: 0.0025291183984284906, test Loss 0.0017668855490718181
+Training:  89%|████████▊ | 886/1000 [4:59:36<38:30, 20.27s/it]Epoch 886, Total Loss: 0.002830910659504984, test Loss 0.0018550935240525107
+Training:  89%|████████▊ | 887/1000 [4:59:56<38:08, 20.25s/it]Epoch 887, Total Loss: 0.0034334087488461147, test Loss 0.0018804166438013243
+Training:  89%|████████▉ | 888/1000 [5:00:16<37:44, 20.22s/it]Epoch 888, Total Loss: 0.002986221674188339, test Loss 0.0019345448929995585
+Training:  89%|████████▉ | 889/1000 [5:00:37<37:27, 20.24s/it]Epoch 889, Total Loss: 0.0025307096981329246, test Loss 0.001968777520792523
+Training:  89%|████████▉ | 890/1000 [5:00:57<37:09, 20.27s/it]Epoch 890, Total Loss: 0.0033332664060476674, test Loss 0.0017757756924346234
+Training:  89%|████████▉ | 891/1000 [5:01:17<36:45, 20.23s/it]Epoch 891, Total Loss: 0.0023060724982675515, test Loss 0.001756304514016777
+Training:  89%|████████▉ | 892/1000 [5:01:38<36:26, 20.25s/it]Epoch 892, Total Loss: 0.0030704959908517885, test Loss 0.0018860918677931365
+Training:  89%|████████▉ | 893/1000 [5:01:58<36:10, 20.28s/it]Epoch 893, Total Loss: 0.002934184758418749, test Loss 0.002186055019802342
+Training:  89%|████████▉ | 894/1000 [5:02:18<35:47, 20.26s/it]Epoch 894, Total Loss: 0.003598403135635275, test Loss 0.0017538859370128752
+Training:  90%|████████▉ | 895/1000 [5:02:38<35:25, 20.25s/it]Epoch 895, Total Loss: 0.0032357857403354194, test Loss 0.0019239557939447248
+Training:  90%|████████▉ | 896/1000 [5:02:59<35:06, 20.26s/it]Epoch 896, Total Loss: 0.003382177369445035, test Loss 0.0017228756825296353
+Training:  90%|████████▉ | 897/1000 [5:03:19<34:47, 20.27s/it]Epoch 897, Total Loss: 0.0018075661198895003, test Loss 0.0018348589085060386
+Training:  90%|████████▉ | 898/1000 [5:03:39<34:23, 20.23s/it]Epoch 898, Total Loss: 0.0023834820266237554, test Loss 0.0016441843153398412
+Training:  90%|████████▉ | 899/1000 [5:03:59<34:04, 20.24s/it]Epoch 899, Total Loss: 0.0029375022595730734, test Loss 0.0016029423769885818
+Training:  90%|█████████ | 900/1000 [5:04:20<33:45, 20.26s/it]Epoch 900, Total Loss: 0.003313892398233842, test Loss 0.0019190337614138396
+Training:  90%|█████████ | 901/1000 [5:04:40<33:24, 20.24s/it]Epoch 901, Total Loss: 0.002241130877628852, test Loss 0.0017095411693354924
+Training:  90%|█████████ | 902/1000 [5:05:00<33:02, 20.22s/it]Epoch 902, Total Loss: 0.0020136520478496642, test Loss 0.0016558090624480078
+Training:  90%|█████████ | 903/1000 [5:05:20<32:46, 20.28s/it]Epoch 903, Total Loss: 0.0023080026824246953, test Loss 0.0018699120572329355
+Training:  90%|█████████ | 904/1000 [5:05:41<32:24, 20.25s/it]Epoch 904, Total Loss: 0.0037751905296112076, test Loss 0.0016103782176147574
+Training:  90%|█████████ | 905/1000 [5:06:01<32:02, 20.24s/it]Epoch 905, Total Loss: 0.0019829857991217584, test Loss 0.0017315789569133462
+Training:  91%|█████████ | 906/1000 [5:06:21<31:44, 20.26s/it]Epoch 906, Total Loss: 0.0033573171844319353, test Loss 0.001849633910751436
+Training:  91%|█████████ | 907/1000 [5:06:41<31:24, 20.27s/it]Epoch 907, Total Loss: 0.0024158268417934625, test Loss 0.0018199442464929933
+Training:  91%|█████████ | 908/1000 [5:07:02<31:02, 20.24s/it]Epoch 908, Total Loss: 0.003326861401975928, test Loss 0.0016092917055805
+Training:  91%|█████████ | 909/1000 [5:07:22<30:41, 20.24s/it]Epoch 909, Total Loss: 0.0021090827218393075, test Loss 0.0017205332181989574
+Training:  91%|█████████ | 910/1000 [5:07:42<30:23, 20.26s/it]Epoch 910, Total Loss: 0.0030382386862326696, test Loss 0.0016214049596433493
+Training:  91%|█████████ | 911/1000 [5:08:02<30:02, 20.25s/it]Epoch 911, Total Loss: 0.002759425291892598, test Loss 0.0016584684316722604
+Training:  91%|█████████ | 912/1000 [5:08:23<29:41, 20.24s/it]Epoch 912, Total Loss: 0.0025234179116043103, test Loss 0.0017411530402918847
+Training:  91%|█████████▏| 913/1000 [5:08:43<29:22, 20.26s/it]Epoch 913, Total Loss: 0.002948110699126462, test Loss 0.002282940927566065
+Training:  91%|█████████▏| 914/1000 [5:09:03<29:00, 20.24s/it]Epoch 914, Total Loss: 0.003451065518366138, test Loss 0.001835564445802727
+Training:  92%|█████████▏| 915/1000 [5:09:23<28:38, 20.22s/it]Epoch 915, Total Loss: 0.0037585061470723166, test Loss 0.001769507735913906
+Training:  92%|█████████▏| 916/1000 [5:09:44<28:19, 20.23s/it]Epoch 916, Total Loss: 0.003345582147682402, test Loss 0.0015936859456884961
+Training:  92%|█████████▏| 917/1000 [5:10:04<28:02, 20.27s/it]Epoch 917, Total Loss: 0.0020824707201616134, test Loss 0.001597543820165671
+Training:  92%|█████████▏| 918/1000 [5:10:24<27:38, 20.23s/it]Epoch 918, Total Loss: 0.003266701026971206, test Loss 0.0015401257179081978
+Training:  92%|█████████▏| 919/1000 [5:10:44<27:19, 20.24s/it]Epoch 919, Total Loss: 0.002786517536425787, test Loss 0.0015371468555083713
+Training:  92%|█████████▏| 920/1000 [5:11:05<27:01, 20.27s/it]Epoch 920, Total Loss: 0.002389816221350558, test Loss 0.0014938305925730115
+Training:  92%|█████████▏| 921/1000 [5:11:25<26:41, 20.27s/it]Epoch 921, Total Loss: 0.0028335783918353044, test Loss 0.0016397694483972513
+Training:  92%|█████████▏| 922/1000 [5:11:45<26:16, 20.21s/it]Epoch 922, Total Loss: 0.003171666885258296, test Loss 0.0015548303585651761
+Training:  92%|█████████▏| 923/1000 [5:12:05<25:59, 20.26s/it]Epoch 923, Total Loss: 0.0020517112043651068, test Loss 0.0015541402440598735
+Training:  92%|█████████▏| 924/1000 [5:12:26<25:38, 20.25s/it]Epoch 924, Total Loss: 0.002778918677303975, test Loss 0.0015646684864455333
+Training:  92%|█████████▎| 925/1000 [5:12:46<25:16, 20.22s/it]Epoch 925, Total Loss: 0.003274598644325896, test Loss 0.0015728840030183515
+Training:  93%|█████████▎| 926/1000 [5:13:06<24:56, 20.23s/it]Epoch 926, Total Loss: 0.0015999381326112616, test Loss 0.0015380759337299073
+Training:  93%|█████████▎| 927/1000 [5:13:26<24:38, 20.25s/it]Epoch 927, Total Loss: 0.0021967113897740347, test Loss 0.0015558898947067345
+Training:  93%|█████████▎| 928/1000 [5:13:46<24:17, 20.24s/it]Epoch 928, Total Loss: 0.0023905880186917646, test Loss 0.001567501290432679
+Training:  93%|█████████▎| 929/1000 [5:14:07<23:55, 20.22s/it]Epoch 929, Total Loss: 0.0025960859800864644, test Loss 0.001409396792251545
+Training:  93%|█████████▎| 930/1000 [5:14:27<23:38, 20.27s/it]Epoch 930, Total Loss: 0.002293203980991406, test Loss 0.0015393523919136408
+Training:  93%|█████████▎| 931/1000 [5:14:47<23:16, 20.24s/it]Epoch 931, Total Loss: 0.002736869389751381, test Loss 0.0014588114343216428
+Training:  93%|█████████▎| 932/1000 [5:15:07<22:55, 20.23s/it]Epoch 932, Total Loss: 0.0018292266410393288, test Loss 0.001525196226654001
+Training:  93%|█████████▎| 933/1000 [5:15:28<22:35, 20.23s/it]Epoch 933, Total Loss: 0.002068445962888874, test Loss 0.0014778584048214655
+Training:  93%|█████████▎| 934/1000 [5:15:48<22:17, 20.27s/it]Epoch 934, Total Loss: 0.0028076167432547388, test Loss 0.0014518629779139212
+Training:  94%|█████████▎| 935/1000 [5:16:08<21:56, 20.26s/it]Epoch 935, Total Loss: 0.0025215562249595335, test Loss 0.001541396339934391
+Training:  94%|█████████▎| 936/1000 [5:16:28<21:35, 20.25s/it]Epoch 936, Total Loss: 0.0019257414843315997, test Loss 0.0014764459047000855
+Training:  94%|█████████▎| 937/1000 [5:16:49<21:17, 20.28s/it]Epoch 937, Total Loss: 0.00202113468466845, test Loss 0.0014766471809147892
+Training:  94%|█████████▍| 938/1000 [5:17:09<20:56, 20.26s/it]Epoch 938, Total Loss: 0.0026381427270057174, test Loss 0.0014986744572524913
+Training:  94%|█████████▍| 939/1000 [5:17:29<20:34, 20.24s/it]Epoch 939, Total Loss: 0.002466975406244977, test Loss 0.0015620035494346386
+Training:  94%|█████████▍| 940/1000 [5:17:50<20:15, 20.27s/it]Epoch 940, Total Loss: 0.0023544371860620195, test Loss 0.001474947853309389
+Training:  94%|█████████▍| 941/1000 [5:18:10<19:56, 20.28s/it]Epoch 941, Total Loss: 0.0023794028894835203, test Loss 0.0015135328246217866
+Training:  94%|█████████▍| 942/1000 [5:18:30<19:34, 20.25s/it]Epoch 942, Total Loss: 0.0020799580286037316, test Loss 0.0014453163317879303
+Training:  94%|█████████▍| 943/1000 [5:18:50<19:14, 20.25s/it]Epoch 943, Total Loss: 0.0015796425695781473, test Loss 0.0015043313547861404
+Training:  94%|█████████▍| 944/1000 [5:19:11<18:55, 20.28s/it]Epoch 944, Total Loss: 0.0018201397761004046, test Loss 0.0014739939819824381
+Training:  94%|█████████▍| 945/1000 [5:19:31<18:34, 20.26s/it]Epoch 945, Total Loss: 0.0025294372188103087, test Loss 0.0014679892925554528
+Training:  95%|█████████▍| 946/1000 [5:19:51<18:13, 20.24s/it]Epoch 946, Total Loss: 0.0017820450066553676, test Loss 0.001405316619079363
+Training:  95%|█████████▍| 947/1000 [5:20:11<17:54, 20.27s/it]Epoch 947, Total Loss: 0.0023146803476540197, test Loss 0.0014482289555487044
+Training:  95%|█████████▍| 948/1000 [5:20:32<17:33, 20.26s/it]Epoch 948, Total Loss: 0.0020833715833811404, test Loss 0.001515689854736243
+Training:  95%|█████████▍| 949/1000 [5:20:52<17:11, 20.22s/it]Epoch 949, Total Loss: 0.0019489929737865855, test Loss 0.0014701482611529243
+Training:  95%|█████████▌| 950/1000 [5:21:12<16:51, 20.23s/it]Epoch 950, Total Loss: 0.002040141225322413, test Loss 0.0015050184318589834
+Training:  95%|█████████▌| 951/1000 [5:21:32<16:32, 20.26s/it]Epoch 951, Total Loss: 0.00218177892548858, test Loss 0.0014054642407035527
+Training:  95%|█████████▌| 952/1000 [5:21:53<16:11, 20.24s/it]Epoch 952, Total Loss: 0.0020823657593935867, test Loss 0.0015007749025244266
+Training:  95%|█████████▌| 953/1000 [5:22:13<15:51, 20.25s/it]Epoch 953, Total Loss: 0.0023035426412155537, test Loss 0.001435980294235588
+Training:  95%|█████████▌| 954/1000 [5:22:33<15:32, 20.27s/it]Epoch 954, Total Loss: 0.0019303750815660744, test Loss 0.001432987997339716
+Training:  96%|█████████▌| 955/1000 [5:22:53<15:11, 20.26s/it]Epoch 955, Total Loss: 0.0034469033652951694, test Loss 0.0014672613906441256
+Training:  96%|█████████▌| 956/1000 [5:23:14<14:50, 20.25s/it]Epoch 956, Total Loss: 0.0021092301113245448, test Loss 0.0014458524058752048
+Training:  96%|█████████▌| 957/1000 [5:23:34<14:30, 20.25s/it]Epoch 957, Total Loss: 0.002319308994217108, test Loss 0.0013769921833255256
+Training:  96%|█████████▌| 958/1000 [5:23:54<14:11, 20.27s/it]Epoch 958, Total Loss: 0.0015865822420411586, test Loss 0.0014012070862988296
+Training:  96%|█████████▌| 959/1000 [5:24:14<13:49, 20.24s/it]Epoch 959, Total Loss: 0.00181619296501663, test Loss 0.0014456069553629137
+Training:  96%|█████████▌| 960/1000 [5:24:35<13:28, 20.22s/it]Epoch 960, Total Loss: 0.0016009877378204485, test Loss 0.001363467934424989
+Training:  96%|█████████▌| 961/1000 [5:24:55<13:10, 20.27s/it]Epoch 961, Total Loss: 0.0029337891928834033, test Loss 0.001386284031748521
+Training:  96%|█████████▌| 962/1000 [5:25:15<12:49, 20.25s/it]Epoch 962, Total Loss: 0.002372729270510323, test Loss 0.0014146988777121385
+Training:  96%|█████████▋| 963/1000 [5:25:35<12:29, 20.25s/it]Epoch 963, Total Loss: 0.0021407106135673116, test Loss 0.0014134632074274123
+Training:  96%|█████████▋| 964/1000 [5:25:56<12:09, 20.27s/it]Epoch 964, Total Loss: 0.0031128522922407907, test Loss 0.0013892522119231916
+Training:  96%|█████████▋| 965/1000 [5:26:16<11:48, 20.25s/it]Epoch 965, Total Loss: 0.0022407728807455948, test Loss 0.0014072945853583335
+Training:  97%|█████████▋| 966/1000 [5:26:36<11:28, 20.24s/it]Epoch 966, Total Loss: 0.0016572229165522346, test Loss 0.0015855436935313405
+Training:  97%|█████████▋| 967/1000 [5:26:56<11:07, 20.24s/it]Epoch 967, Total Loss: 0.001977550944880108, test Loss 0.001429191359840423
+Training:  97%|█████████▋| 968/1000 [5:27:17<10:48, 20.27s/it]Epoch 968, Total Loss: 0.00208472597872935, test Loss 0.001394353365098001
+Training:  97%|█████████▋| 969/1000 [5:27:37<10:27, 20.24s/it]Epoch 969, Total Loss: 0.002516169768740546, test Loss 0.0014052785045350902
+Training:  97%|█████████▋| 970/1000 [5:27:57<10:06, 20.23s/it]Epoch 970, Total Loss: 0.00221923040171189, test Loss 0.0013717231724093347
+Training:  97%|█████████▋| 971/1000 [5:28:17<09:47, 20.26s/it]Epoch 971, Total Loss: 0.002401815524999105, test Loss 0.001387382449768036
+Training:  97%|█████████▋| 972/1000 [5:28:38<09:27, 20.26s/it]Epoch 972, Total Loss: 0.0017500528393045315, test Loss 0.0014308182138707847
+Training:  97%|█████████▋| 973/1000 [5:28:58<09:06, 20.24s/it]Epoch 973, Total Loss: 0.0018763778989866623, test Loss 0.0013846641385708398
+Training:  97%|█████████▋| 974/1000 [5:29:18<08:46, 20.27s/it]Epoch 974, Total Loss: 0.0026745628642427894, test Loss 0.0013852141648665285
+Training:  98%|█████████▊| 975/1000 [5:29:38<08:26, 20.25s/it]Epoch 975, Total Loss: 0.0019116092449655967, test Loss 0.0013663334292896951
+Training:  98%|█████████▊| 976/1000 [5:29:58<08:05, 20.22s/it]Epoch 976, Total Loss: 0.0025837798476579404, test Loss 0.0013577249609135413
+Training:  98%|█████████▊| 977/1000 [5:30:19<07:45, 20.25s/it]Epoch 977, Total Loss: 0.0030915136256843877, test Loss 0.0013470361512960293
+Training:  98%|█████████▊| 978/1000 [5:30:39<07:25, 20.27s/it]Epoch 978, Total Loss: 0.001632648503148647, test Loss 0.0013844545971481309
+Training:  98%|█████████▊| 979/1000 [5:30:59<07:04, 20.24s/it]Epoch 979, Total Loss: 0.0017024696330135724, test Loss 0.0013578744513394597
+Training:  98%|█████████▊| 980/1000 [5:31:19<06:44, 20.22s/it]Epoch 980, Total Loss: 0.002206672052742984, test Loss 0.0013787595797531628
+Training:  98%|█████████▊| 981/1000 [5:31:40<06:24, 20.25s/it]Epoch 981, Total Loss: 0.0026208671240382036, test Loss 0.0013312107537505934
+Training:  98%|█████████▊| 982/1000 [5:32:00<06:05, 20.29s/it]Epoch 982, Total Loss: 0.001970105027211039, test Loss 0.0013593468432260964
+Training:  98%|█████████▊| 983/1000 [5:32:20<05:44, 20.24s/it]Epoch 983, Total Loss: 0.0023787767782297757, test Loss 0.0013166467164969968
+Training:  98%|█████████▊| 984/1000 [5:32:41<05:24, 20.27s/it]Epoch 984, Total Loss: 0.0019498491596061525, test Loss 0.0013277573461192122
+Training:  98%|█████████▊| 985/1000 [5:33:01<05:03, 20.27s/it]Epoch 985, Total Loss: 0.0020295990439338327, test Loss 0.0013159049843894676
+Training:  99%|█████████▊| 986/1000 [5:33:21<04:43, 20.26s/it]Epoch 986, Total Loss: 0.0024474817525841435, test Loss 0.0013650234742761734
+Training:  99%|█████████▊| 987/1000 [5:33:41<04:23, 20.25s/it]Epoch 987, Total Loss: 0.0017563512695421694, test Loss 0.0013270229210320394
+Training:  99%|█████████▉| 988/1000 [5:34:02<04:03, 20.28s/it]Epoch 988, Total Loss: 0.002705193915182531, test Loss 0.0013792430290777702
+Training:  99%|█████████▉| 989/1000 [5:34:22<03:42, 20.25s/it]Epoch 989, Total Loss: 0.0014189931729869953, test Loss 0.0013466070550538672
+Training:  99%|█████████▉| 990/1000 [5:34:42<03:22, 20.24s/it]Epoch 990, Total Loss: 0.0020118452513036935, test Loss 0.0013264538611110765
+Training:  99%|█████████▉| 991/1000 [5:35:02<03:02, 20.26s/it]Epoch 991, Total Loss: 0.0030635856443418648, test Loss 0.0013308340136203556
+Training:  99%|█████████▉| 992/1000 [5:35:23<02:41, 20.25s/it]Epoch 992, Total Loss: 0.0014454595978538735, test Loss 0.0013190765379337021
+Training:  99%|█████████▉| 993/1000 [5:35:43<02:21, 20.23s/it]Epoch 993, Total Loss: 0.0015462529782385933, test Loss 0.0013696128416296023
+Training:  99%|█████████▉| 994/1000 [5:36:03<02:01, 20.23s/it]Epoch 994, Total Loss: 0.0017852477420710097, test Loss 0.0013616544462050884
+Training: 100%|█████████▉| 995/1000 [5:36:23<01:41, 20.27s/it]Epoch 995, Total Loss: 0.0017752229323377833, test Loss 0.0012922522123867215
+Training: 100%|█████████▉| 996/1000 [5:36:44<01:21, 20.25s/it]Epoch 996, Total Loss: 0.002215040638990138, test Loss 0.0013074587220146966
+Training: 100%|█████████▉| 997/1000 [5:37:04<01:00, 20.25s/it]Epoch 997, Total Loss: 0.002729321347290369, test Loss 0.001343543445098196
+Training: 100%|█████████▉| 998/1000 [5:37:24<00:40, 20.25s/it]Epoch 998, Total Loss: 0.00168074572811404, test Loss 0.0013490638000523457
+Training: 100%|█████████▉| 999/1000 [5:37:44<00:20, 20.25s/it]Epoch 999, Total Loss: 0.002034107095755215, test Loss 0.0013264701945165424
+Training: 100%|██████████| 1000/1000 [5:38:05<00:00, 20.25s/it]Training: 100%|██████████| 1000/1000 [5:38:05<00:00, 20.29s/it]
+Current learning rate: 1e-05
+Training Time: 20285.141725 s
+Loss history CSV: /public/home/zy/stdy_deeponet/deepOnet_HPO/model_3D/trunk_ffm_lamda_fft_261_norm/results/model_3Dcase3_size_261_ddp_v3_ffm_loss.csv
+DDP 任务执行完毕: Tue  5 May 03:07:39 CST 2026

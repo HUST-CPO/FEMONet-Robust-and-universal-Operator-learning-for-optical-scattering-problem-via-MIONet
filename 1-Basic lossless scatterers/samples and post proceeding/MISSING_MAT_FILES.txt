@@ -1,0 +1,33 @@
+# Case 1 — Basic lossless scatterers
+# Data directory: samples and post proceeding/mat_data/
+
+## Why some files may be omitted elsewhere in the repo
+
+Large `.mat` files (`Train_data_*.mat`, `deepOnet_data_*.mat`, `E_*_pred*.mat`) are often **excluded from Git** when they exceed hundreds of MB, because they are impractical to host on GitHub. **This case includes the full 1558 and unseen datasets** in `mat_data/`.
+
+## Files currently in mat_data (complete)
+
+1558: `Train_data_A_1558`, `deepOnet_data_A_1558`, `idx_A_1558`, `E_*_pred_size_1558*`  
+unseen: `Train_data_A_unseen`, `deepOnet_data_A_unseen`, `idx_A_unseen`, `E_*_pred_size_320_unseen*`
+
+## Missing files
+
+None for this case.
+
+## How to regenerate from scratch
+
+### 1558 dataset
+1. `Main_Scattering.m` + `comsol_project/scatteringA1–A5.mph` → `Train_data_A_1558.mat`
+2. `data_read_Ez_1558.m` (with `idx_A_1558.mat` if re-splitting) → `deepOnet_data_A_1558.mat`
+3. `python NN/cnn_branch_test2.py` → `E_train_pred_size_1558.mat`, `E_test_pred_size_1558.mat`
+4. `outputE.m` → `pdf_results/`
+
+### Unseen generalization
+1. `Main_Scattering_unseen.m` + `scatteringA6–A10.mph` → `Train_data_A_unseen.mat`
+2. `data_read_Ez.m` + `idx_A_unseen.mat` → `deepOnet_data_A_unseen.mat`
+3. Corresponding NN training → `E_*_pred_size_320_unseen.mat`
+4. `outputE_unseen.m` → `pdf_results_unseen/`
+
+## Paper figures (loss / MSE)
+
+See `plot loss and mse histograms and guassion fits/MISSING_MAT_FILES.txt`. Case `A` MSE histograms are ready with the files above.

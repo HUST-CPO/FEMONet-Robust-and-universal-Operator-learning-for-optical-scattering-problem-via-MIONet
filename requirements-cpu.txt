@@ -1,0 +1,22 @@
+# CPU dependencies — local Anaconda env `deepXDE` (Python 3.10.17).
+# PyTorch CPU build (2.7.0+cpu on the reference machine).
+#
+# Install:
+#   conda activate deepXDE
+#   python -m pip install -r requirements-cpu.txt
+#
+# Or: conda env create -f environment-cpu.yml
+
+# --- required by NN/*.py in all cases ---
+torch==2.7.0
+numpy==2.0.2
+scipy==1.15.3
+h5py==3.13.0
+matplotlib==3.10.3
+tqdm==4.67.1
+pandas==2.3.1
+
+# --- optional (present in deepXDE dev env; not imported by this repo) ---
+deepxde==1.14.0
+torchvision==0.22.0
+torchaudio==2.7.0

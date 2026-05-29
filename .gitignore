@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# MATLAB
+*.asv
+
+# Exceed GitHub 100 MB single-file limit (regenerate per MISSING_MAT_FILES.txt)
+**/deepOnet_data_C_3456.mat
+**/deepOnet_data_3Dcase3_261.mat

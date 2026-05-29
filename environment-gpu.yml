@@ -1,0 +1,16 @@
+# Conda environment — GPU (SLURM cluster)
+# Create on a GPU node after loading the matching CUDA module:
+#   module load cuda/12.4
+#   conda env create -f environment-gpu.yml
+#   conda activate pinn-gpu
+#
+# Installs the full pip freeze in requirements-gpu.txt (PyTorch 2.5.1 + CUDA 12.4).
+
+name: pinn-gpu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - -r requirements-gpu.txt

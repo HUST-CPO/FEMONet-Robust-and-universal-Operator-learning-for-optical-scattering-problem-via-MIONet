@@ -1,0 +1,14 @@
+# Conda environment — CPU (local `deepXDE`)
+# Create:  conda env create -f environment-cpu.yml
+# Activate: conda activate deepXDE
+# Update:  conda env update -f environment-cpu.yml --prune
+
+name: deepXDE
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10.17
+  - pip
+  - pip:
+      - -r requirements-cpu.txt

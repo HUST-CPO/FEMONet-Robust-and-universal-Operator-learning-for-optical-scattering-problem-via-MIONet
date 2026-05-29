@@ -1,0 +1,14 @@
+# Python dependency index
+#
+# This repository ships two lock files:
+#
+#   requirements-cpu.txt   — local CPU dev
+#   requirements-gpu.txt   — full pip freeze from SLURM GPU cluster
+#
+# See docs/REQUIREMENTS.md for details, install commands, and SLURM notes.
+#
+# Quick install:
+#   CPU:  pip install -r requirements-cpu.txt
+#   GPU:  pip install -r requirements-gpu.txt   (on a CUDA 12.4 GPU node)
+
+-r requirements-cpu.txt

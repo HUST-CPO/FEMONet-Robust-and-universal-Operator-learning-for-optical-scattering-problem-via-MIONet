@@ -1,0 +1,28 @@
+# Case 4 — SPP in plasmonic nanostructure (SPP14, 41 samples)
+# Data directory: samples and post proceeding/mat_data/
+
+## Why files may be omitted in other cases
+
+Full `Train_data_*.mat` / `deepOnet_*.mat` sets for large studies are often dropped from Git for **disk quota**. **This case (41 samples) is small enough that all `.mat` files are included.**
+
+## Files currently in mat_data (complete)
+
+- `Train_data_SPP14_41.mat`
+- `deepOnet_data_SPP14_41.mat`
+- `idx_SPP14_41.mat`
+- `E_train_pred_size_41.mat`
+- `E_test_pred_size_41.mat`
+
+## Missing files
+
+None.
+
+## How to regenerate
+
+1. `Main_SPP14.m` + `comsol_project/case14_2D_freq.mph` → `Train_data_SPP14_41.mat`  
+   (requires `function/`, `kernel/`, `mesh/`, `post/`)
+2. `data_read_Ez.m` → `deepOnet_data_SPP14_41.mat`, `idx_SPP14_41.mat`
+3. `python NN/cnn_branch_test1.py` → `E_*_pred_size_41.mat`
+4. `outputE_v3.m` → `pdf_results/`
+
+MSE histogram: `compute_mse_cache('SPP14')` in the plotting module.

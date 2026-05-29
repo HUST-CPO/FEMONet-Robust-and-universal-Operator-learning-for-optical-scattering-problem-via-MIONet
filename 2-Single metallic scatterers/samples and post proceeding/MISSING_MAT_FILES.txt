@@ -1,0 +1,35 @@
+# Case 2 — Single metallic scatterers
+# Data directory: samples and post proceeding/mat_data/
+
+## Why files are missing from the repository
+
+`Train_data_B1_*.mat`, `deepOnet_data_B1_*.mat`, and `E_*_pred_50688*.mat` are **not included** because each file is **very large** (multi‑GB COMSOL sampling and 50k+ sample tensors). Only the small split file `idx_B1_50688.mat` is kept so the deepOnet / training pipeline can be reproduced once `Train_data` is generated locally.
+
+## Files currently in mat_data
+
+- `idx_B1_50688.mat`
+
+## Missing files (generate locally)
+
+| File | Generator | Inputs |
+|------|-----------|--------|
+| `Train_data_B1_all.mat` | `Main_Scattering.m` | `comsol_project/scatteringB1–B7.mph` |
+| `Train_data_B1_50688.mat` | `Main_Scattering.m` or subset from `B1_all` | COMSOL sampling |
+| `Train_data_B1_1152.mat` | Subset / separate sampling | `Train_data_B1_all` |
+| `deepOnet_data_B1_50688.mat` | `data_read_Ez_B1_50688.m` | `Train_data_B1_50688.mat` + **`idx_B1_50688.mat`** (provided) |
+| `deepOnet_data_B1_1152.mat` | `data_read_Ez.m` | `Train_data_B1_1152.mat` |
+| `idx_B1_1152.mat` | `data_read_Ez.m` | random split inside script |
+| `E_train_pred_size_50688_ddp.mat` | `NN/cnn_branch_test1_DDP.py` | `deepOnet_data_B1_50688.mat` + trained weights |
+| `E_test_pred_size_50688_ddp.mat` | same | `saveE_pred` output |
+| `E_test_pred_size_50688_bestmodel.mat` | `NN/cnn_branch_test.py` | same |
+| `train_pred_50688(512_256_1.58).mat` | `NN/cnn_branch_test.py` | same |
+| `test_pred_50688(512_256_1.58).mat` | `NN/cnn_branch_test.py` | same |
+
+## Recommended order (50,688 main pipeline)
+
+1. `Main_Scattering.m` → `Train_data_B1_50688.mat`
+2. `data_read_Ez_B1_50688.m` using **`idx_B1_50688.mat`** → `deepOnet_data_B1_50688.mat`
+3. `torchrun NN/cnn_branch_test1_DDP.py` → `E_*_pred_size_50688_ddp.mat`
+4. `outputE_v2.m` → `pdf_results/`
+
+Copy training log to `plot loss …/loss_log/modelB_loss.log` for loss curves.

@@ -1,0 +1,29 @@
+# Case s1 — SPP in plasmonic nanostructure (SPP1, 71 samples)
+# Data directory: samples and post proceeding/mat_data/
+
+## Why files may be omitted in other cases
+
+Large `Train_data` / `deepOnet` archives are excluded from Git when they exceed repository size limits. **This case (71 samples) ships a complete `mat_data/` set.**
+
+## Files currently in mat_data (complete)
+
+- `Train_data_SPP1_71.mat`
+- `deepOnet_data_SPP1_71.mat`
+- `idx_SPP1_71.mat`
+- `E_train_pred_size_71.mat`
+- `E_test_pred_size_71.mat`
+
+## Missing files
+
+None.
+
+## How to regenerate
+
+1. `Main_SPP1.m` + `comsol_project/case1_2D.mph` → `Train_data_SPP1_71.mat`
+2. `data_read.m` → `deepOnet_data_SPP1_71.mat`, `idx_SPP1_71.mat`
+3. `python NN/cnn_branch_test1.py` → `E_*_pred_size_71.mat`
+4. `outputE_v3.m` → `pdf_results/`
+
+MSE histogram: `compute_mse_cache('SPP1')`.
+
+Copy log to `plot loss …/loss_log/modelSPP1_loss.txt`.
