@@ -1,4 +1,4 @@
-# Physics-Informed DeepONet for Electromagnetic Scattering
+# FEMONet: Robust and Universal Operator Learning for Optical Scattering via MIONet
 
 Code release accompanying the paper: **physics-informed neural networks (PINNs) combined with DeepONet-style architectures** for fast prediction of electromagnetic fields in nanophotonic and metasurface problems.
 
@@ -120,13 +120,10 @@ Large files (`Train_data_*.mat`, `deepOnet_data_*.mat`, `E_pred*.mat`) may be om
 - which script generates each file
 - how to reproduce the pipeline using provided `idx_*.mat` splits
 
-
-
-If you use this code, please cite the accompanying paper (citation to be added upon publication).
-
 ## License
 
 [Specify license before public release, e.g. MIT or Apache-2.0]
 
 ## Citation
 
+If you use this code, please cite the accompanying paper (citation to be added upon publication).
