@@ -4,7 +4,16 @@
 
 ## Why files are omitted from the repository
 
-Large `.mat` files (`Train_data_*.mat`, `deepOnet_data_*.mat`, `E_*_pred*.mat`) are **not committed** because each can occupy **hundreds of MB to several GB**, exceeding practical GitHub limits. Smaller split files (`idx_*.mat`) and compact case subsets are included when possible.
+Large `.mat` files (`Train_data_*.mat`, `deepOnet_data_*.mat`, `E_*_pred*.mat`) are **not committed** because each can occupy **hundreds of MB to several GB**, exceeding GitHub’s **100 MB per-file limit** and practical hosting size.
+
+### Excluded from Git by `.gitignore` (>100 MB)
+
+| File | Case | Approx. size | Regenerate |
+|------|------|--------------|------------|
+| `deepOnet_data_C_3456.mat` | 3 | ~1.05 GB | `data_read_Ez_C_3456.m` after `Train_data_C_3456.mat` |
+| `deepOnet_data_3Dcase3_261.mat` | 5 | ~851 MB | `data_read.m` after `Train_data_3Dcase3_261.mat` + `idx_3Dcase3_261.mat` |
+
+Smaller split files (`idx_*.mat`) and compact tensors are included when possible.
 
 Loss-curve plotting uses only text logs in `loss_log/` and does **not** need `.mat` files.
 
@@ -19,8 +28,8 @@ MSE histograms need ground-truth + prediction `.mat` files from each case’s `m
 | `A` | **Ready** | — | Case 1 pipeline (complete in repo) |
 | `SPP14` | **Ready** | — | Case 4 pipeline |
 | `SPP1` | **Ready** | — | s1 pipeline |
-| `3D` | **Incomplete** | `Train_data_3Dcase3_261.mat` | Case 5: `main_case1.m` → subset to 261 samples |
-| `C` | **Incomplete** | `Train_data_C_3456.mat`, `E_*_pred_size_3456.mat` | Case 3: `Main_Scattering_C_cnn.m` → `cnn_branch_test_1.py` |
+| `C` | **Incomplete** | `Train_data_C_3456.mat`, `deepOnet_data_C_3456.mat` (~1 GB, **not on Git**), `E_*_pred_size_3456.mat` | Case 3: `Main_Scattering_C_cnn.m` → `data_read_Ez_C_3456.m` |
+| `3D` | **Incomplete** | `Train_data_3Dcase3_261.mat`, `deepOnet_data_3Dcase3_261.mat` (~851 MB, **not on Git**) | Case 5: `main_case1.m` → `data_read.m` + `idx_3Dcase3_261.mat` |
 | `B` | **Incomplete** | `Train_data_B1_50688.mat`, `deepOnet_data_B1_50688.mat`, `E_*_pred_50688*.mat` | Case 2: `Main_Scattering.m` → `data_read_Ez_B1_50688.m` (use `idx_B1_50688.mat`) → DDP training |
 
 After missing files exist in the case `mat_data/` folder:

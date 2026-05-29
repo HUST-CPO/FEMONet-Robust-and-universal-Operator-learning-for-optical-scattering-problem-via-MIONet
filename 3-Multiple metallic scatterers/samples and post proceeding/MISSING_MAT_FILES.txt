@@ -3,28 +3,37 @@
 
 ## Why files are missing from the repository
 
-`Train_data_C_3456.mat` and `E_*_pred_size_3456.mat` are **omitted due to size** (thousands of FEM samples × large sparse systems). `idx_C_3456.mat` and `deepOnet_data_C_3456.mat` are included as the preprocessed training tensors.
+Large `.mat` files are **not pushed to GitHub** because they exceed the **100 MB per-file limit** or are impractical for git hosting.
 
-## Files currently in mat_data
+| File | Approx. size | GitHub status |
+|------|--------------|---------------|
+| `deepOnet_data_C_3456.mat` | **~1.05 GB** | **Excluded** (listed in root `.gitignore`) |
+| `Train_data_C_3456.mat` | very large | Not included |
+| `E_*_pred_size_3456.mat` | large | Not included |
+
+## Files currently in the GitHub repository
 
 - `idx_C_3456.mat`
-- `deepOnet_data_C_3456.mat`
 
-## Missing files (generate locally)
+## Missing files (clone from GitHub — generate or copy locally)
 
 | File | Generator | Inputs |
 |------|-----------|--------|
+| `deepOnet_data_C_3456.mat` | `data_read_Ez_C_3456.m` | `Train_data_C_3456.mat` + random split (or use existing `idx_C_3456.mat` if re-splitting) |
 | `Train_data_C_3456.mat` | `Main_Scattering_C_cnn.m` | `comsol_project/scatteringC1.mph`, `scatteringC2.mph` |
-| `E_train_pred_size_3456.mat` | `NN/cnn_branch_test_1.py` | `deepOnet_data_C_3456.mat` + weights |
-| `E_test_pred_size_3456.mat` | `NN/cnn_branch_test_1.py` | `saveE_pred` (needed by `outputE_v2.m`) |
+| `E_train_pred_size_3456.mat` | `NN/cnn_branch_test_1.py` | `deepOnet_data_C_3456.mat` + trained weights |
+| `E_test_pred_size_3456.mat` | `NN/cnn_branch_test_1.py` | `saveE_pred` (required by `outputE_v2.m`) |
 
 ## Recommended order
 
 1. `Main_Scattering_C_cnn.m` → `Train_data_C_3456.mat`
-2. Skip if present: `data_read_Ez_C_3456.m` → `deepOnet_data_C_3456.mat` + `idx_C_3456.mat`
+2. `data_read_Ez_C_3456.m` → `deepOnet_data_C_3456.mat` + `idx_C_3456.mat`  
+   (`idx_C_3456.mat` is already in the repo; skip re-split if you use the same file.)
 3. `python NN/cnn_branch_test_1.py` → `E_*_pred_size_3456.mat`
 4. `outputE_v2.m` → `pdf_results/`
 
+**Shortcut if you only need training:** with `idx_C_3456.mat` from the repo, run step 1 then step 2 to recreate `deepOnet_data_C_3456.mat` locally.
+
 MSE histogram (`compute_mse_cache('C')`) needs **all** of: `Train_data`, `deepOnet`, `idx`, `E_train/test_pred`.
 
-Copy log to `plot loss …/loss_log/modelC_loss.txt` for loss curves.
+Copy training log to `plot loss …/loss_log/modelC_loss.txt` for loss curves.

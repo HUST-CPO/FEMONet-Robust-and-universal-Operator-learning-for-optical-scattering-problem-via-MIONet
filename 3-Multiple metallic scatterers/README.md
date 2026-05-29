@@ -7,7 +7,7 @@
 | File | Status | Description |
 |------|--------|-------------|
 | `idx_C_3456.mat` | Included | Split (seed 20260407) |
-| `deepOnet_data_C_3456.mat` | Included | Preprocessed tensors |
+| `deepOnet_data_C_3456.mat` | **Excluded from Git** (~1.05 GB) | Regenerate via `data_read_Ez_C_3456.m` |
 | `Train_data_C_3456.mat` | **Omitted** | COMSOL raw data |
 | `E_*_pred_size_3456.mat` | **Omitted** | NN predictions |
 

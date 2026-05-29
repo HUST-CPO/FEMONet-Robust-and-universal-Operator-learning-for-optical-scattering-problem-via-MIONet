@@ -21,9 +21,9 @@ MATLAB post-processing  →  pdf_results/
 | -------------------------------------------------------------------------------------- | ------------------------------------ | ------------- | ------------------------------------------ |
 | [1-Basic lossless scatterers](1-Basic%20lossless%20scatterers/README.md)               | 2D lossless dielectric scatterers    | 1558 + unseen | Full dataset included                      |
 | [2-Single metallic scatterers](2-Single%20metallic%20scatterers/README.md)             | 2D single metallic scatterers        | 50688         | Large `.mat` files omitted; `idx` provided |
-| [3-Multiple metallic scatterers](3-Multiple%20metallic%20scatterers/README.md)         | 2D multi-scatterer arrays            | 3456          | `deepOnet` + `idx` included                |
+| [3-Multiple metallic scatterers](3-Multiple%20metallic%20scatterers/README.md)         | 2D multi-scatterer arrays            | 3456          | `idx` on Git; `deepOnet` ~1 GB excluded    |
 | [4-SPP in plasmonic nanostructure](4-SPP%20in%20plasmonic%20nanostructure/README.md)   | 2D surface-plasmon structure (SPP14) | 41            | Full dataset + FEM helpers                 |
-| [5-3D metasurface](5-3D%20metasurface/README.md)                                       | 3D doubly-periodic metasurface       | 261           | Partial dataset; v7.3 `.mat`               |
+| [5-3D metasurface](5-3D%20metasurface/README.md)                                       | 3D doubly-periodic metasurface       | 261           | `deepOnet` ~851 MB excluded from Git       |
 | [s1-SPP in plasmonic nanostructure](s1-SPP%20in%20plasmonic%20nanostructure/README.md) | 2D SPP benchmark (SPP1)              | 71            | Full dataset + FEM helpers                 |
 | [Plotting (loss & MSE)](plot%20loss%20and%20mse%20histograms%20and%20guassion%20fits/README.md) | Loss curves, MSE histograms, ablation heatmap | — | MATLAB; reads `loss_log/` + case `mat_data/` |
 
@@ -114,11 +114,18 @@ outputE                    % export comparison figures to pdf_results/
 
 ## Data policy
 
-Large files (`Train_data_*.mat`, `deepOnet_data_*.mat`, `E_pred*.mat`) may be omitted from the repository due to size. Each case ships `MISSING_MAT_FILES.txt` describing:
+Large files (`Train_data_*.mat`, `deepOnet_data_*.mat`, `E_pred*.mat`) may be omitted from the repository due to size (GitHub **100 MB per-file limit**). Each case ships `MISSING_MAT_FILES.txt` describing:
 
 - which files are present or missing
 - which script generates each file
 - how to reproduce the pipeline using provided `idx_*.mat` splits
+
+**Not on GitHub (in `.gitignore`):**
+
+| File | Size | Regenerate |
+|------|------|------------|
+| `deepOnet_data_C_3456.mat` | ~1.05 GB | Case 3: `data_read_Ez_C_3456.m` |
+| `deepOnet_data_3Dcase3_261.mat` | ~851 MB | Case 5: `data_read.m` + `idx_3Dcase3_261.mat` |
 
 ## License
 

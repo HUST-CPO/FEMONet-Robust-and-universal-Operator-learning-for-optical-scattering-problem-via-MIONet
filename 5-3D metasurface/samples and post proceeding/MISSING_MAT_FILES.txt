@@ -3,22 +3,28 @@
 
 ## Why files are missing from the repository
 
-3D COMSOL samples use **MATLAB v7.3 (HDF5)** `.mat` files that are typically **1–10+ GB** per full dataset (`Train_data_3Dcase3_521.mat`). Only the 261-sample `deepOnet`, `idx`, and FFT prediction files are kept when size allows.
+3D datasets use **MATLAB v7.3 (HDF5)** `.mat` files that are often **1–10+ GB**. GitHub rejects any single file **> 100 MB**.
 
-## Files currently in mat_data
+| File | Approx. size | GitHub status |
+|------|--------------|---------------|
+| `deepOnet_data_3Dcase3_261.mat` | **~851 MB** | **Excluded** (listed in root `.gitignore`) |
+| `Train_data_3Dcase3_521.mat` | multi-GB | Not included |
+| `Train_data_3Dcase3_261.mat` | large | Not included |
+
+## Files currently in the GitHub repository
 
 - `idx_3Dcase3_261.mat`
-- `deepOnet_data_3Dcase3_261.mat`
-- `E_train_pred_size_261_ddp_fft.mat`
+- `E_train_pred_size_261_ddp_fft.mat` (~64 MB; warning but allowed)
 - `E_test_pred_size_261_ddp_fft.mat`
 
-## Missing files (generate locally)
+## Missing files (clone from GitHub — generate or copy locally)
 
 | File | Generator | Inputs |
 |------|-----------|--------|
+| `deepOnet_data_3Dcase3_261.mat` | `data_read.m` or 261 preprocessing pipeline | `Train_data_3Dcase3_261.mat` + `idx_3Dcase3_261.mat` |
 | `Train_data_3Dcase3_521.mat` | `main_case1.m` | `comsol_project/doublePBC.mph` (full λ sweep, `-v7.3`) |
 | `Train_data_3Dcase3_285.mat` | Subset of 521 | upstream `Train_data` |
-| `Train_data_3Dcase3_261.mat` | Subset of 285/521 | needed for `test_single.m`, `PlotR.m`, MSE plots |
+| `Train_data_3Dcase3_261.mat` | Subset of 285/521 | `test_single.m`, `PlotR.m`, MSE plots |
 | `deepOnet_data_3Dcase3_285.mat` | `data_read.m` | `Train_data_3Dcase3_285.mat` |
 | `idx_3Dcase3_285.mat` | `data_read.m` | same |
 | `E_train_pred_size_261_ddp.mat` | `NN/cnn_branch_test1_DDP.py` | non-FFT checkpoint |
@@ -28,8 +34,8 @@
 ## Recommended order (261 workflow)
 
 1. `main_case1.m` → `Train_data_3Dcase3_261.mat` (or 521→285→261 chain)
-2. If needed: preprocess with `data_read.m` → `deepOnet_data_3Dcase3_261.mat` (skip if present)
-3. `torchrun NN/cnn_branch_test1_DDP_v4_261_norm.py` → `E_*_pred_size_261_ddp*.mat`
+2. Preprocess with `data_read.m` → `deepOnet_data_3Dcase3_261.mat` (use repo `idx_3Dcase3_261.mat`)
+3. `torchrun NN/cnn_branch_test1_DDP_v4_261_norm.py` → `E_*_pred_size_261_ddp*.mat` (FFT variants may already be in repo)
 4. `test_single.m` / `PlotR.m` → `pdf_results/`
 
 MSE histogram needs `Train_data_3Dcase3_261.mat` (field scale ×1/10 in `compute_mse_cache('3D')`).

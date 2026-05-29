@@ -7,7 +7,7 @@ Doubly-periodic **3D** metasurface with tetrahedral FEM and periodic boundary co
 | File | Status | Description |
 |------|--------|-------------|
 | `idx_3Dcase3_261.mat` | Included | 261-sample split |
-| `deepOnet_data_3Dcase3_261.mat` | Included | v7.3 HDF5 format |
+| `deepOnet_data_3Dcase3_261.mat` | **Excluded from Git** (~851 MB) | Regenerate via `data_read.m` + `idx_3Dcase3_261.mat` |
 | `E_*_pred_size_261_ddp_fft.mat` | Included | FFT-branch predictions |
 | `Train_data_3Dcase3_*.mat` | **Omitted** | COMSOL raw (521/285/261) |
 | `doublePBC_mesh.mat` | **Omitted** | Exported mesh |
