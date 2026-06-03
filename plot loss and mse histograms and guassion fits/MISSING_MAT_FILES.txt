@@ -46,15 +46,15 @@ Or run `run_all_mse_histograms` (skips cases that still error).
 
 ## Optional: Case A VPINN comparison figure
 
-`error_MSE_A_with_vpinn.pdf` requires extra files **not** in the standard Case 1 pipeline:
+`error_MSE_A_with_vpinn.pdf` compares main FEMO/MIONet vs **VPINN-DeepOnet** baseline:
 
 | File | How to obtain |
 |------|----------------|
-| `E_test_pred_deeponet_vpinn_5.mat` | External VPINN / DeepONet baseline run |
-| `E_train_pred_deeponet_vpinn_5.mat` | Same |
-| `Esz_train`, `Esz_test` in `deepOnet_data_A_1558.mat` | VPINN preprocessing |
+| `E_test_pred_deeponet_vpinn_5.mat` | `1-Basic lossless scatterers/VPINN-DeepOnet/deeponet_vpinn_5.py` |
+| `E_train_pred_deeponet_vpinn_5.mat` | same |
+| Ground truth | `mat_data/Train_data_A_1558.mat` + `deepOnet_data_A_1558.mat` + `idx_A_1558.mat` |
 
-Place prediction files in Case 1 `mat_data/` and extend `compute_mse_cache` or plot manually.
+Copy prediction `.mat` files into Case 1 `mat_data/` or extend `compute_mse_cache` paths. See [`1-Basic lossless scatterers/ABLATION_README.md`](../1-Basic%20lossless%20scatterers/ABLATION_README.md).
 
 ---
 

@@ -19,7 +19,7 @@ MATLAB post-processing  →  pdf_results/
 
 | Folder                                                                                 | Problem                              | Samples       | Notes                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------ | ------------- | ------------------------------------------ |
-| [1-Basic lossless scatterers](1-Basic%20lossless%20scatterers/README.md)               | 2D lossless dielectric scatterers    | 1558 + unseen | Full dataset included                      |
+| [1-Basic lossless scatterers](1-Basic%20lossless%20scatterers/README.md)               | 2D lossless dielectric scatterers    | 1558 + unseen | Full dataset; includes VPINN ablation baselines |
 | [2-Single metallic scatterers](2-Single%20metallic%20scatterers/README.md)             | 2D single metallic scatterers        | 50688         | Large `.mat` files omitted; `idx` provided |
 | [3-Multiple metallic scatterers](3-Multiple%20metallic%20scatterers/README.md)         | 2D multi-scatterer arrays            | 3456          | `idx` on Git; `deepOnet` ~1 GB excluded    |
 | [4-SPP in plasmonic nanostructure](4-SPP%20in%20plasmonic%20nanostructure/README.md)   | 2D surface-plasmon structure (SPP14) | 41            | Full dataset + FEM helpers                 |
