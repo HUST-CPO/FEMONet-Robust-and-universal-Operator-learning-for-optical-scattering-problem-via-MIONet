@@ -1,6 +1,6 @@
 # FEMONet: Robust and Universal Operator Learning for Optical Scattering via MIONet
 
-Code release accompanying the paper: **Finite Element Method combined physical constrain with MIONet architectures** for fast prediction of electromagnetic fields in nanophotonic and metasurface problems.
+Code release accompanying the paper: **Learning light scattering from operator parameter spaces to Galerkin-consistent solution spaces** for fast prediction of electromagnetic fields in nanophotonic and metasurface problems.
 
 This repository contains six self-contained case studies. Each case follows the same high-level pipeline:
 
