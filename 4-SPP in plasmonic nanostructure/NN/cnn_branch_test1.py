@@ -327,7 +327,7 @@ class FFT_MLP_Branch(nn.Module):
     def forward(self, lambda_in):
         # lambda_in: (B, lambda_input_dim)
         x_fft = torch.fft.fft(lambda_in, dim=-1)  # (B, lambda_input_dim) complex
-        x_cat = torch.cat([x_fft.real, x_fft.imag], dim=-1)  # (B, 2*lambda_input_dim)
+        x_cat = torch.cat([x_fft.real, x_fft.imag], dim=0)  # (B, 2*lambda_input_dim)
         out = self.mlp(x_cat)  # (B, output_dim_2bi)
         return out
 
