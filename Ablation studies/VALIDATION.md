@@ -10,6 +10,7 @@ Validated on 2026-11-13 with Python 3.11 and PyTorch 2.5.1 CPU.
 - The Case 1 split has 1246 training and 312 test samples with disjoint indices.
 - Archived Case 1 predictions reproduce test MSE 4.390900391795585e-5.
 - The Case 1 checkpoint loads strictly and reproduces the first two saved test predictions within rtol 1e-9 and atol 1e-10.
+- All three permittivity-input datasets load successfully and complete a finite energy-loss, gradient, and optimizer-step check on CPU.
 - Bundled input checksums and Case 3 data reassembly pass.
 
 The release validation covers packaging and CPU numerical checks. Full training is run using the CUDA commands in each study README. Recorded experiment tables are included in `reference_results/`.
