@@ -1,0 +1,8 @@
+{
+  "raw_over_archived_ilu_test_mse": 84.35026523348691,
+  "raw_over_paired_ilu_test_mse": 88.04093067928912,
+  "paired_ilu_has_lower_test_mse": true,
+  "paper_s2_approximate_mse": 0.037,
+  "metric": "sum |E_pred-E_true|^2 / sum valid DOFs; complex field; no padding",
+  "interpretation": "Ratios above 1 favor ILU; below 1 favor raw FEM. One seed, not a significance test."
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "method": "Archived ILU",
+    "n_samples": 14,
+    "spatial_relative_l2_pooled": 0.08851369763429064,
+    "mean_sample_spatial_relative_l2": 0.08432452963847994
+  },
+  {
+    "method": "Paired ILU",
+    "n_samples": 14,
+    "spatial_relative_l2_pooled": 0.08594865299932493,
+    "mean_sample_spatial_relative_l2": 0.08116497802993114
+  },
+  {
+    "method": "No preconditioning",
+    "n_samples": 14,
+    "spatial_relative_l2_pooled": 0.9966992598282505,
+    "mean_sample_spatial_relative_l2": 0.99358635145886
+  }
+]

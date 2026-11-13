@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "archived_test": {
+    "mse_global": 4.3909003917955854e-05,
+    "mse_sample_mean": 4.9793380030258363e-05,
+    "samples": 312,
+    "valid_dofs": 119178
+  },
+  "smoke": {
+    "pi": [
+      [
+        0.8068704795027415,
+        0.8068704795027415,
+        0.0
+      ],
+      [
+        1.9409170501734823,
+        1.9409170501734823,
+        0.0
+      ]
+    ],
+    "dd": [
+      [
+        0.7071549919480182,
+        0.0,
+        0.7071549919480182
+      ],
+      [
+        1.8949295684696812,
+        0.0,
+        1.8949295684696812
+      ]
+    ],
+    "hybrid": [
+      [
+        1.4143100096054377,
+        0.7071550176574194,
+        0.7071549919480182
+      ],
+      [
+        3.7898760738031614,
+        1.8949433114855394,
+        1.8949327623176222
+      ]
+    ]
+  },
+  "checks": [
+    "complex_mask_gradient",
+    "split_disjoint",
+    "nested_labels",
+    "unauthorized_label_invariance",
+    "hybrid_zero_weight_gradient_and_update",
+    "epoch_exactly_once_and_matched_hybrid_subset",
+    "repeatable_initialization",
+    "three_mode_smoke"
+  ]
+}

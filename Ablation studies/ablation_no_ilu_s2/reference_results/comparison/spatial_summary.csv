@@ -1,0 +1,4 @@
+﻿method,n_samples,spatial_relative_l2_pooled,mean_sample_spatial_relative_l2
+Archived ILU,14,0.08851369763429064,0.08432452963847994
+Paired ILU,14,0.08594865299932493,0.08116497802993114
+No preconditioning,14,0.9966992598282505,0.99358635145886

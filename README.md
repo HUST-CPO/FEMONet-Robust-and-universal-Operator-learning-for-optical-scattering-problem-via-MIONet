@@ -134,3 +134,11 @@ Large files (`Train_data_*.mat`, `deepOnet_data_*.mat`, `E_pred*.mat`) may be om
 ## Citation
 
 If you use this code, please cite the accompanying paper (citation to be added upon publication).
+
+## Ablation studies
+
+See [Ablation studies](Ablation%20studies/README.md) for the preconditioning, label-efficiency, PINN, and permittivity-input reference implementations, matching inputs, and reproduction commands.
+
+## Contributors
+
+- [2577243392](https://github.com/2577243392) (Lida_Liu)

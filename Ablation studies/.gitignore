@@ -1,0 +1,14 @@
+**/__pycache__/
+**/runs/
+!**/reference_results/runs/
+!**/reference_results/runs/**
+**/comparison/
+!**/reference_results/comparison/
+!**/reference_results/comparison/**
+**/comparison_full/
+!**/reference_results/comparison_full/
+!**/reference_results/comparison_full/**
+**/figures/
+**/field_comparison/
+**/logs/
+/non_permittivity/case3/deepOnet_data_C1_3388.mat

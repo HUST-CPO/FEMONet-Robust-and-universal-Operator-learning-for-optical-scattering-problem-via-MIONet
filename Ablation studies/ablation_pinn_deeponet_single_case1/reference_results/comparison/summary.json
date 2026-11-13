@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "run": "28093 full training set, SAME instance",
+      "checkpoint": "final",
+      "adam_updates": 39000,
+      "lbfgs_iterations": 0,
+      "lbfgs_evaluations": 0,
+      "mse": 0.912484356259638,
+      "relative_l2_nodes": 4.420160643773017,
+      "optimization_seconds": null,
+      "training_seconds_including_audits": 30873.54103770107
+    },
+    {
+      "run": "adam1000",
+      "checkpoint": "final",
+      "adam_updates": 1000,
+      "lbfgs_iterations": 0,
+      "lbfgs_evaluations": 0,
+      "mse": 0.42544702695071607,
+      "relative_l2_nodes": 3.0182004960702415,
+      "optimization_seconds": 80.7986510900082,
+      "training_seconds_including_audits": 82.370067023905
+    },
+    {
+      "run": "adam3000",
+      "checkpoint": "final",
+      "adam_updates": 3000,
+      "lbfgs_iterations": 0,
+      "lbfgs_evaluations": 0,
+      "mse": 0.04460475622395844,
+      "relative_l2_nodes": 0.9772730548771251,
+      "optimization_seconds": 243.39419712941162,
+      "training_seconds_including_audits": 247.599345671013
+    },
+    {
+      "run": "adam5000_lbfgs500",
+      "checkpoint": "adam_final",
+      "adam_updates": 5000,
+      "lbfgs_iterations": 0,
+      "lbfgs_evaluations": 0,
+      "mse": 9.212596906329321e-05,
+      "relative_l2_nodes": 0.04441364063002408,
+      "optimization_seconds": null,
+      "training_seconds_including_audits": 404.38771806203295
+    },
+    {
+      "run": "adam5000_lbfgs500",
+      "checkpoint": "final",
+      "adam_updates": 5000,
+      "lbfgs_iterations": 500,
+      "lbfgs_evaluations": 529,
+      "mse": 6.611539998821399e-05,
+      "relative_l2_nodes": 0.03762501263418142,
+      "optimization_seconds": 442.8621663803933,
+      "training_seconds_including_audits": 449.1556165589718
+    }
+  ],
+  "checks": "Architecture/loss/data/collocation/initial weights hashes identical to job 28093",
+  "sample_id": 1,
+  "original_train_row": 449,
+  "qualification": "One training geometry and one seed. Single-instance updates are 1000/3000/5000, versus 39000 for the full run. Effective batch size changes from up to 32 to 1. Longer-arm cosine horizons differ. L-BFGS is an explicit optimizer addition.",
+  "timing": "Full run includes full-test validation. Single runs include independent spatial audits. Synchronized optimizer-only time is separately recorded for single runs."
+}

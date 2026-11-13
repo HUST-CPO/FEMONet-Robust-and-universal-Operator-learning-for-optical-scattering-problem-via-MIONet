@@ -1,0 +1,380 @@
+[
+  {
+    "method": "Archived ILU",
+    "split_index": 1,
+    "sample_id": 18,
+    "duty_cycle": 0.37,
+    "error_integral": 0.009413976372923688,
+    "reference_integral": 2.523888112806798,
+    "spatial_relative_l2": 0.061073316292614616
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 2,
+    "sample_id": 55,
+    "duty_cycle": 0.74,
+    "error_integral": 0.054676689677132094,
+    "reference_integral": 16.489197614898856,
+    "spatial_relative_l2": 0.05758393579139473
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 3,
+    "sample_id": 60,
+    "duty_cycle": 0.79,
+    "error_integral": 0.0908497212888544,
+    "reference_integral": 16.526103532324534,
+    "spatial_relative_l2": 0.07414409440128052
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 4,
+    "sample_id": 34,
+    "duty_cycle": 0.53,
+    "error_integral": 0.03121581296983195,
+    "reference_integral": 5.862137021408725,
+    "spatial_relative_l2": 0.07297251967114783
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 5,
+    "sample_id": 48,
+    "duty_cycle": 0.67,
+    "error_integral": 0.07019919442909557,
+    "reference_integral": 15.641908238306911,
+    "spatial_relative_l2": 0.06699173063338064
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 6,
+    "sample_id": 44,
+    "duty_cycle": 0.63,
+    "error_integral": 0.035391125717263286,
+    "reference_integral": 13.393839278237643,
+    "spatial_relative_l2": 0.051403731542553274
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 7,
+    "sample_id": 41,
+    "duty_cycle": 0.6000000000000001,
+    "error_integral": 0.07796380780271717,
+    "reference_integral": 10.964964455257995,
+    "spatial_relative_l2": 0.08432238990145448
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 8,
+    "sample_id": 64,
+    "duty_cycle": 0.8300000000000001,
+    "error_integral": 0.2231347057700755,
+    "reference_integral": 12.996045121047299,
+    "spatial_relative_l2": 0.13103217713838597
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 9,
+    "sample_id": 70,
+    "duty_cycle": 0.8900000000000001,
+    "error_integral": 0.2123212534714182,
+    "reference_integral": 4.7418164840582575,
+    "spatial_relative_l2": 0.21160423907710488
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 10,
+    "sample_id": 21,
+    "duty_cycle": 0.4,
+    "error_integral": 0.010958252358771233,
+    "reference_integral": 2.7505657537916477,
+    "spatial_relative_l2": 0.06311893073179839
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 11,
+    "sample_id": 2,
+    "duty_cycle": 0.21000000000000002,
+    "error_integral": 0.013239586841650731,
+    "reference_integral": 2.0321795074940034,
+    "spatial_relative_l2": 0.08071535895473417
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 12,
+    "sample_id": 69,
+    "duty_cycle": 0.8800000000000001,
+    "error_integral": 0.04059731688317828,
+    "reference_integral": 5.448524253187447,
+    "spatial_relative_l2": 0.0863195607233356
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 13,
+    "sample_id": 1,
+    "duty_cycle": 0.2,
+    "error_integral": 0.014344296468714206,
+    "reference_integral": 2.019664962492844,
+    "spatial_relative_l2": 0.08427523275982213
+  },
+  {
+    "method": "Archived ILU",
+    "split_index": 14,
+    "sample_id": 16,
+    "duty_cycle": 0.35,
+    "error_integral": 0.007286476589144788,
+    "reference_integral": 2.4099620373286497,
+    "spatial_relative_l2": 0.05498619731971191
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 1,
+    "sample_id": 18,
+    "duty_cycle": 0.37,
+    "error_integral": 0.006665102049035147,
+    "reference_integral": 2.523888112806798,
+    "spatial_relative_l2": 0.05138878534206755
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 2,
+    "sample_id": 55,
+    "duty_cycle": 0.74,
+    "error_integral": 0.06664859713445846,
+    "reference_integral": 16.489197614898856,
+    "spatial_relative_l2": 0.06357637253633211
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 3,
+    "sample_id": 60,
+    "duty_cycle": 0.79,
+    "error_integral": 0.12539246974990975,
+    "reference_integral": 16.526103532324534,
+    "spatial_relative_l2": 0.0871064859141581
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 4,
+    "sample_id": 34,
+    "duty_cycle": 0.53,
+    "error_integral": 0.025307299613145335,
+    "reference_integral": 5.862137021408725,
+    "spatial_relative_l2": 0.06570447063789907
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 5,
+    "sample_id": 48,
+    "duty_cycle": 0.67,
+    "error_integral": 0.056428769313166496,
+    "reference_integral": 15.641908238306911,
+    "spatial_relative_l2": 0.06006277900237005
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 6,
+    "sample_id": 44,
+    "duty_cycle": 0.63,
+    "error_integral": 0.02987528831403734,
+    "reference_integral": 13.393839278237643,
+    "spatial_relative_l2": 0.04722843024656086
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 7,
+    "sample_id": 41,
+    "duty_cycle": 0.6000000000000001,
+    "error_integral": 0.06622800584033292,
+    "reference_integral": 10.964964455257995,
+    "spatial_relative_l2": 0.07771721426140465
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 8,
+    "sample_id": 64,
+    "duty_cycle": 0.8300000000000001,
+    "error_integral": 0.18256527520591834,
+    "reference_integral": 12.996045121047299,
+    "spatial_relative_l2": 0.1185232312125376
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 9,
+    "sample_id": 70,
+    "duty_cycle": 0.8900000000000001,
+    "error_integral": 0.1120862862309466,
+    "reference_integral": 4.7418164840582575,
+    "spatial_relative_l2": 0.15374601533476356
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 10,
+    "sample_id": 21,
+    "duty_cycle": 0.4,
+    "error_integral": 0.008630835299396556,
+    "reference_integral": 2.7505657537916477,
+    "spatial_relative_l2": 0.05601642633925341
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 11,
+    "sample_id": 2,
+    "duty_cycle": 0.21000000000000002,
+    "error_integral": 0.011020729974206334,
+    "reference_integral": 2.0321795074940034,
+    "spatial_relative_l2": 0.0736417579005777
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 12,
+    "sample_id": 69,
+    "duty_cycle": 0.8800000000000001,
+    "error_integral": 0.1318724375659654,
+    "reference_integral": 5.448524253187447,
+    "spatial_relative_l2": 0.15557419867860828
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 13,
+    "sample_id": 1,
+    "duty_cycle": 0.2,
+    "error_integral": 0.012643107688970211,
+    "reference_integral": 2.019664962492844,
+    "spatial_relative_l2": 0.07912017749869463
+  },
+  {
+    "method": "Paired ILU",
+    "split_index": 14,
+    "sample_id": 16,
+    "duty_cycle": 0.35,
+    "error_integral": 0.005301733344290471,
+    "reference_integral": 2.4099620373286497,
+    "spatial_relative_l2": 0.04690334751380834
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 1,
+    "sample_id": 18,
+    "duty_cycle": 0.37,
+    "error_integral": 2.462908796853935,
+    "reference_integral": 2.523888112806798,
+    "spatial_relative_l2": 0.9878457048502581
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 2,
+    "sample_id": 55,
+    "duty_cycle": 0.74,
+    "error_integral": 16.455756179560176,
+    "reference_integral": 16.489197614898856,
+    "spatial_relative_l2": 0.9989854446279345
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 3,
+    "sample_id": 60,
+    "duty_cycle": 0.79,
+    "error_integral": 16.482764985273906,
+    "reference_integral": 16.526103532324534,
+    "spatial_relative_l2": 0.9986879243084317
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 4,
+    "sample_id": 34,
+    "duty_cycle": 0.53,
+    "error_integral": 5.7841433941577565,
+    "reference_integral": 5.862137021408725,
+    "spatial_relative_l2": 0.9933254044993288
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 5,
+    "sample_id": 48,
+    "duty_cycle": 0.67,
+    "error_integral": 15.59302114781859,
+    "reference_integral": 15.641908238306911,
+    "spatial_relative_l2": 0.9984360812191732
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 6,
+    "sample_id": 44,
+    "duty_cycle": 0.63,
+    "error_integral": 13.325274550108608,
+    "reference_integral": 13.393839278237643,
+    "spatial_relative_l2": 0.9974371537592179
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 7,
+    "sample_id": 41,
+    "duty_cycle": 0.6000000000000001,
+    "error_integral": 10.912027286379555,
+    "reference_integral": 10.964964455257995,
+    "spatial_relative_l2": 0.9975831560179453
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 8,
+    "sample_id": 64,
+    "duty_cycle": 0.8300000000000001,
+    "error_integral": 12.950328858822258,
+    "reference_integral": 12.996045121047299,
+    "spatial_relative_l2": 0.9982395976330862
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 9,
+    "sample_id": 70,
+    "duty_cycle": 0.8900000000000001,
+    "error_integral": 4.7028090093256605,
+    "reference_integral": 4.7418164840582575,
+    "spatial_relative_l2": 0.9958783698122906
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 10,
+    "sample_id": 21,
+    "duty_cycle": 0.4,
+    "error_integral": 2.687575745070522,
+    "reference_integral": 2.7505657537916477,
+    "spatial_relative_l2": 0.9884833097341086
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 11,
+    "sample_id": 2,
+    "duty_cycle": 0.21000000000000002,
+    "error_integral": 1.975288254088873,
+    "reference_integral": 2.0321795074940034,
+    "spatial_relative_l2": 0.9859030424064538
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 12,
+    "sample_id": 69,
+    "duty_cycle": 0.8800000000000001,
+    "error_integral": 5.406036168465621,
+    "reference_integral": 5.448524253187447,
+    "spatial_relative_l2": 0.996093323735798
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 13,
+    "sample_id": 1,
+    "duty_cycle": 0.2,
+    "error_integral": 1.9627376886858776,
+    "reference_integral": 2.019664962492844,
+    "spatial_relative_l2": 0.9858060185794888
+  },
+  {
+    "method": "No preconditioning",
+    "split_index": 14,
+    "sample_id": 16,
+    "duty_cycle": 0.35,
+    "error_integral": 2.350110434368697,
+    "reference_integral": 2.4099620373286497,
+    "spatial_relative_l2": 0.9875043892405254
+  }
+]

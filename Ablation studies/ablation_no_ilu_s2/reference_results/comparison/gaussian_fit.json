@@ -1,0 +1,44 @@
+[
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "n": 57,
+    "mu_log10_mse": -1.9005484166352467,
+    "sigma_log10_mse": 0.27041180526705105
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "n": 57,
+    "mu_log10_mse": -2.04148287033299,
+    "sigma_log10_mse": 0.31778233108967785
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "n": 57,
+    "mu_log10_mse": 0.30259496510521233,
+    "sigma_log10_mse": 0.4274415033824351
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "n": 14,
+    "mu_log10_mse": -1.62504786767972,
+    "sigma_log10_mse": 0.4497265500227322
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "n": 14,
+    "mu_log10_mse": -1.6877673897964447,
+    "sigma_log10_mse": 0.5238945814868224
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "n": 14,
+    "mu_log10_mse": 0.3150417680257602,
+    "sigma_log10_mse": 0.44931383716767953
+  }
+]

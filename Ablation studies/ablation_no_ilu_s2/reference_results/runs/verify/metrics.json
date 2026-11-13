@@ -1,0 +1,58 @@
+{
+  "train": {
+    "mse_global": 0.01521900024439001,
+    "mse_sample_mean": 0.015207482157330955,
+    "samples": 57,
+    "valid_dofs": 160569
+  },
+  "test": {
+    "mse_global": 0.03733687180069728,
+    "mse_sample_mean": 0.03728051198648023,
+    "samples": 14,
+    "valid_dofs": 39469
+  },
+  "checks": {
+    "loss": 5.113333333333332,
+    "dense_reference_and_gradient": "passed",
+    "checkpoint_audit": {
+      "/public/home/lld/DeepOnet-SPP1/model_SPP1_size_71": {
+        "train": {
+          "mse_global": 0.01051288264752975,
+          "mse_sample_mean": 0.010507397282035485,
+          "samples": 57,
+          "valid_dofs": 160569
+        },
+        "test": {
+          "mse_global": 0.04423263313739896,
+          "mse_sample_mean": 0.04420327900775294,
+          "samples": 14,
+          "valid_dofs": 39469
+        },
+        "sha256": "088bba6d72fa7d7c1b24e2c3427cda416694c2833092e5e047017c55777a2726"
+      },
+      "/public/home/lld/DeepOnet-SPP1/model_save/model_SPP1_size_71_epoch1000.pth": {
+        "train": {
+          "mse_global": 0.01051288264752975,
+          "mse_sample_mean": 0.010507397282035485,
+          "samples": 57,
+          "valid_dofs": 160569
+        },
+        "test": {
+          "mse_global": 0.04423263313739896,
+          "mse_sample_mean": 0.04420327900775294,
+          "samples": 14,
+          "valid_dofs": 39469
+        },
+        "sha256": "333afac781b50d679058cc16c60a8134790d5003f67488df14057235c740cc3c"
+      }
+    },
+    "reference_prediction_sha256": {
+      "train": "fa2bda0eba3723a8fad1bd87a3a7acab053be86cd4aad1d48579c6edfe4a0c5c",
+      "test": "4f405312b86e317e181abb36ac4132b6a177bff3f41bc2b86856f7479b127b00"
+    },
+    "reference_source": "Local paper-matching SPP1 predictions; remote predictions belong to a different run (test MSE 0.0442326331374).",
+    "archived_predictions_match_reference": true,
+    "checkpoint_reproduces_archived_mse": false,
+    "note": "Historical predictions define Fig. S2 reference; current checkpoints audited separately. New matched runs use the frozen available source."
+  }
+}

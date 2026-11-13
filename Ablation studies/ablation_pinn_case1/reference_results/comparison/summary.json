@@ -1,0 +1,7 @@
+{
+  "pinn_over_paired_ilu_test_mse": 20085.815302270512,
+  "pinn_over_archived_ilu_test_mse": 20537.95970511789,
+  "metric": "total squared complex field error / valid DOFs; no padding",
+  "qualification": "One seed, fixed lambda_b=1, mesh-centroid collocation. Not a tuned best PINN or significance test.",
+  "source_quadrature_relative_discrepancy_max": 0.0022624255197876406
+}

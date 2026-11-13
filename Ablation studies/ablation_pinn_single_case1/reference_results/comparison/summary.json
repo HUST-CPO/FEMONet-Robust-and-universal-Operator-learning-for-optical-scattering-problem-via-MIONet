@@ -1,0 +1,40 @@
+{
+  "selected_pinn_by_independent_physics": "resample1",
+  "selected_pinn": {
+    "mse": 0.004821718630758057,
+    "relative_l2_nodes": 0.3213115013789668,
+    "complex_correlation": 0.9894811329151306
+  },
+  "matched_ilu_final": {
+    "mse": 5.185564314089059e-06,
+    "relative_l2_nodes": 0.010537154601369338,
+    "complex_correlation": 0.9999444856165312
+  },
+  "manufactured": {
+    "mse": 8.759850812888229e-07,
+    "relative_l2_nodes": 0.0009359407466762107,
+    "complex_correlation": 0.9999996750111169
+  },
+  "manufactured_mse_below_1e_minus3": true,
+  "pinn_to_ilu_mse_ratio": 929.8348913844455,
+  "source_audit": {
+    "sample_id": 1,
+    "records": [
+      {
+        "quadrature_order_per_axis": 8,
+        "rhs_relative_difference": 0.00226242551979772,
+        "solution_mse_from_rhs_difference": 5.6953136467281315e-09,
+        "solution_relative_l2_from_rhs_difference": 0.00034920798251201714
+      },
+      {
+        "quadrature_order_per_axis": 12,
+        "rhs_relative_difference": 0.0022624255197977194,
+        "solution_mse_from_rhs_difference": 5.695313646731383e-09,
+        "solution_relative_l2_from_rhs_difference": 0.00034920798251211684
+      }
+    ],
+    "quadrature_convergence_relative": 3.3294564329821104e-16,
+    "interpretation": "Same saved FEM matrix, high-order integration of analytic strong source. Quantifies source mismatch impact for this instance; does not establish its origin."
+  },
+  "limitation": "One development geometry and one seed. Different coordinate-only architecture from operator experiment. No claim about full operator convergence."
+}

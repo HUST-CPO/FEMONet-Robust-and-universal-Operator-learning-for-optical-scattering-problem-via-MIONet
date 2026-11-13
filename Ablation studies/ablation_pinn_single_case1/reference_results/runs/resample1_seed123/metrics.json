@@ -1,0 +1,16 @@
+{
+  "final": {
+    "mse": 0.018708405518880047,
+    "relative_l2_nodes": 0.6329125787348273,
+    "complex_correlation": 0.9838337347005471
+  },
+  "best_physics": {
+    "mse": 0.004821718630758057,
+    "relative_l2_nodes": 0.3213115013789668,
+    "complex_correlation": 0.9894811329151306
+  },
+  "training_seconds": 120.22117374604568,
+  "best_physics_score": 0.002907639590256524,
+  "best_step": "Adam:4000",
+  "lbfgs_evaluations": 539
+}

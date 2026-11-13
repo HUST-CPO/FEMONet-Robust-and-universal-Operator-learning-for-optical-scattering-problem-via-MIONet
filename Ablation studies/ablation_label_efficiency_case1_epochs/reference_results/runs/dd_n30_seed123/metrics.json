@@ -1,0 +1,20 @@
+{
+  "train": {
+    "mse_global": 0.015197891408495858,
+    "mse_sample_mean": 0.016431619434071103,
+    "samples": 1246,
+    "valid_dofs": 478005
+  },
+  "test": {
+    "mse_global": 0.013305559612545832,
+    "mse_sample_mean": 0.014626637700580125,
+    "samples": 312,
+    "valid_dofs": 119178
+  },
+  "updates": 1000,
+  "training_seconds": 164.9236623919569,
+  "setup_seconds": 2.191330701112747,
+  "physical_order_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "label_order_sha256": "a703e6a56c5a7bb881854cd0a6b3df76383935496d7e7af03aa986b13ef9ef07",
+  "final_lr": 1e-05
+}

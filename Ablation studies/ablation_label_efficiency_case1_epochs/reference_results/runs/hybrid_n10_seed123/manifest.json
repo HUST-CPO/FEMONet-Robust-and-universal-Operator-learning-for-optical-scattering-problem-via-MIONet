@@ -1,0 +1,38 @@
+{
+  "mode": "hybrid",
+  "n_label": 10,
+  "seed": 123,
+  "config": {
+    "epochs": 1000,
+    "protocol": "one_pass_subset_per_epoch",
+    "batch_size": 32,
+    "lr": 0.001,
+    "eta_min": 1e-05,
+    "clip": 1.0,
+    "dtype": "float64/complex128",
+    "hybrid_weight": 1.0
+  },
+  "initial_state_sha256": "98377a48cdb82f73ce736126814230bb361c6c4e2f54d65a74222af010385fc7",
+  "data_sha256": "ab78121dd2005cdfdd7e1c267ac474bbe57c2f2105b12ab8525261b1beaf2c44",
+  "source_sha256": "2da16b260d192d599f6c98eff02498d2fa56491927e41c35082a5c2f2185127a",
+  "implementation_sha256": "0b960ef7b96448068ee918a7a559e10dad0443208db60438a6519a34567dabc0",
+  "loader_sha256": "5dc871638ded21e81e50a8209da27b06f0988002d653930531063a8db32b10aa",
+  "evaluator_sha256": "d6d0f601eb2b021f26f43395582e90ba5927e5880e6c96f47b20dcd60d6b66df",
+  "split_sha256": "1d1841f27e7ba8d8aecf0fdbf63be58ca3e6755f2f9417df67ad23cf0578fed6",
+  "labels": [
+    1242,
+    11,
+    558,
+    225,
+    439,
+    52,
+    271,
+    499,
+    128,
+    908
+  ],
+  "slurm_job_id": "28122",
+  "n_physics": 10,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.5.1+cu124"
+}

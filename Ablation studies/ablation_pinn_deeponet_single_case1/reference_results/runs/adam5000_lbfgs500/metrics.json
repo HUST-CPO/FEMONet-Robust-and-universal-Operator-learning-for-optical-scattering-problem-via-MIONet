@@ -1,0 +1,32 @@
+{
+  "adam_final": {
+    "mse": 9.212596906329321e-05,
+    "relative_l2_nodes": 0.04441364063002408,
+    "training_domain": 0.004257316236185338,
+    "training_boundary": 2.8518860380607204e-05,
+    "independent_domain": 0.7817177777592444,
+    "independent_boundary": 3.075985853941229e-05,
+    "complex_correlation": 0.9999122204392894
+  },
+  "final": {
+    "mse": 6.611539998821399e-05,
+    "relative_l2_nodes": 0.03762501263418142,
+    "training_domain": 0.0021904458451029287,
+    "training_boundary": 2.4947710650986784e-05,
+    "independent_domain": 0.7099671469167811,
+    "independent_boundary": 2.5849679776730697e-05,
+    "complex_correlation": 0.999926408599637
+  },
+  "adam_updates": 5000,
+  "lbfgs_iterations": 500,
+  "lbfgs_function_evaluations": 529,
+  "optimization_seconds": 442.8621663803933,
+  "training_seconds_including_audits": 449.1556165589718,
+  "reference_full_dataset": {
+    "epochs": 1000,
+    "adam_updates": 39000,
+    "training_seconds": 30873.54103770107,
+    "test_mse": 0.9018013531588408,
+    "note": "Aggregate test MSE is not this single training-instance error"
+  }
+}

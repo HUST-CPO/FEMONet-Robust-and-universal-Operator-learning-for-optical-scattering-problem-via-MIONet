@@ -1,0 +1,16 @@
+{
+  "train": {
+    "mse_global": 0.9030492684008768,
+    "mse_sample_mean": 0.9021745020141558,
+    "samples": 1246,
+    "valid_dofs": 478005
+  },
+  "test": {
+    "mse_global": 0.9018013531588408,
+    "mse_sample_mean": 0.9005545133876104,
+    "samples": 312,
+    "valid_dofs": 119178
+  },
+  "training_seconds": 30873.54103770107,
+  "epochs": 1000
+}
