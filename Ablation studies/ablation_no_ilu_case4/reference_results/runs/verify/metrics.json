@@ -1,0 +1,53 @@
+{
+  "train": {
+    "mse_global": 0.00015511632183628588,
+    "mse_sample_mean": 0.00015511632183628588,
+    "samples": 33,
+    "valid_dofs": 115203
+  },
+  "test": {
+    "mse_global": 0.00016959776827179916,
+    "mse_sample_mean": 0.00016959776827179916,
+    "samples": 8,
+    "valid_dofs": 27928
+  },
+  "checks": {
+    "loss": 5.113333333333332,
+    "dense_reference_and_gradient": "passed",
+    "checkpoint_audit": {
+      "/public/home/lld/DeepOnet-SPP14/model_SPP14_size_41": {
+        "train": {
+          "mse_global": 0.0001539230914419866,
+          "mse_sample_mean": 0.0001539230914419866,
+          "samples": 33,
+          "valid_dofs": 115203
+        },
+        "test": {
+          "mse_global": 0.00016905945575445937,
+          "mse_sample_mean": 0.0001690594557544594,
+          "samples": 8,
+          "valid_dofs": 27928
+        },
+        "sha256": "89d1d3298725aa5c42b6baea8b49a6ad4b85c0475ddeb0b4e6d9f064cb41cc35"
+      },
+      "/public/home/lld/DeepOnet-SPP14/model_save/model_SPP14_size_41_epoch1000.pth": {
+        "train": {
+          "mse_global": 0.0001539230914419866,
+          "mse_sample_mean": 0.0001539230914419866,
+          "samples": 33,
+          "valid_dofs": 115203
+        },
+        "test": {
+          "mse_global": 0.00016905945575445937,
+          "mse_sample_mean": 0.0001690594557544594,
+          "samples": 8,
+          "valid_dofs": 27928
+        },
+        "sha256": "9c18c105d9b7e4a9cf90c9bf37f54e18a350d48d92b525d25873dc2492e7f41a"
+      }
+    },
+    "archived_predictions_reproduce_table2": true,
+    "checkpoint_reproduces_archived_mse": false,
+    "note": "Historical predictions define Table 2 reference; current checkpoints audited separately. New matched runs use the frozen available source."
+  }
+}

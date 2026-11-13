@@ -1,0 +1,29 @@
+{
+  "mode": "manufactured",
+  "seed": 123,
+  "steps": 5000,
+  "lbfgs": 500,
+  "sample_id": 1,
+  "train_row": 449,
+  "network": "2-64x6-2 tanh, coordinate-only",
+  "parameter_count": 21122,
+  "initial_hash": "022930302fdfe79811b129a06965d08bfdff3f2df20256ba7ad7ec1050854ee4",
+  "instance_sha256": "26f53eb42171049a4d6e4a6dca0bfed68cd3dc65dcbbc9a1416977b9e3f7e09f",
+  "script_sha256": "5838672c2321917076a6d2961c08e950e908f448ee04ee8284714b008a217dcb",
+  "k_per_um": 4.053667940115862,
+  "lambda_b": 1.0,
+  "normalized": true,
+  "adam_collocation": 1024,
+  "sampling": "material-balanced, area-uniform random; every 100 Adam steps; fixed L-BFGS points",
+  "selection": "minimum independent normalized physical residual; no FEM labels; ILU final checkpoint",
+  "torch": "2.5.1+cu124",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "slurm_job": "28228",
+  "checks": {
+    "manufactured_exact_PDE_and_Robin": "passed",
+    "network_laplacian_finite_difference": "passed",
+    "loss_parameter_finite_difference": "passed"
+  },
+  "saved_fem_relative_residual": 2.030692230807296e-14,
+  "scope": "single-instance development experiment on original training set; not an operator-generalization result"
+}

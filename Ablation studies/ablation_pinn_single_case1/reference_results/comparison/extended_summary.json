@@ -1,0 +1,105 @@
+{
+  "final_checkpoints": {
+    "manufactured_seed123": {
+      "run": "manufactured_seed123",
+      "mode": "manufactured",
+      "adam_steps": 5000,
+      "lbfgs_max_iterations": 500,
+      "checkpoint": "final",
+      "mse": 8.759850812888229e-07,
+      "relative_l2_nodes": 0.0009359407466762107,
+      "complex_correlation": 0.9999996750111169,
+      "training_seconds": 124.80093668506015,
+      "best_physics_score": 4.063910413042385e-07
+    },
+    "fixed_seed123": {
+      "run": "fixed_seed123",
+      "mode": "fixed",
+      "adam_steps": 5000,
+      "lbfgs_max_iterations": 500,
+      "checkpoint": "final",
+      "mse": 0.0002063571999302104,
+      "relative_l2_nodes": 0.0664714500310829,
+      "complex_correlation": 0.999296790269945,
+      "training_seconds": 120.88036651792936,
+      "best_physics_score": 0.007905590099397777
+    },
+    "resample1_seed123": {
+      "run": "resample1_seed123",
+      "mode": "resample1",
+      "adam_steps": 5000,
+      "lbfgs_max_iterations": 500,
+      "checkpoint": "final",
+      "mse": 0.018708405518880047,
+      "relative_l2_nodes": 0.6329125787348273,
+      "complex_correlation": 0.9838337347005471,
+      "training_seconds": 120.22117374604568,
+      "best_physics_score": 0.002907639590256524
+    },
+    "resample10_seed123": {
+      "run": "resample10_seed123",
+      "mode": "resample10",
+      "adam_steps": 5000,
+      "lbfgs_max_iterations": 500,
+      "checkpoint": "final",
+      "mse": 0.0264269992516771,
+      "relative_l2_nodes": 0.7522276029498168,
+      "complex_correlation": 0.9753812489397286,
+      "training_seconds": 120.06382651696913,
+      "best_physics_score": 0.0032821343637693635
+    },
+    "ilu_seed123": {
+      "run": "ilu_seed123",
+      "mode": "ilu",
+      "adam_steps": 5000,
+      "lbfgs_max_iterations": 500,
+      "checkpoint": "final",
+      "mse": 5.185564314089059e-06,
+      "relative_l2_nodes": 0.010537154601369338,
+      "complex_correlation": 0.9999444856165312,
+      "training_seconds": 18.140405683079734,
+      "best_physics_score": 0.08666466563841797
+    },
+    "fixed_seed123_extended": {
+      "run": "fixed_seed123_extended",
+      "mode": "fixed",
+      "adam_steps": 5000,
+      "lbfgs_max_iterations": 3000,
+      "checkpoint": "final",
+      "mse": 2.5661333626716176e-05,
+      "relative_l2_nodes": 0.02344039636492722,
+      "complex_correlation": 0.9999351562085576,
+      "training_seconds": 192.82515521300957,
+      "best_physics_score": 0.007649983602796653
+    },
+    "resample1_seed123_extended": {
+      "run": "resample1_seed123_extended",
+      "mode": "resample1",
+      "adam_steps": 5000,
+      "lbfgs_max_iterations": 3000,
+      "checkpoint": "final",
+      "mse": 0.23721660561361116,
+      "relative_l2_nodes": 2.253709229207418,
+      "complex_correlation": 0.9126834440057936,
+      "training_seconds": 190.50221800198779,
+      "best_physics_score": 0.002907639590256524
+    },
+    "ilu_seed123_extended": {
+      "run": "ilu_seed123_extended",
+      "mode": "ilu",
+      "adam_steps": 5000,
+      "lbfgs_max_iterations": 3000,
+      "checkpoint": "final",
+      "mse": 1.991121102553148e-06,
+      "relative_l2_nodes": 0.0065294135653707975,
+      "complex_correlation": 0.9999786833671301,
+      "training_seconds": 37.03721472597681,
+      "best_physics_score": 0.06095791912213886
+    }
+  },
+  "fixed_over_ilu_mse_initial": 39.79455029986662,
+  "fixed_over_ilu_mse_extended": 12.887881904225466,
+  "scope": "One training geometry, one seed, coordinate-only network. Final checkpoints reported for all settings; no choice by desired ranking.",
+  "selection_caveat": "Independent residual selection and field-error ranking disagree in the first round. Both final and physics-selected results are retained.",
+  "timing_scope": "Optimization plus validation and export; excludes FEM assembly and ILU setup."
+}

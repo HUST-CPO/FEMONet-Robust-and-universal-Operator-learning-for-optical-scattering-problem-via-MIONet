@@ -1,0 +1,31 @@
+{
+  "mode": "verify",
+  "seed": 123,
+  "config": {
+    "epochs": "1000",
+    "batch_size": "32",
+    "learning_rate": "0.001",
+    "min_learning_rate": "1e-05",
+    "max_grad_norm": "1.0",
+    "print_every": "1",
+    "save_every": "1000",
+    "matpath": "/public/home/lld/DeepOnet-modelA-Preprocessing/deepOnet_data_A1_all.mat",
+    "save_dir": "./model_save",
+    "results_dir": "./results",
+    "load_file_name": "unused",
+    "save_file_name": "model_final",
+    "device": "cuda",
+    "dtype": "torch.float64",
+    "num_workers": "10",
+    "pin_memory": "True"
+  },
+  "data_sha256": "ab78121dd2005cdfdd7e1c267ac474bbe57c2f2105b12ab8525261b1beaf2c44",
+  "source_sha256": "2da16b260d192d599f6c98eff02498d2fa56491927e41c35082a5c2f2185127a",
+  "initial_state_sha256": "98377a48cdb82f73ce736126814230bb361c6c4e2f54d65a74222af010385fc7",
+  "torch": "2.5.1+cu124",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "slurm_job_id": "28021",
+  "metric": "sum |E_pred-E_true|^2 / sum valid DOFs; complex field; no padding",
+  "paper_test_mse": 4.39e-05,
+  "historical_initial_seed": "not recorded; new paired runs use identical seed and initial weights"
+}

@@ -1,0 +1,22 @@
+{
+  "train": {
+    "mse_global": 2.7864186321098506e-05,
+    "mse_sample_mean": 3.064780210621795e-05,
+    "samples": 1246,
+    "valid_dofs": 478005
+  },
+  "test": {
+    "mse_global": 4.3909003917955854e-05,
+    "mse_sample_mean": 4.9793380030258363e-05,
+    "samples": 312,
+    "valid_dofs": 119178
+  },
+  "checks": {
+    "polynomial_laplacian_and_parameter_gradient": "passed",
+    "outgoing_robin_sign": "passed",
+    "scattered_source_sign": "passed",
+    "archived_checkpoint_reproduces_table2": true,
+    "microbatch_loss_and_gradient": "passed",
+    "optimizer_step": "passed"
+  }
+}

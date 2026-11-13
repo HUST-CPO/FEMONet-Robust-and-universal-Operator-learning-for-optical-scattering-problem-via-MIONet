@@ -1,0 +1,16 @@
+{
+  "train": {
+    "mse_global": 0.0006880565559737407,
+    "mse_sample_mean": 0.0007319680140855687,
+    "samples": 1246,
+    "valid_dofs": 478005
+  },
+  "test": {
+    "mse_global": 0.0007133977189840812,
+    "mse_sample_mean": 0.0007693465194673916,
+    "samples": 312,
+    "valid_dofs": 119178
+  },
+  "training_seconds": 7371.495610376005,
+  "test_mse_ratio_to_archived_ilu": 16.247185208689036
+}

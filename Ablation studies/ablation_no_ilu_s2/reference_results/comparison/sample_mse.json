@@ -1,0 +1,1706 @@
+[
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 1,
+    "sample_id": 22,
+    "duty_cycle": 0.41000000000000003,
+    "mse": 0.007707736982428571
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 2,
+    "sample_id": 38,
+    "duty_cycle": 0.5700000000000001,
+    "mse": 0.009863081414273086
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 3,
+    "sample_id": 57,
+    "duty_cycle": 0.76,
+    "mse": 0.0209976064242831
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 4,
+    "sample_id": 66,
+    "duty_cycle": 0.8500000000000001,
+    "mse": 0.016109774724224143
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 5,
+    "sample_id": 14,
+    "duty_cycle": 0.33,
+    "mse": 0.004759629909235596
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 6,
+    "sample_id": 27,
+    "duty_cycle": 0.46,
+    "mse": 0.010230594903114329
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 7,
+    "sample_id": 26,
+    "duty_cycle": 0.45,
+    "mse": 0.009693007005103036
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 8,
+    "sample_id": 56,
+    "duty_cycle": 0.75,
+    "mse": 0.021833902311237698
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 9,
+    "sample_id": 6,
+    "duty_cycle": 0.25,
+    "mse": 0.005653195968684729
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 10,
+    "sample_id": 32,
+    "duty_cycle": 0.51,
+    "mse": 0.012371339968330704
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 11,
+    "sample_id": 37,
+    "duty_cycle": 0.56,
+    "mse": 0.020808928944443566
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 12,
+    "sample_id": 61,
+    "duty_cycle": 0.8,
+    "mse": 0.03653626312017502
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 13,
+    "sample_id": 17,
+    "duty_cycle": 0.36,
+    "mse": 0.005987471405037662
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 14,
+    "sample_id": 67,
+    "duty_cycle": 0.8600000000000001,
+    "mse": 0.04761938670965603
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 15,
+    "sample_id": 43,
+    "duty_cycle": 0.62,
+    "mse": 0.036441112681275104
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 16,
+    "sample_id": 50,
+    "duty_cycle": 0.69,
+    "mse": 0.015240549801591566
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 17,
+    "sample_id": 28,
+    "duty_cycle": 0.47000000000000003,
+    "mse": 0.010865209031166535
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 18,
+    "sample_id": 23,
+    "duty_cycle": 0.42000000000000004,
+    "mse": 0.008602542096019981
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 19,
+    "sample_id": 19,
+    "duty_cycle": 0.38,
+    "mse": 0.008195412057761716
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 20,
+    "sample_id": 36,
+    "duty_cycle": 0.55,
+    "mse": 0.01034923633785162
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 21,
+    "sample_id": 31,
+    "duty_cycle": 0.5,
+    "mse": 0.02103241919445377
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 22,
+    "sample_id": 53,
+    "duty_cycle": 0.72,
+    "mse": 0.022736186687134147
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 23,
+    "sample_id": 30,
+    "duty_cycle": 0.49,
+    "mse": 0.013437262969142263
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 24,
+    "sample_id": 62,
+    "duty_cycle": 0.81,
+    "mse": 0.041103878323252664
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 25,
+    "sample_id": 11,
+    "duty_cycle": 0.30000000000000004,
+    "mse": 0.004818674579804069
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 26,
+    "sample_id": 52,
+    "duty_cycle": 0.71,
+    "mse": 0.017331918204547814
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 27,
+    "sample_id": 54,
+    "duty_cycle": 0.73,
+    "mse": 0.024881852520657312
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 28,
+    "sample_id": 13,
+    "duty_cycle": 0.32,
+    "mse": 0.006830409760121603
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 29,
+    "sample_id": 49,
+    "duty_cycle": 0.6799999999999999,
+    "mse": 0.024127644059124036
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 30,
+    "sample_id": 47,
+    "duty_cycle": 0.66,
+    "mse": 0.01960233345905473
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 31,
+    "sample_id": 33,
+    "duty_cycle": 0.52,
+    "mse": 0.01242332057676647
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 32,
+    "sample_id": 10,
+    "duty_cycle": 0.29000000000000004,
+    "mse": 0.005245694859317854
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 33,
+    "sample_id": 4,
+    "duty_cycle": 0.23,
+    "mse": 0.006814502862178402
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 34,
+    "sample_id": 68,
+    "duty_cycle": 0.8700000000000001,
+    "mse": 0.02947039557419119
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 35,
+    "sample_id": 39,
+    "duty_cycle": 0.5800000000000001,
+    "mse": 0.012413004508247021
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 36,
+    "sample_id": 42,
+    "duty_cycle": 0.6100000000000001,
+    "mse": 0.01950863282755938
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 37,
+    "sample_id": 46,
+    "duty_cycle": 0.65,
+    "mse": 0.02667538620476802
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 38,
+    "sample_id": 7,
+    "duty_cycle": 0.26,
+    "mse": 0.006144869855175894
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 39,
+    "sample_id": 9,
+    "duty_cycle": 0.28,
+    "mse": 0.004937726106752703
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 40,
+    "sample_id": 15,
+    "duty_cycle": 0.34,
+    "mse": 0.005023304412580923
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 41,
+    "sample_id": 29,
+    "duty_cycle": 0.48000000000000004,
+    "mse": 0.011924371490029135
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 42,
+    "sample_id": 24,
+    "duty_cycle": 0.43000000000000005,
+    "mse": 0.011285135278954755
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 43,
+    "sample_id": 45,
+    "duty_cycle": 0.64,
+    "mse": 0.021782945051623835
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 44,
+    "sample_id": 35,
+    "duty_cycle": 0.54,
+    "mse": 0.010211540594393316
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 45,
+    "sample_id": 59,
+    "duty_cycle": 0.78,
+    "mse": 0.01619408189124317
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 46,
+    "sample_id": 12,
+    "duty_cycle": 0.31,
+    "mse": 0.004837901113652505
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 47,
+    "sample_id": 58,
+    "duty_cycle": 0.77,
+    "mse": 0.015314074130327763
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 48,
+    "sample_id": 3,
+    "duty_cycle": 0.22,
+    "mse": 0.007068010648990783
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 49,
+    "sample_id": 25,
+    "duty_cycle": 0.44,
+    "mse": 0.011671907731323932
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 50,
+    "sample_id": 65,
+    "duty_cycle": 0.8400000000000001,
+    "mse": 0.013296252251039857
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 51,
+    "sample_id": 40,
+    "duty_cycle": 0.5900000000000001,
+    "mse": 0.028320695139241608
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 52,
+    "sample_id": 71,
+    "duty_cycle": 0.9000000000000001,
+    "mse": 0.025630081754810866
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 53,
+    "sample_id": 8,
+    "duty_cycle": 0.27,
+    "mse": 0.005151654373895331
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 54,
+    "sample_id": 51,
+    "duty_cycle": 0.7,
+    "mse": 0.013854176201076889
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 55,
+    "sample_id": 20,
+    "duty_cycle": 0.39,
+    "mse": 0.007924989037955386
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 56,
+    "sample_id": 5,
+    "duty_cycle": 0.24000000000000002,
+    "mse": 0.005958268615435221
+  },
+  {
+    "method": "Archived ILU",
+    "split": "train",
+    "split_index": 57,
+    "sample_id": 63,
+    "duty_cycle": 0.8200000000000001,
+    "mse": 0.01197499832314605
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 1,
+    "sample_id": 22,
+    "duty_cycle": 0.41000000000000003,
+    "mse": 0.0039019796047856828
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 2,
+    "sample_id": 38,
+    "duty_cycle": 0.5700000000000001,
+    "mse": 0.007144605354933662
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 3,
+    "sample_id": 57,
+    "duty_cycle": 0.76,
+    "mse": 0.017555741503239332
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 4,
+    "sample_id": 66,
+    "duty_cycle": 0.8500000000000001,
+    "mse": 0.014650860058596329
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 5,
+    "sample_id": 14,
+    "duty_cycle": 0.33,
+    "mse": 0.0027905301233957353
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 6,
+    "sample_id": 27,
+    "duty_cycle": 0.46,
+    "mse": 0.0048467300000552185
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 7,
+    "sample_id": 26,
+    "duty_cycle": 0.45,
+    "mse": 0.006959281101134283
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 8,
+    "sample_id": 56,
+    "duty_cycle": 0.75,
+    "mse": 0.01947023718980554
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 9,
+    "sample_id": 6,
+    "duty_cycle": 0.25,
+    "mse": 0.00428850452103606
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 10,
+    "sample_id": 32,
+    "duty_cycle": 0.51,
+    "mse": 0.0077970861362978965
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 11,
+    "sample_id": 37,
+    "duty_cycle": 0.56,
+    "mse": 0.01398613799745676
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 12,
+    "sample_id": 61,
+    "duty_cycle": 0.8,
+    "mse": 0.028206740314082546
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 13,
+    "sample_id": 17,
+    "duty_cycle": 0.36,
+    "mse": 0.0036254576480658175
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 14,
+    "sample_id": 67,
+    "duty_cycle": 0.8600000000000001,
+    "mse": 0.041357865398931624
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 15,
+    "sample_id": 43,
+    "duty_cycle": 0.62,
+    "mse": 0.03138694143239346
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 16,
+    "sample_id": 50,
+    "duty_cycle": 0.69,
+    "mse": 0.012101506365309633
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 17,
+    "sample_id": 28,
+    "duty_cycle": 0.47000000000000003,
+    "mse": 0.005127017499270707
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 18,
+    "sample_id": 23,
+    "duty_cycle": 0.42000000000000004,
+    "mse": 0.004501733637276823
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 19,
+    "sample_id": 19,
+    "duty_cycle": 0.38,
+    "mse": 0.005019825565050117
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 20,
+    "sample_id": 36,
+    "duty_cycle": 0.55,
+    "mse": 0.006726863384780563
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 21,
+    "sample_id": 31,
+    "duty_cycle": 0.5,
+    "mse": 0.015898720780863556
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 22,
+    "sample_id": 53,
+    "duty_cycle": 0.72,
+    "mse": 0.013107321698893348
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 23,
+    "sample_id": 30,
+    "duty_cycle": 0.49,
+    "mse": 0.008370002953971757
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 24,
+    "sample_id": 62,
+    "duty_cycle": 0.81,
+    "mse": 0.03588369893281199
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 25,
+    "sample_id": 11,
+    "duty_cycle": 0.30000000000000004,
+    "mse": 0.0030002358117368175
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 26,
+    "sample_id": 52,
+    "duty_cycle": 0.71,
+    "mse": 0.015614925906218845
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 27,
+    "sample_id": 54,
+    "duty_cycle": 0.73,
+    "mse": 0.014292307911960426
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 28,
+    "sample_id": 13,
+    "duty_cycle": 0.32,
+    "mse": 0.004561541243546131
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 29,
+    "sample_id": 49,
+    "duty_cycle": 0.6799999999999999,
+    "mse": 0.0228838709621205
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 30,
+    "sample_id": 47,
+    "duty_cycle": 0.66,
+    "mse": 0.019836795338818075
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 31,
+    "sample_id": 33,
+    "duty_cycle": 0.52,
+    "mse": 0.010576201955469763
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 32,
+    "sample_id": 10,
+    "duty_cycle": 0.29000000000000004,
+    "mse": 0.00337141668170497
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 33,
+    "sample_id": 4,
+    "duty_cycle": 0.23,
+    "mse": 0.0050902136751939065
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 34,
+    "sample_id": 68,
+    "duty_cycle": 0.8700000000000001,
+    "mse": 0.027308533091658527
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 35,
+    "sample_id": 39,
+    "duty_cycle": 0.5800000000000001,
+    "mse": 0.011752563296165027
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 36,
+    "sample_id": 42,
+    "duty_cycle": 0.6100000000000001,
+    "mse": 0.013879592865346357
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 37,
+    "sample_id": 46,
+    "duty_cycle": 0.65,
+    "mse": 0.025301914774016717
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 38,
+    "sample_id": 7,
+    "duty_cycle": 0.26,
+    "mse": 0.00472583610519614
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 39,
+    "sample_id": 9,
+    "duty_cycle": 0.28,
+    "mse": 0.0035821785147413967
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 40,
+    "sample_id": 15,
+    "duty_cycle": 0.34,
+    "mse": 0.002905567648191317
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 41,
+    "sample_id": 29,
+    "duty_cycle": 0.48000000000000004,
+    "mse": 0.008290453888600759
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 42,
+    "sample_id": 24,
+    "duty_cycle": 0.43000000000000005,
+    "mse": 0.005552710924179954
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 43,
+    "sample_id": 45,
+    "duty_cycle": 0.64,
+    "mse": 0.01799490585561886
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 44,
+    "sample_id": 35,
+    "duty_cycle": 0.54,
+    "mse": 0.007718598186433806
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 45,
+    "sample_id": 59,
+    "duty_cycle": 0.78,
+    "mse": 0.01485712116215928
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 46,
+    "sample_id": 12,
+    "duty_cycle": 0.31,
+    "mse": 0.0031966839364130006
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 47,
+    "sample_id": 58,
+    "duty_cycle": 0.77,
+    "mse": 0.014056517502286278
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 48,
+    "sample_id": 3,
+    "duty_cycle": 0.22,
+    "mse": 0.005484189837115863
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 49,
+    "sample_id": 25,
+    "duty_cycle": 0.44,
+    "mse": 0.005057551284547925
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 50,
+    "sample_id": 65,
+    "duty_cycle": 0.8400000000000001,
+    "mse": 0.01378936780338244
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 51,
+    "sample_id": 40,
+    "duty_cycle": 0.5900000000000001,
+    "mse": 0.01816808521740214
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 52,
+    "sample_id": 71,
+    "duty_cycle": 0.9000000000000001,
+    "mse": 0.017359323076551778
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 53,
+    "sample_id": 8,
+    "duty_cycle": 0.27,
+    "mse": 0.0034696820557434103
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 54,
+    "sample_id": 51,
+    "duty_cycle": 0.7,
+    "mse": 0.010263419886754416
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 55,
+    "sample_id": 20,
+    "duty_cycle": 0.39,
+    "mse": 0.005883380841700779
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 56,
+    "sample_id": 5,
+    "duty_cycle": 0.24000000000000002,
+    "mse": 0.004776776683365189
+  },
+  {
+    "method": "Paired ILU",
+    "split": "train",
+    "split_index": 57,
+    "sample_id": 63,
+    "duty_cycle": 0.8200000000000001,
+    "mse": 0.012477970161420944
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 1,
+    "sample_id": 22,
+    "duty_cycle": 0.41000000000000003,
+    "mse": 0.8655611333636953
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 2,
+    "sample_id": 38,
+    "duty_cycle": 0.5700000000000001,
+    "mse": 3.308485884818717
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 3,
+    "sample_id": 57,
+    "duty_cycle": 0.76,
+    "mse": 6.851447815294337
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 4,
+    "sample_id": 66,
+    "duty_cycle": 0.8500000000000001,
+    "mse": 3.8330445068577146
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 5,
+    "sample_id": 14,
+    "duty_cycle": 0.33,
+    "mse": 0.6269633868360079
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 6,
+    "sample_id": 27,
+    "duty_cycle": 0.46,
+    "mse": 1.2342827748640357
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 7,
+    "sample_id": 26,
+    "duty_cycle": 0.45,
+    "mse": 1.122619890687323
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 8,
+    "sample_id": 56,
+    "duty_cycle": 0.75,
+    "mse": 6.847074545278278
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 9,
+    "sample_id": 6,
+    "duty_cycle": 0.25,
+    "mse": 0.5186698152805125
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 10,
+    "sample_id": 32,
+    "duty_cycle": 0.51,
+    "mse": 1.8248278885001938
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 11,
+    "sample_id": 37,
+    "duty_cycle": 0.56,
+    "mse": 2.972363615159082
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 12,
+    "sample_id": 61,
+    "duty_cycle": 0.8,
+    "mse": 6.619239256458159
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 13,
+    "sample_id": 17,
+    "duty_cycle": 0.36,
+    "mse": 0.6941379831115632
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 14,
+    "sample_id": 67,
+    "duty_cycle": 0.8600000000000001,
+    "mse": 3.198988697939448
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 15,
+    "sample_id": 43,
+    "duty_cycle": 0.62,
+    "mse": 5.171728743299236
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 16,
+    "sample_id": 50,
+    "duty_cycle": 0.69,
+    "mse": 6.6438520366751455
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 17,
+    "sample_id": 28,
+    "duty_cycle": 0.47000000000000003,
+    "mse": 1.2951483666670651
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 18,
+    "sample_id": 23,
+    "duty_cycle": 0.42000000000000004,
+    "mse": 0.9294364686259664
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 19,
+    "sample_id": 19,
+    "duty_cycle": 0.38,
+    "mse": 0.7443277886058531
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 20,
+    "sample_id": 36,
+    "duty_cycle": 0.55,
+    "mse": 2.7865655041342445
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 21,
+    "sample_id": 31,
+    "duty_cycle": 0.5,
+    "mse": 1.6192192136372687
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 22,
+    "sample_id": 53,
+    "duty_cycle": 0.72,
+    "mse": 6.5824423586221625
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 23,
+    "sample_id": 30,
+    "duty_cycle": 0.49,
+    "mse": 1.5084879797611515
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 24,
+    "sample_id": 62,
+    "duty_cycle": 0.81,
+    "mse": 6.186583118844407
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 25,
+    "sample_id": 11,
+    "duty_cycle": 0.30000000000000004,
+    "mse": 0.5796426920106019
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 26,
+    "sample_id": 52,
+    "duty_cycle": 0.71,
+    "mse": 6.474821174960697
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 27,
+    "sample_id": 54,
+    "duty_cycle": 0.73,
+    "mse": 6.721285203933983
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 28,
+    "sample_id": 13,
+    "duty_cycle": 0.32,
+    "mse": 0.6055805822348866
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 29,
+    "sample_id": 49,
+    "duty_cycle": 0.6799999999999999,
+    "mse": 6.450103164049562
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 30,
+    "sample_id": 47,
+    "duty_cycle": 0.66,
+    "mse": 6.092760361499363
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 31,
+    "sample_id": 33,
+    "duty_cycle": 0.52,
+    "mse": 2.04819316892612
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 32,
+    "sample_id": 10,
+    "duty_cycle": 0.29000000000000004,
+    "mse": 0.5690049785956717
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 33,
+    "sample_id": 4,
+    "duty_cycle": 0.23,
+    "mse": 0.5074205254306746
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 34,
+    "sample_id": 68,
+    "duty_cycle": 0.8700000000000001,
+    "mse": 2.437116103838593
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 35,
+    "sample_id": 39,
+    "duty_cycle": 0.5800000000000001,
+    "mse": 3.6918999452104146
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 36,
+    "sample_id": 42,
+    "duty_cycle": 0.6100000000000001,
+    "mse": 4.874786263549129
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 37,
+    "sample_id": 46,
+    "duty_cycle": 0.65,
+    "mse": 6.024315894886381
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 38,
+    "sample_id": 7,
+    "duty_cycle": 0.26,
+    "mse": 0.5252760289109407
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 39,
+    "sample_id": 9,
+    "duty_cycle": 0.28,
+    "mse": 0.5410403223131308
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 40,
+    "sample_id": 15,
+    "duty_cycle": 0.34,
+    "mse": 0.647401814673946
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 41,
+    "sample_id": 29,
+    "duty_cycle": 0.48000000000000004,
+    "mse": 1.4260967076214457
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 42,
+    "sample_id": 24,
+    "duty_cycle": 0.43000000000000005,
+    "mse": 1.0237754106907364
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 43,
+    "sample_id": 45,
+    "duty_cycle": 0.64,
+    "mse": 5.898382555823188
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 44,
+    "sample_id": 35,
+    "duty_cycle": 0.54,
+    "mse": 2.4291596442421426
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 45,
+    "sample_id": 59,
+    "duty_cycle": 0.78,
+    "mse": 6.88335047074483
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 46,
+    "sample_id": 12,
+    "duty_cycle": 0.31,
+    "mse": 0.5891615516566803
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 47,
+    "sample_id": 58,
+    "duty_cycle": 0.77,
+    "mse": 6.930873516586537
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 48,
+    "sample_id": 3,
+    "duty_cycle": 0.22,
+    "mse": 0.5035802782176033
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 49,
+    "sample_id": 25,
+    "duty_cycle": 0.44,
+    "mse": 1.0269585697890304
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 50,
+    "sample_id": 65,
+    "duty_cycle": 0.8400000000000001,
+    "mse": 4.596174613741281
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 51,
+    "sample_id": 40,
+    "duty_cycle": 0.5900000000000001,
+    "mse": 4.081239724771007
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 52,
+    "sample_id": 71,
+    "duty_cycle": 0.9000000000000001,
+    "mse": 1.3224326565485132
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 53,
+    "sample_id": 8,
+    "duty_cycle": 0.27,
+    "mse": 0.5429733202923138
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 54,
+    "sample_id": 51,
+    "duty_cycle": 0.7,
+    "mse": 6.71595767520121
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 55,
+    "sample_id": 20,
+    "duty_cycle": 0.39,
+    "mse": 0.793572908602861
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 56,
+    "sample_id": 5,
+    "duty_cycle": 0.24000000000000002,
+    "mse": 0.5128304432408809
+  },
+  {
+    "method": "No preconditioning",
+    "split": "train",
+    "split_index": 57,
+    "sample_id": 63,
+    "duty_cycle": 0.8200000000000001,
+    "mse": 5.802902845861133
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 1,
+    "sample_id": 18,
+    "duty_cycle": 0.37,
+    "mse": 0.007225525621429359
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 2,
+    "sample_id": 55,
+    "duty_cycle": 0.74,
+    "mse": 0.035690286607626485
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 3,
+    "sample_id": 60,
+    "duty_cycle": 0.79,
+    "mse": 0.07277828516764502
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 4,
+    "sample_id": 34,
+    "duty_cycle": 0.53,
+    "mse": 0.018184972032935794
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 5,
+    "sample_id": 48,
+    "duty_cycle": 0.67,
+    "mse": 0.060932678655572566
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 6,
+    "sample_id": 44,
+    "duty_cycle": 0.63,
+    "mse": 0.02068608583896995
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 7,
+    "sample_id": 41,
+    "duty_cycle": 0.6000000000000001,
+    "mse": 0.05073662533746801
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 8,
+    "sample_id": 64,
+    "duty_cycle": 0.8300000000000001,
+    "mse": 0.09710735280086288
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 9,
+    "sample_id": 70,
+    "duty_cycle": 0.8900000000000001,
+    "mse": 0.1024343580273204
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 10,
+    "sample_id": 21,
+    "duty_cycle": 0.4,
+    "mse": 0.008336952516038554
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 11,
+    "sample_id": 2,
+    "duty_cycle": 0.21000000000000002,
+    "mse": 0.0077987312862417705
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 12,
+    "sample_id": 69,
+    "duty_cycle": 0.8800000000000001,
+    "mse": 0.025619496656016323
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 13,
+    "sample_id": 1,
+    "duty_cycle": 0.2,
+    "mse": 0.008845297328507423
+  },
+  {
+    "method": "Archived ILU",
+    "split": "test",
+    "split_index": 14,
+    "sample_id": 16,
+    "duty_cycle": 0.35,
+    "mse": 0.005550519934088581
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 1,
+    "sample_id": 18,
+    "duty_cycle": 0.37,
+    "mse": 0.004536224421096752
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 2,
+    "sample_id": 55,
+    "duty_cycle": 0.74,
+    "mse": 0.039603735596112785
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 3,
+    "sample_id": 60,
+    "duty_cycle": 0.79,
+    "mse": 0.10010501782545268
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 4,
+    "sample_id": 34,
+    "duty_cycle": 0.53,
+    "mse": 0.013515494043826806
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 5,
+    "sample_id": 48,
+    "duty_cycle": 0.67,
+    "mse": 0.04689765479448771
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 6,
+    "sample_id": 44,
+    "duty_cycle": 0.63,
+    "mse": 0.017475827617850343
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 7,
+    "sample_id": 41,
+    "duty_cycle": 0.6000000000000001,
+    "mse": 0.04287949463265236
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 8,
+    "sample_id": 64,
+    "duty_cycle": 0.8300000000000001,
+    "mse": 0.083293649363201
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 9,
+    "sample_id": 70,
+    "duty_cycle": 0.8900000000000001,
+    "mse": 0.06703364728114407
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 10,
+    "sample_id": 21,
+    "duty_cycle": 0.4,
+    "mse": 0.005360859540886562
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 11,
+    "sample_id": 2,
+    "duty_cycle": 0.21000000000000002,
+    "mse": 0.006036471181816383
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 12,
+    "sample_id": 69,
+    "duty_cycle": 0.8800000000000001,
+    "mse": 0.06275056766635585
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 13,
+    "sample_id": 1,
+    "duty_cycle": 0.2,
+    "mse": 0.007190274479531191
+  },
+  {
+    "method": "Paired ILU",
+    "split": "test",
+    "split_index": 14,
+    "sample_id": 16,
+    "duty_cycle": 0.35,
+    "mse": 0.0033760908179597464
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 1,
+    "sample_id": 18,
+    "duty_cycle": 0.37,
+    "mse": 0.7184159303155125
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 2,
+    "sample_id": 55,
+    "duty_cycle": 0.74,
+    "mse": 6.638076680387208
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 3,
+    "sample_id": 60,
+    "duty_cycle": 0.79,
+    "mse": 6.797989496131193
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 4,
+    "sample_id": 34,
+    "duty_cycle": 0.53,
+    "mse": 2.198004218006363
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 5,
+    "sample_id": 48,
+    "duty_cycle": 0.67,
+    "mse": 6.505176375612609
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 6,
+    "sample_id": 44,
+    "duty_cycle": 0.63,
+    "mse": 5.43098175812003
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 7,
+    "sample_id": 41,
+    "duty_cycle": 0.6000000000000001,
+    "mse": 4.389440691825087
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 8,
+    "sample_id": 64,
+    "duty_cycle": 0.8300000000000001,
+    "mse": 5.285707198993539
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 9,
+    "sample_id": 70,
+    "duty_cycle": 0.8900000000000001,
+    "mse": 1.6713222609460292
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 10,
+    "sample_id": 21,
+    "duty_cycle": 0.4,
+    "mse": 0.8425857602847809
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 11,
+    "sample_id": 2,
+    "duty_cycle": 0.21000000000000002,
+    "mse": 0.4976499086525551
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 12,
+    "sample_id": 69,
+    "duty_cycle": 0.8800000000000001,
+    "mse": 1.984524510681026
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 13,
+    "sample_id": 1,
+    "duty_cycle": 0.2,
+    "mse": 0.4765768544616183
+  },
+  {
+    "method": "No preconditioning",
+    "split": "test",
+    "split_index": 14,
+    "sample_id": 16,
+    "duty_cycle": 0.35,
+    "mse": 0.6648446220422968
+  }
+]

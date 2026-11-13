@@ -1,0 +1,11 @@
+{
+  "reference_job": "28093",
+  "sample_id": 1,
+  "train_row": 449,
+  "same_instance_mse": 0.912484356259638,
+  "same_instance_relative_l2": 4.420160643773017,
+  "epochs": 1000,
+  "adam_updates": 39000,
+  "training_seconds": 30873.54103770107,
+  "aggregate_test_mse": 0.9018013531588408
+}

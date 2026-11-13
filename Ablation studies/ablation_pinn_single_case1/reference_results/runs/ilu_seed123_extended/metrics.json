@@ -1,0 +1,16 @@
+{
+  "final": {
+    "mse": 1.991121102553148e-06,
+    "relative_l2_nodes": 0.0065294135653707975,
+    "complex_correlation": 0.9999786833671301
+  },
+  "best_physics": {
+    "mse": 1.991121102553148e-06,
+    "relative_l2_nodes": 0.0065294135653707975,
+    "complex_correlation": 0.9999786833671301
+  },
+  "training_seconds": 37.03721472597681,
+  "best_physics_score": 0.06095791912213886,
+  "best_step": "final:3249",
+  "lbfgs_evaluations": 3249
+}

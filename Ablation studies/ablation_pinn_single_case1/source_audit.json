@@ -1,0 +1,19 @@
+{
+  "sample_id": 1,
+  "records": [
+    {
+      "quadrature_order_per_axis": 8,
+      "rhs_relative_difference": 0.00226242551979772,
+      "solution_mse_from_rhs_difference": 5.6953136467281315e-09,
+      "solution_relative_l2_from_rhs_difference": 0.00034920798251201714
+    },
+    {
+      "quadrature_order_per_axis": 12,
+      "rhs_relative_difference": 0.0022624255197977194,
+      "solution_mse_from_rhs_difference": 5.695313646731383e-09,
+      "solution_relative_l2_from_rhs_difference": 0.00034920798251211684
+    }
+  ],
+  "quadrature_convergence_relative": 3.3294564329821104e-16,
+  "interpretation": "Same saved FEM matrix, high-order integration of analytic strong source. Quantifies source mismatch impact for this instance; does not establish its origin."
+}

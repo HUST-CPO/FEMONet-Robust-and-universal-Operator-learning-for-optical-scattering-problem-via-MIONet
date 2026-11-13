@@ -1,0 +1,12 @@
+{
+  "data_sha256": "ab78121dd2005cdfdd7e1c267ac474bbe57c2f2105b12ab8525261b1beaf2c44",
+  "mesh_sha256": "96de7a0659072dd49778815fb740736a00bf79c88a4fcea3775bfa7f9f44c643",
+  "matrix_max_relative_error": 6.006469956231499e-16,
+  "source_max_relative_error": 0.0022624255197876406,
+  "k_per_um": 4.053667940115862,
+  "incident": "exp(-i*k*x), amplitude 1; all stored grids verified",
+  "material": "domain 1: eps=1; domain 2: eps=1.45^2; lossless",
+  "points": "one centroid per original triangle; one midpoint per outer edge",
+  "source_audit_note": "Analytic strong-source quadrature differs from saved FEM b by up to 0.227%; origin not established. No b is used in PINN training.",
+  "collocation_sha256": "8171e161a3e4104ea62911514a74de155ab35beb1f0b862bb28020cc45f51cb0"
+}

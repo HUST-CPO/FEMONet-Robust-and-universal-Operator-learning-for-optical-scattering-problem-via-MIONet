@@ -1,0 +1,10 @@
+{
+  "pi_test_mse": 4.313190046146589e-05,
+  "table2_mse": 4.390900391795585e-05,
+  "single_seed": true,
+  "protocol": "1000 epochs; Hybrid uses N physical conditions; PI uses 1246; unequal update budgets",
+  "minimum_tested_labels": {
+    "dd": 1246,
+    "hybrid": "Not reached through 1246 labels"
+  }
+}
